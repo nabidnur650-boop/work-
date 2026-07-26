@@ -1,0 +1,4 @@
+Controlled QCR ranking is confirmed on a source-isolated panel.
+Frozen QCR fails zero-shot transfer on 5,359 natural recordings.
+Cap-corrected cross-fitting identifies temporal scale as dominant.
+The learned retrieval does not improve held-out answer accuracy.

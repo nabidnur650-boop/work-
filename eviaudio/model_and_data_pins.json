@@ -1,0 +1,77 @@
+{
+  "acceleration_lock_sha256": "73cf6a73ee18995404aa05885cab4b7ce2b82812255b8f88edac72b056513dd5",
+  "benchmark": {
+    "annotation_file": "q1_top_tier/data/perception_test/metadata/challenge_sound_localisation_valid.json",
+    "audio_archive": "q1_top_tier/data/perception_test/audio_archive/valid_audios.zip",
+    "examples": 5359,
+    "id_file": "q1_top_tier/data/perception_test/metadata/localisation_challenge_valid_id_list.csv",
+    "label_ids": [
+      0,
+      1,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "name": "Perception Test temporal sound localisation",
+    "split": "valid",
+    "task": "sound_localisation"
+  },
+  "candidate_pool_receipt_sha256": "7c4b2f3a66ba819041ad494b2d3174de85b9608cc8c914e03f354d78197cc826",
+  "candidate_pools_redistributed": false,
+  "capcorrect_analyzer_amendment_sha256": "2d5189246ea95ed708257d3b46915718ff4e9192836f2e0c103bcc8fcfb44771",
+  "capcorrect_lock_sha256": "92955229761b6dd6878fa000654d7e067b682ecb0e9f5caabda7ee15e3d602a5",
+  "contextual_comparator": {
+    "checkpoint_url": "https://storage.googleapis.com/dm-perception-test/saved_models/perception_tsl_audio_train_reproduce.zip",
+    "commit": "10684a4ae965a4a389c425e2fe8d8729ad6d6281",
+    "config": "configs/perception_tsl_audio_valid.yaml",
+    "feature_archive_url": "https://storage.googleapis.com/dm-perception-test/zip_data/sound_localisation_valid_audio_features.zip",
+    "name": "official_supervised_actionformer_audio",
+    "repository": "https://github.com/ptchallenge-workshop/actionformer_release_PT",
+    "role": "context_only_not_a_promotion_gate",
+    "training_data": "Perception Test train split"
+  },
+  "contextual_external": {
+    "commit": "10684a4ae965a4a389c425e2fe8d8729ad6d6281",
+    "config": "configs/perception_tsl_audio_valid.yaml",
+    "config_sha256": "b4bd20e635e1607b71a3bb57818862ede1cd9f0e4153ec634090b40053d9e061",
+    "metric_sha256": "1eb0d22c57afe1e3197ffc33c95d82a8bfd79b7719c790ebf7acc33b5cea0616",
+    "repository": "https://github.com/ptchallenge-workshop/actionformer_release_PT"
+  },
+  "contextual_freeze_sha256": "7a05d895002df81e7a3f614b0e8c2f50c8d6afaaa18ac527df21bae7db7111aa",
+  "controlled_lock_sha256": "dd6218c952bec5183906cfc791357e700c0fc488e4230f9c9aaa5dcc73b650cf",
+  "embedding": {
+    "embedding_dim": 512,
+    "inference_batch_size": 32,
+    "model_id": "laion/clap-htsat-unfused",
+    "model_revision": "8fa0f1c6d0433df6e97c127f64b2a1d6c0dcda8a",
+    "sample_rate": 48000,
+    "scales": [
+      {
+        "hop_seconds": 0.25,
+        "window_seconds": 0.5
+      },
+      {
+        "hop_seconds": 0.5,
+        "window_seconds": 1.0
+      },
+      {
+        "hop_seconds": 1.0,
+        "window_seconds": 2.0
+      },
+      {
+        "hop_seconds": 2.0,
+        "window_seconds": 4.0
+      }
+    ]
+  },
+  "execution_lock_sha256": "561a45cf037ba9d7511a8a612319f97d5c4919dceda09cb7e930b9c2af6bc65b",
+  "external_authorization_sha256": "6c1abd7d32aa9a850ba5db3a8f3c8fb3599d6ec3ee8d56c4ffa0200646cc0730",
+  "primary_freeze_sha256": "5d5070d14e9c710839b8d6d00e7eb0846943f16165823f0c39ad15337ce30afe",
+  "primary_freeze_status": "natural_panel_frozen_before_model_scoring",
+  "third_party_assets_redistributed": false
+}

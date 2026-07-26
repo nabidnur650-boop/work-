@@ -1,0 +1,12 @@
+{
+  "cap_corrected_claim_type": "post_outcome_cross_fitted_exploratory",
+  "cap_corrected_status": "cap_corrected_post_outcome_diagnostic_target_met",
+  "controlled_confirmatory_status": "confirmatory_exact_onset_gate_pass",
+  "downstream_status": "heldout_answer_gate_fail_audita_sealed",
+  "external_exact_onset_status": "external_replication_gate_fail",
+  "fresh_crossfit_confirmation": false,
+  "frozen_natural_status": "natural_panel_promotion_fail",
+  "q1_acceptance_guaranteed": false,
+  "schema": "eviaudio_q1_upgrade_claim_ledger_v2",
+  "supported_headline": "QCR improves controlled evidence ranking but fails frozen natural zero-shot transfer; post-outcome diagnosis identifies class-dependent scale as the dominant recoverable mechanism."
+}

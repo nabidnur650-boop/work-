@@ -1,0 +1,199 @@
+\documentclass[journal,10pt]{IEEEtran}
+\usepackage{amsmath,amssymb}
+\usepackage{newtxtext,newtxmath}
+\usepackage{booktabs,graphicx,longtable,microtype,url}
+\usepackage[hidelinks]{hyperref}
+\setlength{\emergencystretch}{2em}
+\input{results_macros.tex}
+
+\title{Supplement: Where Query-Conditioned Audio Ranking Transfers---and Where It Fails}
+\author{Author metadata required before submission}
+
+\begin{document}
+\maketitle
+
+\begin{table*}[t]
+\caption{Frozen and diagnostic conjunctions.}
+\centering
+\scriptsize
+\begin{tabular}{p{0.21\textwidth}p{0.57\textwidth}r}
+\toprule
+Stage & Gate & Result\\
+\midrule
+Controlled exact-onset &
+AP gain $\ge0.05$; Hit@1 gain $\ge0.05$; both bootstrap lower bounds
+$>0$; at least four positive seeds; no condition Hit@1 loss below $-0.05$;
+integrity & 7/7 pass\\
+External exact-onset &
+Controlled gates plus no class Hit@1 loss below $-0.05$ and performance index
+$\ge85$ & 7/8; index \ExternalIndex\\
+Frozen natural transfer &
+global delta $>0$; video lower bound $>0$; at least four positive thresholds;
+worst class $\ge-0.05$; QCR multi $\ge$ CLAP 4 s; integrity & 2/6 fail\\
+Cap-correct diagnosis &
+global delta $>0$; video lower bound $>0$; threshold breadth; class non-harm;
+10 exact cap reconstructions; 50 assignments; integrity & 7/7 met\\
+Answer bridge &
+gain over strongest and random; backbone non-harm; response/content and
+integrity checks & 5/8 fail\\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\section{Controlled and external exact-onset results}
+\begin{table*}[t]
+\caption{Evidence-ranking metrics. Bootstrap intervals are paired at the
+recipe or original-source unit declared by each protocol.}
+\centering
+\footnotesize
+\begin{tabular}{lrrrrrr}
+\toprule
+Panel & Recipes & Prior AP & QCR AP & AP difference (95\% interval) &
+Prior Hit@1 & QCR Hit@1\\
+\midrule
+Source-isolated confirmation & \ControlledN & \ControlledPriorAP &
+\ControlledQCRAP & \ControlledAPDelta\
+[\ControlledAPLower,\ControlledAPUpper] &
+\ControlledPriorHit & \ControlledQCRHit\\
+External source-disjoint & \ExternalN & \ExternalPriorAP & \ExternalQCRAP &
+\ExternalAPDelta\ [\ExternalAPLower,\ExternalAPUpper] &
+\ExternalPriorHit & \ExternalQCRHit\\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+The source-isolated panel contains \ControlledChunks\ chunks from
+\ControlledSources\ unique source files and has zero development source
+overlap. The external panel excludes every UrbanSound8K Freesound ID found in
+ESC-50 metadata and uses LibriSpeech \texttt{test-other} backgrounds. Its
+relative AP and Hit@1 intervals exclude zero, but the prespecified absolute
+performance index is \ExternalIndex\ rather than 85.
+
+\section{Frozen natural outcome}
+\begin{table}[t]
+\caption{Natural zero-shot gate observations.}
+\centering
+\footnotesize
+\begin{tabular}{lrl}
+\toprule
+Gate & Observed & Decision\\
+\midrule
+Global mAP difference $>0$ & \NaturalDeltaPoints\ pp & Fail\\
+Video-bootstrap lower $>0$ & \NaturalVideoLowerPoints\ pp & Fail\\
+Positive thresholds $\ge4$ & 0/5 & Fail\\
+Worst class $\ge-5$ pp & \NaturalWorstClassPoints\ pp & Fail\\
+QCR multi $\ge$ CLAP 4 s & \NaturalQCRMAP\ vs.\ \NaturalCLAPFourMAP & Pass\\
+Integrity & zero failures & Pass\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The complete-prediction sensitivity to pinned upstream ActionFormer sorting
+and tIoU arithmetic has maximum mAP difference
+\UpstreamMaximumDifference. Reproducing both upstream semantics locally
+matches within \UpstreamReproductionDifference\ and leaves every
+metric-dependent gate unchanged.
+
+\section{Cap-corrected cross-fitting details}
+Each candidate pool retains at most 50 segments per class before shared video
+capping. Reapplying the frozen sort and 200-segment video cap reconstructs all
+ten original candidate files exactly. For held fold $f$ and class $c$, the
+candidate is selected on all folds except $f$; class streams are joined only
+after selection and capped once.
+
+\input{supplement_selection.tex}
+
+\begin{table*}[t]
+\caption{Output-cap audit.}
+\centering
+\footnotesize
+\begin{tabular}{lrrrrr}
+\toprule
+Route & Pre-cap rows & Final rows & Discarded & Videos over 200 & Max pre-cap\\
+\midrule
+CLAP+QCR & \FullPreCapRows & \FullFinalRows & \FullDiscardedRows &
+\FullVideosOverCap & \FullMaxPreCap\\
+CLAP-only & \CLAPPreCapRows & \CLAPFinalRows & \CLAPDiscardedRows &
+\CLAPVideosOverCap & \CLAPMaxPreCap\\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+The full-versus-fixed-CLAP paired video interval is
+[\RouterVideoLowerPoints,\RouterVideoUpperPoints] percentage points. The
+post-hoc incremental full-versus-CLAP-only interval is
+[\IncrementalVideoLowerPoints,\IncrementalVideoUpperPoints] points. These
+video-macro effects are not algebraically identical to global class-macro
+mAP differences.
+
+\section{All natural class effects}
+\input{supplement_classes.tex}
+
+Every full-router class mean AP is above fixed multiscale CLAP. Every
+full-router class is also above the CLAP-only router, although several
+increments are very small. This is descriptive post-outcome evidence, not ten
+independent confirmatory tests.
+
+\section{Downstream answer boundary}
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{extended_figures/AEF05.pdf}
+\caption{Two-decoder mean source-macro exact answer accuracy. Oracle spans are
+context, not an eligible learned comparator.}
+\end{figure}
+
+\begin{table}[t]
+\caption{Held-out answer results.}
+\centering
+\footnotesize
+\begin{tabular}{lr}
+\toprule
+Retriever & Exact accuracy\\
+\midrule
+Learned QCR & \AnswerSelected\\
+CLAP & \AnswerCLAP\\
+Prefix matched & \AnswerStrongest\\
+Deterministic random & \AnswerRandom\\
+Oracle spans & \AnswerOracle\\
+Silenced selected spans & \AnswerSilence\\
+Text only & \AnswerTextOnly\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The learned-minus-prefix difference is \AnswerVsStrongestPoints\ percentage
+points with 95\% source-bootstrap interval
+[\AnswerVsStrongestLowerPoints,\AnswerVsStrongestUpperPoints]. AUDITA remains
+sealed and is not used to repair the failed bridge.
+
+\section{Invalidations and amendments}
+\begin{itemize}
+  \item The first cross-fit proposal joined per-class outputs that had each
+  already passed a video cap. This could exceed 200 segments after joining.
+  The analyzer was stopped before a router report; the observed candidate
+  mAP values and defect are retained in
+  \texttt{INVALIDATION\_OUTPUT\_CAP.md}.
+  \item The corrected track rebuilds uncapped per-class pools, reconstructs
+  all ten source caps exactly, routes classes, and applies one shared cap.
+  \item Before router scoring, a quadratic per-video cap assertion was
+  replaced by an equivalent single-pass counter. The amendment changes no
+  candidate, selection, metric, bootstrap, or cap parameter.
+  \item Candidate-pool files are large regenerable intermediates and remain
+  outside the compact submission ZIP. Their exact row counts and SHA-256
+  values are included. Final full and CLAP-only predictions are included.
+\end{itemize}
+
+\section{Reproduction map}
+\begin{itemize}
+  \item \texttt{q1\_plus/}: controlled confirmation and answer-bridge
+  reports, frozen checkpoints, and relevant analysis code.
+  \item \texttt{q1\_90/}: external exact-onset protocol, recipes, report, and
+  acquisition/rights records.
+  \item \texttt{q1\_top\_tier/}: natural freeze, prediction reports, metric
+  audit, supervised contextual receipt, and source.
+  \item \texttt{q1\_crossfit\_capcorrect/}: cap-correct locks, candidate
+  receipt, final predictions, report, tests, and publication analysis.
+  \item \texttt{figure\_source\_data/}: source rows for every figure.
+\end{itemize}
+
+\end{document}
