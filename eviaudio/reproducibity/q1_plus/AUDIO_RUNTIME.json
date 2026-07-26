@@ -1,0 +1,65 @@
+{
+  "status": "two_pinned_audio_backbones_smoke_verified_before_clotho_generation",
+  "recorded_at": "2026-07-22",
+  "runtime": {
+    "python": "3.12.11",
+    "platform": "Linux-6.17.0-1026-nvidia-aarch64-with-glibc2.39",
+    "torch": "2.9.0+cu130",
+    "cuda": "13.0",
+    "transformers": "4.48.2",
+    "tokenizers": "0.21.4",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "soundfile": "0.14.0",
+    "accelerate": "1.13.0",
+    "huggingface_hub": "0.36.2"
+  },
+  "hardware": {
+    "device": "NVIDIA GB10",
+    "cuda_capability": [12, 1],
+    "pytorch_nominal_capability_warning": "PyTorch reports tested support through capability 12.0; both pinned models completed real CUDA inference on capability 12.1."
+  },
+  "models": {
+    "qwen2_audio": {
+      "repository": "Qwen/Qwen2-Audio-7B-Instruct",
+      "revision": "0a095220c30b7b31434169c3086508ef3ea5bf0a",
+      "license": "Apache-2.0",
+      "index_sha256": "b6cc05302d1bd25fbab6915e3a033603c524416b984f661d213f9a1f8e3b3895",
+      "weight_shards": [
+        {"file": "model-00001-of-00005.safetensors", "content_address": "383de5b5b06f7e7f276850a065d9164641c93009f79a377352a7c949d17c1d7a", "bytes": 3911340848},
+        {"file": "model-00002-of-00005.safetensors", "content_address": "610e59a23cdf1f78d7e3b42e69f2e1a08578f29726391a1772aecac95db3c59c", "bytes": 3980786080},
+        {"file": "model-00003-of-00005.safetensors", "content_address": "b9ea76e97226524a12b6acc5e896bebf01a01018fbcad20a72eb13c7950f6916", "bytes": 3980819456},
+        {"file": "model-00004-of-00005.safetensors", "content_address": "d68dee591619e26e3d0af23a07e181c70134fbc3aa33e24d872224607aae2c62", "bytes": 3643135696},
+        {"file": "model-00005-of-00005.safetensors", "content_address": "a447dab3e72f9debd37a0c4ae0b9179a1bad2b06357092a77c066a0405bbc7d2", "bytes": 1278214288}
+      ],
+      "smoke_receipt": "q1_plus/results/development/audio_backbone_smoke/qwen2_audio.json",
+      "smoke_receipt_sha256": "c19946942b42f0fbd484c8f3e1c8ec4448e3c80a5ad18fb5a6e6c65ce563d9e4",
+      "libri_speech_word_error_rate": 0.47058823529411764,
+      "real_and_silence_responses_differ": true,
+      "peak_cuda_bytes": 16978222080
+    },
+    "phi4_multimodal": {
+      "repository": "microsoft/Phi-4-multimodal-instruct",
+      "revision": "93f923e1a7727d1c4f446756212d9d3e8fcc5d81",
+      "license": "MIT",
+      "index_sha256": "b67dbc7062e1ccf472faba4222d631dc42929c827fbdaed1ec8e34fe0601819a",
+      "weight_shards": [
+        {"file": "model-00001-of-00003.safetensors", "content_address": "c46bb03332d82f6a3eaf85bd20af388dd4d4d68b198c2203c965c7381a466094", "bytes": 4997504848},
+        {"file": "model-00002-of-00003.safetensors", "content_address": "b3e812c0c8acef4e7f5e34d6c9f77a7640ee4a2b93ea351921365ac62f19918d", "bytes": 4952333128},
+        {"file": "model-00003-of-00003.safetensors", "content_address": "7be96b7339303752634b202d3f377bcf312a03046586eca6cea23347ace1e65a", "bytes": 1199389232}
+      ],
+      "smoke_receipt": "q1_plus/results/development/audio_backbone_smoke/phi4_multimodal.json",
+      "smoke_receipt_sha256": "612f8f835bbe0fde6f018bb737d5f70678e6520b1dc1eb94a5b7a0703efd6955",
+      "libri_speech_word_error_rate": 0.058823529411764705,
+      "real_and_silence_responses_differ": true,
+      "peak_cuda_bytes": 12895911424
+    }
+  },
+  "smoke_audio": {
+    "source": "LibriSpeech dev-clean 1272-128104-0000",
+    "sha256": "4e25e22555cd16e90edb0a3b49fdcf1fe652b2a1250ab643634db33895c75b41",
+    "audita_rows_accessed": 0
+  },
+  "clotho_generated_answers_at_record_time": 0,
+  "audita_status": "sealed"
+}

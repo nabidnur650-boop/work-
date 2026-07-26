@@ -1,0 +1,28 @@
+{
+  "frozen_at": "2026-07-22T08:44:18+09:00",
+  "status": "locked_before_any_learned_validation_evaluation",
+  "files": {
+    "q1_plus/EVENT_RANKER_SELECTION_PROTOCOL.md": "e78671306f9150d4972ed1927e59cebabe2a1ff6895e1036e74fadb6582edd99",
+    "q1_plus/configs/development_event_ranker.json": "6812ccca2cbbf11630e9968b680348b3ae3376226272d096ba2dc2329a32826d",
+    "q1_plus/data/event_needle/confirmatory_recipes.sealed.jsonl": "97b7d484814ba39dc6a43038231008fe3e775a82d29750a007bd10a77b03907d",
+    "q1_plus/data/event_needle/development_recipes.jsonl": "6e8496d897d7ae3e705fe5e23d4f2f75d107251ee64a71947f90ee0fc490cc88",
+    "q1_plus/data/event_needle/recipe_audit.json": "c4a1bbe109801a836962a5b19083ab850a55f5395b9657d0d1068a9f15a2eae6",
+    "q1_plus/data/event_needle/validation_recipes.jsonl": "5be73d3d05811a5cd8aa2936e2accf9d3afe608e17a33c636eea487da537c62f",
+    "q1_plus/results/development/event_needle_development/clap_prior_summary.json": "ddabf928e5b84b71a0eec3fa55553f9331f5f72d9302964c8353b058e096546e",
+    "q1_plus/results/development/event_needle_development/index.jsonl": "ec24ede10866282101a42b225b9e5185f2c62bb21ad353ffc9a6e473cbf642c8",
+    "q1_plus/results/development/event_needle_development/raw_clap_prior.jsonl.gz": "40ecd2cdca639875f95cc6356c0aa138e75d07d7edede52198294bcfd0a4d65a",
+    "q1_plus/results/development/event_needle_validation/clap_prior_summary.json": "9f6830d9f928bd06aad04c78064b9840b1f0d2f55a95b9eac7d2cb1762ef3c1c",
+    "q1_plus/results/development/event_needle_validation/index.jsonl": "983cbc4f9982002b5d04d44bab61ac1b30a256ff8e9894ca10adde0b8d484457",
+    "q1_plus/results/development/event_needle_validation/raw_clap_prior.jsonl.gz": "e47ee0da0e4b9031f400f96e313be7de604b778dcf58bd9ae9438d89daf35539",
+    "q1_plus/scripts/analyze_event_ranker.py": "f1c271204e6d7596bd06f525173a3291edaed22ed3cfe63a88cab2e18d283d52",
+    "q1_plus/scripts/precompute_event_needle_clap.py": "9e94a5d7b3be02be5502d7ca1ada0d3e3d15dac84157af45740cfaf7c42be464",
+    "q1_plus/scripts/train_event_ranker.py": "90bd9845179cc407388d3ac35113653eb99f27caa5f0f001eb239c2e9b43985e",
+    "src/eviaudio_mt/event_data.py": "6fc68141188432afdad7c661074cab74a85424efce4f461617b1617313265256",
+    "src/eviaudio_mt/qcr.py": "58e3708d5e34e189932b276e91ff94f74badb07047738d90bfed210f5ead9509"
+  },
+  "allowed_seeds": [0, 1, 2, 3, 4],
+  "development_examples": 1196,
+  "validation_examples": 398,
+  "confirmatory_examples": 397,
+  "confirmatory_panel_status": "sealed"
+}

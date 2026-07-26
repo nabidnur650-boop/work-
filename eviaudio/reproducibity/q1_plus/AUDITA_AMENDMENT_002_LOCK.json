@@ -1,0 +1,15 @@
+{
+  "status": "audita_license_and_contamination_amendment_frozen",
+  "created_at": "2026-07-22T10:56:15+09:00",
+  "timing": "before_any_audita_audio_model_input_model_output_score_or_category_result",
+  "audita_status": "sealed_pending_heldout_gate",
+  "additional_exclusions": 63,
+  "effect_sizes_or_promotion_gates_changed": false,
+  "files": {
+    "q1_plus/AMENDMENT_002_LICENSE_AND_CONTAMINATION.md": "0d5635e89bc6c51af2b592fbf8ee36f0b4b9cf776e22773754df8bf603e353b2",
+    "q1_plus/AUDITA_ADDITIONAL_EXCLUSIONS_002.json": "f5f67bfdef93bd6ce29779313680afecf99f36715cb1a70e8e9027c7414ba728",
+    "q1_plus/AUDITA_LICENSE_PROVENANCE_AUDIT.json": "bc7a6a823dc54cf752f664e633a0ee4c347914ebe9368b0c9515322ef7289de5",
+    "tests/test_audita_amendment_002.py": "dbd0b5316479f03df3c8b61dfd478a3f3e38a3c0e40d519df12ff8378513c91d"
+  },
+  "verification": "49 tests passed"
+}

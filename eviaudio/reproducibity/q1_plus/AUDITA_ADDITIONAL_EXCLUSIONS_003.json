@@ -1,0 +1,22 @@
+{
+  "status": "frozen_before_any_audita_audio_or_model_evaluation",
+  "created_at": "2026-07-22",
+  "repository": "TasnimKabir12/audita-audio",
+  "revision": "1591795b571ad13e84c4d447f3186d69f39c4ffa",
+  "explicit_indices": [3757, 7801, 7868],
+  "expanded_additional_exclusions": 3,
+  "human_primary_exclusions": 3,
+  "human_primary_category_counts": {
+    "Character/Person": 1,
+    "Music Identification": 2
+  },
+  "expected_primary_rows_after_all_exclusions": 6392,
+  "expected_external_rows_after_all_exclusions": 3228,
+  "amendment_002_exclusions_preserved": 63,
+  "prior_exclusions_preserved": [0, 3230],
+  "audio_files_or_waveforms_opened": 0,
+  "model_outputs_opened": 0,
+  "audita_rows_scored": 0,
+  "effect_sizes_or_promotion_gates_changed": false
+}
+

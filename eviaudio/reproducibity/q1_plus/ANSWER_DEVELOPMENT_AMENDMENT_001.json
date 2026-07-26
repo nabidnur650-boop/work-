@@ -1,0 +1,22 @@
+{
+  "recorded_at": "2026-07-22T10:16:52+09:00",
+  "status": "code_only_audit_guard_fix_before_result_inspection",
+  "answer_lock_sha256": "cc38b40fcdab83bf77e424a23a6d9754d4bbbcd6702413e9fa416c0c41ed7a28",
+  "locked_analyzer": "q1_plus/scripts/analyze_answer_calibration.py",
+  "locked_analyzer_sha256": "2403ba2e316f41d173c2c8d556c667948fc6882e3724a83ceb565b6712b98d0c",
+  "amended_entrypoint": "q1_plus/scripts/analyze_answer_calibration_amended.py",
+  "amended_entrypoint_sha256": "33c4d066c468b3e75d4d27e637e9219525ec1734f0f8a1125a36177f7bef728f",
+  "generated_qwen_rows_at_discovery": 200,
+  "generated_phi_rows_at_discovery": 0,
+  "generated_responses_inspected_before_amendment": 0,
+  "aggregate_metrics_inspected_before_amendment": 0,
+  "cause": "The locked leakage guard searched the complete serialized row for the substring audita, so its own mandatory key audita_rows_accessed caused a false positive after all substantive audits had passed.",
+  "change": "Catch only that exact terminal false-positive exception, remove the audit-counter key from a copy, and repeat the forbidden-value scan. Every identity, metric, waveform, provenance, duration, coverage, receipt, and lock check remains in the locked analyzer.",
+  "selection_rule_changed": false,
+  "metric_changed": false,
+  "prompt_or_k_changed": false,
+  "model_or_retriever_changed": false,
+  "data_scope_changed": false,
+  "audita_rows_accessed": 0,
+  "audita_status": "sealed"
+}

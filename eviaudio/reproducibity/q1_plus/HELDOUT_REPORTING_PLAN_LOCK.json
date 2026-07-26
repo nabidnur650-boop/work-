@@ -1,0 +1,25 @@
+{
+  "status": "heldout_reporting_plan_frozen_before_outcome_inspection",
+  "created_at": "2026-07-22T10:42:46+09:00",
+  "scope": "non_gating_uncertainty_supplement_and_40_figure_heldout_answer_suite",
+  "heldout_execution_status_at_lock": "qwen2_audio_running_phi4_multimodal_not_started",
+  "heldout_responses_or_metrics_inspected": false,
+  "promotion_gates_changed": false,
+  "audita_status": "sealed",
+  "audita_rows_accessed": 0,
+  "expected_figure_ids": [
+    "A01", "A02", "A03", "A04", "A05", "A06", "A07", "A08", "A09", "A10",
+    "A11", "A12", "A13", "A14", "A15", "A16", "A17", "A18", "A19", "A20",
+    "A21", "A22", "A23", "A24", "A25", "A26", "A27", "A28", "A29", "A30",
+    "A31", "A32", "A33", "A34", "A35", "A36", "A37", "A38", "A39", "A40"
+  ],
+  "files": {
+    "q1_plus/HELDOUT_FIGURE_PROTOCOL.md": "b14cc3477ce5bf2b88feff563e9cb12118e7834e6dc673f84939d9ff956eb32b",
+    "q1_plus/scripts/build_heldout_answer_figures.py": "8fd3315f42a2570486a7d4a313ae38ed5695fc4c6571cd11518204366a6a48f7",
+    "tests/test_heldout_figure_protocol.py": "865979590c8a0745ec5c5f86053cc6893bb82b1c9aa0ef7dc7eb2cd1d88078ef",
+    "q1_plus/HELDOUT_UNCERTAINTY_SUPPLEMENT_PROTOCOL.md": "c86180750e143b218ddc818d56f94aa073a24ae8dcc6c36cdafb6f6e050ce6f8",
+    "q1_plus/scripts/analyze_answer_heldout_uncertainty.py": "80314db53b9281946ecb6618a97cc0e2cc1770ac0eeb19cff58b7d75a0938b9a",
+    "tests/test_answer_heldout_uncertainty.py": "f3b0e685b520cb95b50621d17e8b4ca2acbc1113a63ad309ec19f772b80fe1c3"
+  },
+  "answer_heldout_authorization_sha256": "a5bef5074a3f0605a7c72ade0a59db43d7e03bdf46a5997d5fe50a5ebc4f54a3"
+}

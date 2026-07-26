@@ -1,0 +1,116 @@
+{
+  "status": "not_ready_for_positive_q1_claim_heldout_answer_gate_failed",
+  "assessed_at": "2026-07-22",
+  "scope": "EviAudio bounded query-conditioned retrieval and answer grounding",
+  "journal_quartile_guarantee_possible": false,
+  "exact_onset_confirmatory": {
+    "status": "confirmatory_exact_onset_gate_pass",
+    "examples": 397,
+    "chunks": 34193,
+    "unique_source_files": 2956,
+    "prior_evidence_ap": 0.6090091780081301,
+    "ensemble_evidence_ap": 0.8425465180601033,
+    "evidence_ap_gain": 0.2335373400519732,
+    "evidence_ap_gain_bootstrap_95_interval": [
+      0.18500266948278835,
+      0.2840520261335192
+    ],
+    "prior_hit_at_1": 0.7682619647355163,
+    "ensemble_hit_at_1": 0.9445843828715366,
+    "hit_at_1_gain": 0.1763224181360203,
+    "hit_at_1_gain_bootstrap_95_interval": [
+      0.10858439041578577,
+      0.2506267250404492
+    ],
+    "positive_seeds": 5,
+    "seed_total": 5,
+    "all_preregistered_gates_passed": true
+  },
+  "heldout_answer_bridge": {
+    "status": "heldout_answer_gate_fail_audita_sealed",
+    "examples": 411,
+    "target_sources": 25,
+    "backbones": 2,
+    "systems": 8,
+    "jobs_per_backbone": 3288,
+    "selected_k": 2,
+    "maximum_audio_seconds": 8,
+    "strongest_eligible_baseline": "prefix_matched_retrieval",
+    "two_backbone_mean_source_macro_exact": {
+      "selected_learned_retrieval": 0.4585555555555556,
+      "prefix_matched_retrieval": 0.478,
+      "deterministic_random_retrieval": 0.4731111111111111,
+      "selected_retrieval_silenced": 0.3876666666666667,
+      "text_only": 0.4033333333333333,
+      "oracle_retrieval": 0.4885555555555555
+    },
+    "learned_minus_prefix_exact": -0.019444444444444448,
+    "learned_minus_prefix_bootstrap_95_interval": [
+      -0.05277777777777777,
+      0.014111111111111107
+    ],
+    "learned_minus_random_exact": -0.014555555555555554,
+    "learned_minus_random_bootstrap_95_interval": [
+      -0.048447222222222225,
+      0.022444444444444454
+    ],
+    "learned_minus_silence_exact": 0.07088888888888888,
+    "learned_minus_silence_bootstrap_95_interval": [
+      0.022,
+      0.12011111111111111
+    ],
+    "passed_gates": [
+      "all_responses_nonempty",
+      "integrity",
+      "learned_exact_no_worse_than_silence",
+      "responses_differ_from_silence",
+      "responses_differ_from_text_only"
+    ],
+    "failed_gates": [
+      "gain_at_least_0_02_over_strongest_baseline",
+      "gain_at_least_0_05_over_random",
+      "no_backbone_loses_more_than_0_02_to_strongest"
+    ],
+    "all_preregistered_gates_passed": false
+  },
+  "audita": {
+    "status": "permanently_sealed_for_this_pipeline",
+    "authorized": false,
+    "audio_files_or_waveforms_opened": 0,
+    "model_outputs_opened": 0,
+    "rows_scored": 0,
+    "reason": "heldout_answer_promotion_failed",
+    "repository_declared_license": "cc-by-4.0",
+    "source_rights_status": "unresolved",
+    "full_provenance_gate_passed": false,
+    "audio_redistribution_allowed_by_this_artifact": false
+  },
+  "integrity": {
+    "heldout_split_overlap": 0,
+    "duplicate_heldout_jobs": 0,
+    "heldout_waveform_hash_failures": 0,
+    "heldout_duration_bound_failures": 0,
+    "heldout_metric_recomputation_failures": 0,
+    "all_exact_onset_checksums_valid": true,
+    "post_heldout_tuning_permitted": false
+  },
+  "publication_assets": {
+    "exact_onset_figures": 43,
+    "heldout_answer_figures": 40,
+    "current_q1_plus_distinct_figures": 83,
+    "pdf_files": 83,
+    "png_files": 83,
+    "source_data_files": 83,
+    "all_numeric_figures_source_linked": true,
+    "figure_volume_substitutes_for_failed_gates": false
+  },
+  "allowed_claim": "A bounded five-seed residual strongly improved source-isolated exact-onset localization, but that gain did not transfer to superior answers over equal-budget prefix or random retrieval on a frozen source-disjoint bridge.",
+  "forbidden_claims": [
+    "Q1-ready positive end-to-end improvement",
+    "superior heldout answer grounding",
+    "natural-benchmark confirmation",
+    "AUDITA validation",
+    "universal robustness across audio-language backbones"
+  ],
+  "next_action": "final_stop_no_post_heldout_tuning_audita_remains_sealed"
+}

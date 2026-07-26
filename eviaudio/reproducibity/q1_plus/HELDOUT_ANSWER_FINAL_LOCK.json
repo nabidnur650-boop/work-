@@ -1,0 +1,53 @@
+{
+  "status": "heldout_answer_final_failure_record_locked",
+  "frozen_at": "2026-07-22",
+  "scope": "once_only_source_disjoint_clotho_answer_bridge",
+  "result_status": "heldout_answer_gate_fail_audita_sealed",
+  "post_outcome_tuning_allowed": false,
+  "audita_status": "permanently_sealed_for_this_pipeline",
+  "audita_rows_accessed": 0,
+  "distinct_figures": 40,
+  "pdf_files": 40,
+  "png_files": 40,
+  "source_data_files": 40,
+  "all_pdf_files_parse": true,
+  "all_indexed_hashes_verified": true,
+  "representative_figures_visually_inspected_at_original_resolution": [
+    "A02_combined_exact",
+    "A06_exact_difference_forest",
+    "A13_source_delta_prefix_matched_retrieval",
+    "A25_transition_prefix_matched_retrieval",
+    "A40_gate_effect_margins"
+  ],
+  "heldout_figure_tree": {
+    "directories": [
+      "q1_plus/figures_heldout_answer/pdf",
+      "q1_plus/figures_heldout_answer/png",
+      "q1_plus/figures_heldout_answer/source_data"
+    ],
+    "files": 120,
+    "sha256": "6eaa34b5f5b733a1dd5e972f0c9a29a392bdaefda26a3eab40d2db19b3c63fc9"
+  },
+  "files": {
+    "q1_plus/ANSWER_HELDOUT_AUTHORIZATION.json": "a5bef5074a3f0605a7c72ade0a59db43d7e03bdf46a5997d5fe50a5ebc4f54a3",
+    "q1_plus/ANSWER_DEVELOPMENT_LOCK.json": "cc38b40fcdab83bf77e424a23a6d9754d4bbbcd6702413e9fa416c0c41ed7a28",
+    "q1_plus/results/development/answer_generation/calibration_selection_report.json": "67c3d483cfa17c781d4e6871052c3e28e51372793b03dc76116baac66ed47fb4",
+    "q1_plus/results/development/answer_generation/heldout__qwen2_audio.jsonl": "58b8d7682ddae7029d3f9a0f6d42f88614b6cc8ea58e168f43bbdb8f57a132ce",
+    "q1_plus/results/development/answer_generation/heldout__qwen2_audio.receipt.json": "039811a3f0b10f754696bd308279fbdaa6ae556eea6c3d037d341e70356a45e1",
+    "q1_plus/results/development/answer_generation/heldout__phi4_multimodal.jsonl": "4c7dc9490522a5ecf6aaa503bc131ec73d5a4eaa2d689a45a4498abc56d56586",
+    "q1_plus/results/development/answer_generation/heldout__phi4_multimodal.receipt.json": "6e02450e588c08a3962ec837e24e1b4b30d436600086df1a18d73198254ea8dc",
+    "q1_plus/results/development/answer_generation/heldout_evaluation_report.json": "50d0f108c27ea685360eb681dbcd0cd753235fb9710dbb07b64618365b7a83c9",
+    "q1_plus/results/development/answer_generation/heldout_uncertainty_supplement.json": "0bf209810494299b49bf7434bfd4340304f8d54a3a1c8523c78a5bbd3c92dd55",
+    "q1_plus/HELDOUT_ANSWER_EVALUATION_PROTOCOL.md": "f232e110bdb4f57bd7efcbf11b0249b4fde538e5889c7aec0bc4606ba772ed31",
+    "q1_plus/configs/answer_heldout.json": "297beaba76d9bcc5bd060a022a4b8e4731751cb2316262ca244f523ae7cadf2b",
+    "q1_plus/scripts/run_answer_heldout.py": "81f4630de0abae15885ec0eaad917e4d5d0628de40d4b99a76407bc66cd66b91",
+    "q1_plus/scripts/analyze_answer_heldout.py": "dfbf9f32115e254d9cf020d60194e19f4f7b4ecf0098ebacf9d8afe52dff7c4e",
+    "q1_plus/HELDOUT_REPORTING_PLAN_LOCK.json": "0b4208adaa1a78011eb58a189b7f600dd9926cf228349ed080356f97578d84a4",
+    "q1_plus/HELDOUT_REPORTING_AMENDMENT_001.json": "f350a4d4a4dc8aeb18ccc81a928d0f862af3858898e9b03d6dacaf066c478a00",
+    "q1_plus/HELDOUT_REPORTING_AMENDMENT_002.json": "d1e6b3d8446696ddb14602dafe2da18c84bd1685fdcd36320f39d6df8b983abe",
+    "q1_plus/HELDOUT_FIGURE_PROTOCOL.md": "b14cc3477ce5bf2b88feff563e9cb12118e7834e6dc673f84939d9ff956eb32b",
+    "q1_plus/scripts/build_heldout_answer_figures.py": "5ea0479548fc22e074766b8811fa78b6fb8bb7802f9940ba384bb8ed4ef8e278",
+    "q1_plus/figures_heldout_answer/figure_index.csv": "b718f229fc4c6be2172b2221005316f9622df8fe63d915cea08b99dbc7d793e2",
+    "q1_plus/figures_heldout_answer/figure_audit.json": "9c2ecbf46964715a21e32dbf8f36485e37b82257a9062cbe3ba68f0cb875b14e"
+  }
+}

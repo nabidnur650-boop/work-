@@ -1,0 +1,25 @@
+{
+  "status": "repository_license_declared_source_rights_unresolved",
+  "repository": "TasnimKabir12/audita-audio",
+  "revision": "1591795b571ad13e84c4d447f3186d69f39c4ffa",
+  "repository_declared_license": "cc-by-4.0",
+  "repository_files": 8386,
+  "repository_bytes": 32169674027,
+  "repository_gib": 29.96034363936633,
+  "standalone_license_files_found": 0,
+  "source_readme_admits_rehosting_without_explicit_permission": true,
+  "source_readme_admits_unclear_ownership_or_hosting_rights": true,
+  "internal_evaluation_under_published_terms": "permitted_with_citation_subject_to_institutional_review",
+  "audio_redistribution_in_this_artifact": "forbidden_pending_rights_clarification",
+  "q1_full_provenance_gate": "not_passed_pending_rights_clarification",
+  "documentation_sha256": {
+    "README.md": "fafcbf1cd56a68a36d7208ee67bce8c9f7da6f9b741dd623a9043c5c86a14d70",
+    "readme.md": "78e25040733f7e8e12b06ad88d9258b735b4c8f56a924d67d1415f97bde38d76",
+    "Our sources/Quizbowl/audio-packets/README.md": "17bf84f023592fce7712fe4daebfd5d426cc2bdda18bf814646b8d0c4372e7b3",
+    "Our sources/Quizbowl/audio-packets/muse/readme.txt": "10d0f6653497e060f05b93a7b513ae335a64a8429452c2366a3f4cb1b7a16425",
+    "Our sources/Quizbowl/audio-packets/muses/readme.txt": "c962ec2a5945c6c5dd6580437a258bd3d5233db8aa8a320475afaef5a8dc9833"
+  },
+  "audio_files_or_waveforms_opened": 0,
+  "model_outputs_opened": 0,
+  "audita_rows_scored": 0
+}

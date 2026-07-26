@@ -1,0 +1,30 @@
+{
+  "protocol_status": "amended_before_any_audita_model_evaluation",
+  "protocol_amendment": "AMENDMENT_001_BENCHMARK_CONTRACT.md",
+  "protocol_amendment_reason": "AUDITA has no temporal evidence fields and a 300-per-category human sample is impossible",
+  "exploratory_source_count_excluded": 281,
+  "confirmatory_panels": {
+    "audita_human_six_category_expected_after_exclusions": 6457,
+    "audita_external_expected_after_exclusions": 3229,
+    "audita_human_outlier_categories_secondary": 2,
+    "exact_onset_event_needle": "count frozen by construction manifest before model evaluation",
+    "longaudioqa_timestamped_replication": "pending official data release",
+    "adqa_blind_predictions": 3000
+  },
+  "minimum_answer_accuracy_gain_points": 5.0,
+  "minimum_source_retrieval_gain_points_over_clap": 5.0,
+  "minimum_evidence_ap_gain": 0.05,
+  "minimum_evidence_deletion_logp_effect": 0.05,
+  "minimum_audio_shuffle_logp_effect": 0.10,
+  "maximum_text_only_gap_to_full_points": 2.0,
+  "minimum_category_wins": 5,
+  "maximum_category_loss_points": 5.0,
+  "minimum_audio_language_backbones": 2,
+  "minimum_ranker_seeds": 5,
+  "bootstrap_replicates": 10000,
+  "holm_alpha": 0.05,
+  "confirmatory_test_evaluations_allowed_per_panel": 1,
+  "audita_zero_shot_no_tuning": true,
+  "top_level_resampling_unit": "audio_file",
+  "excluded_contaminated_metadata_rows": [0, 3230]
+}

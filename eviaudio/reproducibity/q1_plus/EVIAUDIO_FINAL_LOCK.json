@@ -1,0 +1,31 @@
+{
+  "status": "eviaudio_q1_plus_final_stop_locked",
+  "frozen_at": "2026-07-22",
+  "editorial_revision": "2026-07-22_manuscript_hardening_only",
+  "previous_final_lock_sha256": "c9365669176d7a451af0d3089cb9a336cbcf2765932cd7fabace22e3e7747474",
+  "scientific_artifacts_changed": false,
+  "exact_onset_status": "confirmatory_exact_onset_gate_pass",
+  "heldout_answer_status": "heldout_answer_gate_fail_audita_sealed",
+  "overall_readiness": "not_ready_for_positive_q1_claim_heldout_answer_gate_failed",
+  "audita_status": "permanently_sealed_for_this_pipeline",
+  "audita_rows_accessed": 0,
+  "post_heldout_tuning_allowed": false,
+  "current_q1_plus_distinct_figures": 83,
+  "claim_boundary": "exact_onset_mechanism_passed_but_answer_transfer_failed",
+  "files": {
+    "q1_plus/HELDOUT_ANSWER_FINAL_LOCK.json": "bed5e32e811ad6fef30b647fb3bed311bbcadb6bfc2d33ac96bd756a9230132c",
+    "q1_plus/MANUSCRIPT_FINAL_LOCK.json": "d7b5e905f0364a1365e73f9199b91ae8d95686d7ac6b9620dfc2c7d7922198d7",
+    "q1_plus/EXACT_ONSET_FIGURE_LOCK.json": "89374fe5d187554d90d3fafb9130947e4b844b7b5c4474b5c3efaf6825a9a134",
+    "q1_plus/EVENT_CONFIRMATORY_AUTHORIZATION.json": "267aae382c79b939681fdb54eadb259a7a357dbe9439ab3e42ba461b017c9d60",
+    "q1_plus/results/confirmatory/event_ranker/five_seed_confirmatory_report.json": "4d486f901ff137617d2b904f42fa62d1f55c56f6dc9587b1550bf7ac0b6d9975",
+    "q1_plus/results/development/answer_generation/heldout_evaluation_report.json": "50d0f108c27ea685360eb681dbcd0cd753235fb9710dbb07b64618365b7a83c9",
+    "q1_plus/results/development/answer_generation/heldout_uncertainty_supplement.json": "0bf209810494299b49bf7434bfd4340304f8d54a3a1c8523c78a5bbd3c92dd55",
+    "q1_plus/Q1_READINESS_VERDICT.json": "aaaa1b22fbad3fd9094a3a44a785712bc612c42f4ce3bdd20a900261201afe82",
+    "q1_plus/EVIAUDIO_FINAL_AUDIT.md": "4a2b0f65bf7c00bede926905b7180e544800815374cfabe33df2e65a7d11dc0f",
+    "q1_plus/AUDITA_LICENSE_PROVENANCE_AUDIT.json": "bc7a6a823dc54cf752f664e633a0ee4c347914ebe9368b0c9515322ef7289de5",
+    "q1_plus/AUDITA_AMENDMENT_002_LOCK.json": "93eade240ad9b0cdea5031087ec023d431ace9a7b5c2c103af357b7f69731e0f",
+    "q1_plus/AUDITA_AMENDMENT_003_LOCK.json": "3794cd4145ecd73482b9fb4e0d9a29f3fdb8df8e513465857a6d877d0dd9291e",
+    "q1_plus/scripts/verify_final_release.py": "651d4122edb0d79379325ec2f160d499bf198fcc9cd02b85121b87c16bb9bf67",
+    "tests/test_final_release_verifier.py": "b10ad6f75032ff11db8d30ad5bd71784c7d9000928da11d271e03172ae372b2f"
+  }
+}

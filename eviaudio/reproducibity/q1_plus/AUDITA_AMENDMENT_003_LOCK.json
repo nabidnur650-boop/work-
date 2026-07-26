@@ -1,0 +1,16 @@
+{
+  "status": "audita_public_paper_contamination_amendment_frozen",
+  "created_at": "2026-07-22T11:13:15+09:00",
+  "timing": "before_any_audita_audio_model_input_model_output_score_or_category_result",
+  "audita_status": "sealed_pending_heldout_gate",
+  "additional_exclusions": 3,
+  "expected_primary_rows_after_all_exclusions": 6392,
+  "expected_external_rows_after_all_exclusions": 3228,
+  "effect_sizes_or_promotion_gates_changed": false,
+  "files": {
+    "q1_plus/AMENDMENT_003_PUBLIC_PAPER_EXAMPLES.md": "bd89f2309bed3d48299865ce2e9816f1dc7f38f4bba616875b0156683b502eca",
+    "q1_plus/AUDITA_ADDITIONAL_EXCLUSIONS_003.json": "e5ec2fd83967c7c62a4a1450adb35c92c083ca2566d3f4cd9bb23f91da5a0c96",
+    "tests/test_audita_amendment_003.py": "d7af8edc204ed1e33b18113c0a18f2d83b8138e3cc35cbd67fa2f9420b8a489a"
+  },
+  "verification": "51 tests passed"
+}

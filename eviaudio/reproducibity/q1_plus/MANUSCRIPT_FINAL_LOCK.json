@@ -1,0 +1,20 @@
+{
+  "status": "outcome_aligned_manuscript_and_readiness_record_locked",
+  "frozen_at": "2026-07-22",
+  "editorial_revision": "2026-07-22_related_work_main_figure_and_conclusion_hardening",
+  "previous_manuscript_sha256": "ccc7d8c8de446ae8cd6fe5d1bb8a7ecf46b9759bc19c4ec4f8f42e8680589ed2",
+  "scientific_artifacts_changed": false,
+  "manuscript_title": "From Evidence Localization to Answer Grounding: A Gate-Controlled Evaluation of Bounded Long-Audio Retrieval",
+  "claim_scope": "strong_exact_onset_mechanism_result_with_failed_heldout_answer_transfer",
+  "unfinished_placeholders": 0,
+  "positive_end_to_end_q1_claim_allowed": false,
+  "audita_claim_allowed": false,
+  "files": {
+    "q1_plus/MANUSCRIPT_Q1_PLUS.md": "316cd5aba082a6efae878698acc850249552fe68c58171100cf3d81da9495099",
+    "q1_plus/EVIAUDIO_FINAL_AUDIT.md": "4a2b0f65bf7c00bede926905b7180e544800815374cfabe33df2e65a7d11dc0f",
+    "q1_plus/Q1_READINESS_VERDICT.json": "aaaa1b22fbad3fd9094a3a44a785712bc612c42f4ce3bdd20a900261201afe82",
+    "q1_plus/README.md": "7d184d952e7a66258febb92c6f75f5e081d633feb6c80f032e181b23742b82cf",
+    "README.md": "059fa37631659a5503d1343aa0badfcf456f9a5698934b1d5918928a2b85d382",
+    "q1_plus/PROMOTION_GATES.json": "b9f6bc778c4b0c9b1881037453ba4aeff6a789e2909abe4707d2ec1d2b820c29"
+  }
+}

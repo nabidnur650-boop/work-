@@ -1,0 +1,21 @@
+{
+  "status": "provenance_only_amendment_frozen_before_outcome_inspection",
+  "created_at": "2026-07-22T10:51:50+09:00",
+  "reason": "Bind the final figure audit to the exact renderer, original reporting lock, and both pre-outcome amendments.",
+  "changes": [
+    "Record the renderer SHA-256 in the final figure audit.",
+    "Record the original reporting-lock SHA-256 in the final figure audit.",
+    "Record both reporting-amendment SHA-256 values in the final figure audit."
+  ],
+  "analysis_changed": false,
+  "presentation_changed": false,
+  "figure_ids_or_inclusion_changed": false,
+  "metrics_or_gates_changed": false,
+  "heldout_responses_or_metrics_inspected": false,
+  "audita_rows_accessed": 0,
+  "previous_figure_script_sha256": "6d1d2a5e578ae81049555b8a1bec5831bf61faa36ce1706c83453d0a816331d5",
+  "figure_script_sha256": "5ea0479548fc22e074766b8811fa78b6fb8bb7802f9940ba384bb8ed4ef8e278",
+  "synthetic_smoke_test_sha256": "f6a1e673b2a9eeb975373acdbb8e60506aa14cad7346316d317a11e6ff10f7e3",
+  "reporting_amendment_001_sha256": "f350a4d4a4dc8aeb18ccc81a928d0f862af3858898e9b03d6dacaf066c478a00",
+  "verification": "3 focused tests passed; synthetic suite emitted exactly 40 PDFs, 40 PNGs, and 40 CSV files"
+}

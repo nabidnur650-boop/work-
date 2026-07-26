@@ -1,0 +1,16 @@
+{
+  "status": "exact_onset_publication_figure_suite_locked",
+  "frozen_at": "2026-07-22",
+  "distinct_figures": 43,
+  "all_pdf_files_parse": true,
+  "all_indexed_pdf_png_and_source_hashes_verified": true,
+  "claim_scope": "exact_onset_evidence_gate_only_not_overall_q1_answer_claim",
+  "files": {
+    "q1_plus/EVENT_CONFIRMATORY_AUTHORIZATION.json": "267aae382c79b939681fdb54eadb259a7a357dbe9439ab3e42ba461b017c9d60",
+    "q1_plus/results/confirmatory/event_ranker/five_seed_confirmatory_report.json": "4d486f901ff137617d2b904f42fa62d1f55c56f6dc9587b1550bf7ac0b6d9975",
+    "q1_plus/results/confirmatory/event_ranker/raw_five_seed_confirmatory.jsonl.gz": "26c098622fd3c873e725391cddd163fe9be3b20dbf7f785b12b38a7f86baf5f6",
+    "q1_plus/scripts/build_exact_onset_figures.py": "06be3b458fb403fc92a9a010bb21d147f8ac89946c53c07687b56fdd363a37c0",
+    "q1_plus/figures_exact_onset/figure_index.csv": "ae5f92725887943c640e1cfe7314ecd9b2ae893ccf5c600efe4417c49c4718d7",
+    "q1_plus/figures_exact_onset/figure_audit.json": "b7c9124f118d12008cd6ea6d695f2128522f91209bef244544df11ecaeba2865"
+  }
+}
