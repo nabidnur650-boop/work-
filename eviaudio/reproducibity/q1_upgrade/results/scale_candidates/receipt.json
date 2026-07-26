@@ -1,0 +1,46 @@
+{
+  "checkpoint_sha256": [
+    "03ea7f0b3138f3bd22b8d6ec12d1dd09a2cc500cf3e088510159ccd1a84392e4",
+    "a6ae986c878b7b8a9a33ed2b6b8d92f12200379d415601a415117c733f49704a",
+    "8fc1dbe713f02eddb727acd393ae3d624e43389f8a5a80580bb9f42db14db89a",
+    "e441a3c9a6a96b71319f2ede6f9f1545076f446b67e4cff7a5f35141884fa4d9",
+    "a0349b6113899796495dd0df3ee0eb1c263694295c71bbdf8703fb1a1a67689a"
+  ],
+  "claim_type": "post_outcome_cross_fitted_exploratory",
+  "crossfit_analysis_lock_sha256": "1712e6191f047c7c9edc05b6feef207d07acf3ced2e9915f5fbb3d67b6a6f501",
+  "device": "cuda",
+  "maximum_absolute_residual": 0.24998949468135834,
+  "maximum_prior_disagreement": 0.0,
+  "methods": [
+    "clap_0p5s",
+    "clap_1s",
+    "clap_2s",
+    "qcr_0p5s",
+    "qcr_1s",
+    "qcr_2s"
+  ],
+  "natural_config_sha256": "194f4554077218267f9c7fa360dd8773e0818823c4f56648bb6f87770f4cbe1d",
+  "natural_freeze_sha256": "5d5070d14e9c710839b8d6d00e7eb0846943f16165823f0c39ad15337ce30afe",
+  "precompute_summary_sha256": "dcf8db7d024b66f948c2c19e86b6d883e4b6b65c859a7722b51f2a7b5a31c7b7",
+  "prediction_counts": {
+    "clap_0p5s": 1071800,
+    "clap_1s": 1071180,
+    "clap_2s": 965680,
+    "qcr_0p5s": 1071800,
+    "qcr_1s": 1071180,
+    "qcr_2s": 965680
+  },
+  "prediction_sha256": {
+    "clap_0p5s": "63b92130c56daf8b7be19e3f5d92c1adf0fbee02d23c3948fbf8a9f560c69cb6",
+    "clap_1s": "09d326bd4a529262746a2298179ff4ad81b5f2bc181550794ab07b96db77f905",
+    "clap_2s": "ffdd502151adc6364676510f6183c8c2ed01f9337c60a0c5a975d5482c280b6f",
+    "qcr_0p5s": "9534b6456a8faca67f8d830a5e540cdf86442aa6b1ca0f13d959f0c445e07bf5",
+    "qcr_1s": "63549f51222148761e91726fc97e53cfd06e574f658ee33717f95728c7d4cb9c",
+    "qcr_2s": "412eb3b7ba02afb95dd0eb160fdffce96a635dc8d7c029d9768094677469502d"
+  },
+  "router_config_sha256": "34a6d56c605515a81a4205c5d806a3f08123d0a5da56c57fd503561bc88abad0",
+  "status": "locked_single_scale_candidates_complete",
+  "torch": "2.9.0+cu130",
+  "videos": 5359,
+  "wall_seconds": 267.5253130570054
+}

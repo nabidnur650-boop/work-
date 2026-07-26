@@ -1,0 +1,20 @@
+{
+  "claim_type": "post_outcome_cross_fitted_exploratory",
+  "files": {
+    "q1_top_tier/PERCEPTION_TEST_FREEZE.json": "5d5070d14e9c710839b8d6d00e7eb0846943f16165823f0c39ad15337ce30afe",
+    "q1_top_tier/configs/perception_test_natural.json": "194f4554077218267f9c7fa360dd8773e0818823c4f56648bb6f87770f4cbe1d",
+    "q1_top_tier/results/perception_test/evaluation/perception_test_report.json": "4cd0c432b0ee5d1eb1c5f1e4d10bc717a434cf8bd510e634b8797b2b082f9165",
+    "q1_top_tier/results/perception_test/precompute/precompute_summary.json": "dcf8db7d024b66f948c2c19e86b6d883e4b6b65c859a7722b51f2a7b5a31c7b7",
+    "q1_top_tier/scripts/evaluate_perception_test.py": "a301c29c0526108df2a738700aa391576ae46bc907e715f449278b37e2d5c0f3",
+    "q1_top_tier/src/temporal_localization.py": "19aba127b203ec1816fdabe99a3bac1694c0df6082bd4af26ce20ad6e91ea0e5",
+    "q1_upgrade/PROTOCOL.md": "018479fe73686b14907aef89b09b67e0fa18f894ae1f039bf75b46835551a1ca",
+    "q1_upgrade/README.md": "832cb520811384d733d2e00ef4d58b65fad0133b01a889439abe6ce729df87a6",
+    "q1_upgrade/configs/crossfit_router.json": "34a6d56c605515a81a4205c5d806a3f08123d0a5da56c57fd503561bc88abad0",
+    "q1_upgrade/scripts/analyze_crossfit_router.py": "39b9ca74640e4c3c6ba097d2474df7eb86cb7717a0c66b1a4c4f960debb1d7eb",
+    "q1_upgrade/scripts/build_scale_candidates.py": "87affe966120259751217c477f70f81225d5b3860a52421a491aaa5f2593a4d7",
+    "q1_upgrade/src/crossfit_utils.py": "988d2a10faf864c676f2c59220a4d0e3422b7d3f72c6e21bd89895054dc6498b",
+    "q1_upgrade/tests/test_crossfit_utils.py": "db355d42aec94a878fb401356df4b7a237ea639281c6dcefc3eeb7b5da39d918"
+  },
+  "note": "This local checksum lock limits researcher degrees of freedom after it; it is not an external preregistration timestamp.",
+  "status": "post_outcome_crossfit_locked_before_new_scale_scoring"
+}
