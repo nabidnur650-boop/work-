@@ -1,0 +1,81 @@
+{
+  "calibration": {
+    "clap_prior": {
+      "evidence_ap": 0.6108788942051744,
+      "examples": 393,
+      "source_correct": 0.5650462962962962,
+      "source_mrr": 0.7276110559964727,
+      "sources": 24
+    },
+    "event_v1_prior_residual_five_seed_mean": {
+      "evidence_ap": 0.5892029633945189,
+      "examples": 393,
+      "source_correct": 0.5215277777777777,
+      "source_mrr": 0.7003695436507936,
+      "sources": 24
+    },
+    "qcr_temp_010_ev010_five_seed_mean": {
+      "evidence_ap": 0.6319691397170802,
+      "examples": 393,
+      "source_correct": 0.5875,
+      "source_mrr": 0.7475493276014108,
+      "sources": 24
+    }
+  },
+  "calibration_source_ids_sha256": "bd96a8425336d3e5e990fffb9cb79fae71c84917b218f8c5456a5ed160f404ef",
+  "checkpoints": {
+    "q1_plus/results/development/event_ranker/checkpoints/event_v1__prior_residual__seed_0.pt": "03ea7f0b3138f3bd22b8d6ec12d1dd09a2cc500cf3e088510159ccd1a84392e4",
+    "q1_plus/results/development/event_ranker/checkpoints/event_v1__prior_residual__seed_1.pt": "a6ae986c878b7b8a9a33ed2b6b8d92f12200379d415601a415117c733f49704a",
+    "q1_plus/results/development/event_ranker/checkpoints/event_v1__prior_residual__seed_2.pt": "8fc1dbe713f02eddb727acd393ae3d624e43389f8a5a80580bb9f42db14db89a",
+    "q1_plus/results/development/event_ranker/checkpoints/event_v1__prior_residual__seed_3.pt": "e441a3c9a6a96b71319f2ede6f9f1545076f446b67e4cff7a5f35141884fa4d9",
+    "q1_plus/results/development/event_ranker/checkpoints/event_v1__prior_residual__seed_4.pt": "a0349b6113899796495dd0df3ee0eb1c263694295c71bbdf8703fb1a1a67689a",
+    "q1_plus/results/development/raw_validation__prior_residual__temp_010_ev010__seed_0.jsonl.gz": "61c8c3fc1cb044319138e1e9e73e6feedbf2b32e3a5ad42f6f196691dc9638c8",
+    "q1_plus/results/development/raw_validation__prior_residual__temp_010_ev010__seed_1.jsonl.gz": "47e5a7f3e067d3fb97b086ad638975c55cbbdaa3a77ac757df9dac5401d946dd",
+    "q1_plus/results/development/raw_validation__prior_residual__temp_010_ev010__seed_2.jsonl.gz": "5df62ac76132c693aa108a42097a7537aa0ffd4b4c5761cc61b98f53615fa17d",
+    "q1_plus/results/development/raw_validation__prior_residual__temp_010_ev010__seed_3.jsonl.gz": "50712f8b567bf5c51a820017ff9ae475e52d5d3c19b3afa6d79478e25d0e0055",
+    "q1_plus/results/development/raw_validation__prior_residual__temp_010_ev010__seed_4.jsonl.gz": "c9e0e7217ffba0f8cd5273ea4cc6258c9c05b1aac18637d589f32e7170bf3911"
+  },
+  "config_sha256": "7d5165a55e2f67e0305ebe17b0881d63351e6c0b7bf95706be76c56c7688ce31",
+  "evaluation_after_frozen_selection": {
+    "clap_prior": {
+      "evidence_ap": 0.5796929942815104,
+      "examples": 411,
+      "source_correct": 0.5224444444444444,
+      "source_mrr": 0.7017497354497355,
+      "sources": 25
+    },
+    "event_v1_prior_residual_five_seed_mean": {
+      "evidence_ap": 0.5771002103160416,
+      "examples": 411,
+      "source_correct": 0.5308888888888889,
+      "source_mrr": 0.7083756613756614,
+      "sources": 25
+    },
+    "qcr_temp_010_ev010_five_seed_mean": {
+      "evidence_ap": 0.6019942264879599,
+      "examples": 411,
+      "source_correct": 0.5611111111111111,
+      "source_mrr": 0.7322015873015875,
+      "sources": 25
+    }
+  },
+  "evaluation_source_ids_sha256": "d124056542c85bf2122386cbe838914ae866bfceb60c31315e7b9ccd704ed717",
+  "integrity": {
+    "alignment_failures": 0,
+    "audita_rows_accessed": 0,
+    "calibration_examples": 393,
+    "calibration_sources": 24,
+    "evaluation_examples": 411,
+    "evaluation_sources": 25,
+    "examples": 804,
+    "maximum_prior_difference": 0.0,
+    "nonfinite_failures": 0,
+    "target_source_overlap": 0
+  },
+  "manifest_sha256": "f074a4fb8712b9f4301f7ced13e118c5ce3d5c2ae8bd3bb3759005611b47102c",
+  "question_archive_sha256": "3ad6d0ba60f14c9a20eca254e40d4493726037db717922ba0642654dc494dd40",
+  "raw_path": "q1_plus/results/development/answer_retrieval/retrieval_scores.jsonl.gz",
+  "raw_sha256": "7790544b95ee8e696ad684075ffea6d5878dc634ef07434249af752ded9d9c7c",
+  "selected_retriever": "qcr_temp_010_ev010_five_seed_mean",
+  "status": "learned_answer_retriever_selected"
+}

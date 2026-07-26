@@ -1,0 +1,20 @@
+{
+  "protocol_status": "development_frozen_before_ranker_test_evaluation",
+  "train_manifest": "journal_suite/data/manifests/train.jsonl",
+  "validation_manifest": "journal_suite/data/manifests/val.jsonl",
+  "test_manifest": "journal_suite/data/manifests/test.jsonl",
+  "question_archive": "q1_plus/data/development_question_clap.npz",
+  "embedding_dim": 512,
+  "hidden_dim": 64,
+  "maximum_residual": 0.25,
+  "dropout": 0.10,
+  "batch_size": 64,
+  "epochs": 20,
+  "patience": 5,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.01,
+  "residual_penalty": 0.05,
+  "gradient_clip": 1.0,
+  "selection_metric": "source_accuracy_plus_0.1_evidence_ap",
+  "seeds": [0, 1, 2, 3, 4]
+}

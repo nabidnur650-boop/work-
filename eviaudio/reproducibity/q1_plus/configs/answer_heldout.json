@@ -1,0 +1,73 @@
+{
+  "status": "frozen_before_heldout_clotho_answer_evaluation",
+  "scope": "25_source_heldout_clotho_development_only",
+  "expected_sources": 25,
+  "expected_examples": 411,
+  "models": [
+    "qwen2_audio",
+    "phi4_multimodal"
+  ],
+  "systems": [
+    "selected_learned_retrieval",
+    "clap_retrieval",
+    "deterministic_random_retrieval",
+    "uniform_retrieval",
+    "prefix_matched_retrieval",
+    "oracle_retrieval",
+    "selected_retrieval_silenced",
+    "text_only"
+  ],
+  "eligible_nonoracle_retrieval_baselines": [
+    "clap_retrieval",
+    "deterministic_random_retrieval",
+    "uniform_retrieval",
+    "prefix_matched_retrieval"
+  ],
+  "system_definitions": {
+    "selected_learned_retrieval": "top K frozen learned-retriever chunks, restored to chronological order",
+    "clap_retrieval": "top K frozen CLAP-prior chunks, restored to chronological order",
+    "deterministic_random_retrieval": "K chunks with smallest SHA-256 rank of example ID and chunk index, restored to chronological order",
+    "uniform_retrieval": "K unique rounded positions from an endpoint-inclusive uniform grid over the chunk stream",
+    "prefix_matched_retrieval": "first K chunks of the composed stream",
+    "oracle_retrieval": "up to K positive evidence chunks ranked by the frozen learned score, filled only when necessary by highest-scoring nonpositive chunks, restored to chronology",
+    "selected_retrieval_silenced": "same indices and duration as selected learned retrieval with every waveform sample set to zero",
+    "text_only": "identical frozen question prompt without an audio placeholder"
+  },
+  "generation": {
+    "do_sample": false,
+    "max_new_tokens": 12,
+    "use_cache": true,
+    "batch_size": 1
+  },
+  "primary_metric": "target_source_macro_exact",
+  "secondary_metric": "target_source_macro_token_f1",
+  "strongest_baseline_ranking": [
+    "two_backbone_mean_source_macro_exact_descending",
+    "two_backbone_mean_source_macro_token_f1_descending",
+    "system_name_ascending"
+  ],
+  "promotion_gates": {
+    "minimum_exact_gain_over_strongest_baseline": 0.02,
+    "minimum_exact_gain_over_random": 0.05,
+    "maximum_single_backbone_loss_to_strongest_baseline": 0.02,
+    "minimum_normalized_response_difference_fraction_from_silence_per_backbone": 0.20,
+    "minimum_normalized_response_difference_fraction_from_text_only_per_backbone": 0.20,
+    "require_learned_exact_no_worse_than_silence_per_backbone": true,
+    "require_all_responses_nonempty": true,
+    "require_all_integrity_checks": true
+  },
+  "bootstrap": {
+    "top_level_unit": "target_source_id",
+    "replicates": 10000,
+    "seed": 20260722,
+    "interval": "paired_percentile_95"
+  },
+  "breakdowns": [
+    "difficulty",
+    "number_of_sources",
+    "target_position_bin",
+    "chunk_count_quartile"
+  ],
+  "audita_rows_allowed": 0,
+  "audita_status": "sealed"
+}

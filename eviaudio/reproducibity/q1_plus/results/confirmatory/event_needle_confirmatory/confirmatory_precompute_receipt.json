@@ -1,0 +1,13 @@
+{
+  "authorization_sha256": "267aae382c79b939681fdb54eadb259a7a357dbe9439ab3e42ba461b017c9d60",
+  "development_recipe_id_overlap": 0,
+  "examples": 397,
+  "index_sha256": "85bcd05207c819bbc6820a7a6779358c6cf9968f06e42464b3b34d4b3450ca00",
+  "raw_sha256": "a25b44744c580f6204eb081480eea4f2da3fd45df522627cc1fc5450ded179d1",
+  "recipe_ids_sha256": "3ead243b08743daf21500396b1bacb2207cedc5301a6e19a26542ece395bc8d7",
+  "recipes_sha256": "97b7d484814ba39dc6a43038231008fe3e775a82d29750a007bd10a77b03907d",
+  "source_manifest_sha256": "c8e256366ba4bb24a83a01cb17340582fb360b4e3d7bb82df7c4ae2f1399ac98",
+  "status": "one_shot_confirmatory_precompute_complete",
+  "summary_sha256": "92aac19dc2b86465e1f14a7a4aa8d3709752c0c2d1c4a1767200716de76e9998",
+  "unique_source_files_verified": 2956
+}

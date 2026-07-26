@@ -1,0 +1,253 @@
+{
+  "class_counts": {
+    "confirmatory": {
+      "airplane": 8,
+      "breathing": 8,
+      "brushing teeth": 8,
+      "can opening": 8,
+      "car horn": 8,
+      "cat": 8,
+      "chainsaw": 8,
+      "chirping birds": 8,
+      "church bells": 8,
+      "clapping": 8,
+      "clock alarm": 8,
+      "clock tick": 7,
+      "coughing": 8,
+      "cow": 8,
+      "crackling fire": 8,
+      "crickets": 8,
+      "crow": 8,
+      "crying baby": 8,
+      "dog": 8,
+      "door wood creaks": 8,
+      "door wood knock": 8,
+      "drinking sipping": 8,
+      "engine": 8,
+      "fireworks": 8,
+      "footsteps": 8,
+      "frog": 8,
+      "glass breaking": 8,
+      "hand saw": 8,
+      "helicopter": 8,
+      "hen": 8,
+      "insects": 8,
+      "keyboard typing": 8,
+      "laughing": 8,
+      "mouse click": 8,
+      "pig": 8,
+      "pouring water": 8,
+      "rain": 8,
+      "rooster": 6,
+      "sea waves": 8,
+      "sheep": 8,
+      "siren": 8,
+      "sneezing": 8,
+      "snoring": 8,
+      "thunderstorm": 8,
+      "toilet flush": 8,
+      "train": 8,
+      "vacuum cleaner": 8,
+      "washing machine": 8,
+      "water drops": 8,
+      "wind": 8
+    },
+    "development": {
+      "airplane": 24,
+      "breathing": 24,
+      "brushing teeth": 24,
+      "can opening": 24,
+      "car horn": 24,
+      "cat": 24,
+      "chainsaw": 24,
+      "chirping birds": 24,
+      "church bells": 24,
+      "clapping": 24,
+      "clock alarm": 23,
+      "clock tick": 23,
+      "coughing": 24,
+      "cow": 24,
+      "crackling fire": 24,
+      "crickets": 24,
+      "crow": 24,
+      "crying baby": 24,
+      "dog": 24,
+      "door wood creaks": 24,
+      "door wood knock": 24,
+      "drinking sipping": 24,
+      "engine": 24,
+      "fireworks": 24,
+      "footsteps": 24,
+      "frog": 24,
+      "glass breaking": 24,
+      "hand saw": 24,
+      "helicopter": 24,
+      "hen": 23,
+      "insects": 24,
+      "keyboard typing": 24,
+      "laughing": 24,
+      "mouse click": 24,
+      "pig": 24,
+      "pouring water": 24,
+      "rain": 24,
+      "rooster": 23,
+      "sea waves": 24,
+      "sheep": 24,
+      "siren": 24,
+      "sneezing": 24,
+      "snoring": 24,
+      "thunderstorm": 24,
+      "toilet flush": 24,
+      "train": 24,
+      "vacuum cleaner": 24,
+      "washing machine": 24,
+      "water drops": 24,
+      "wind": 24
+    },
+    "validation": {
+      "airplane": 8,
+      "breathing": 8,
+      "brushing teeth": 8,
+      "can opening": 8,
+      "car horn": 8,
+      "cat": 8,
+      "chainsaw": 8,
+      "chirping birds": 8,
+      "church bells": 8,
+      "clapping": 8,
+      "clock alarm": 7,
+      "clock tick": 8,
+      "coughing": 8,
+      "cow": 8,
+      "crackling fire": 8,
+      "crickets": 8,
+      "crow": 8,
+      "crying baby": 8,
+      "dog": 8,
+      "door wood creaks": 8,
+      "door wood knock": 8,
+      "drinking sipping": 8,
+      "engine": 8,
+      "fireworks": 8,
+      "footsteps": 8,
+      "frog": 8,
+      "glass breaking": 8,
+      "hand saw": 8,
+      "helicopter": 8,
+      "hen": 7,
+      "insects": 8,
+      "keyboard typing": 8,
+      "laughing": 8,
+      "mouse click": 8,
+      "pig": 8,
+      "pouring water": 8,
+      "rain": 8,
+      "rooster": 8,
+      "sea waves": 8,
+      "sheep": 8,
+      "siren": 8,
+      "sneezing": 8,
+      "snoring": 8,
+      "thunderstorm": 8,
+      "toilet flush": 8,
+      "train": 8,
+      "vacuum cleaner": 8,
+      "washing machine": 8,
+      "water drops": 8,
+      "wind": 8
+    }
+  },
+  "condition_counts": {
+    "confirmatory": {
+      "duration": {
+        "60": 142,
+        "180": 132,
+        "300": 123
+      },
+      "position": {
+        "early": 138,
+        "late": 143,
+        "middle": 116
+      },
+      "snr_db": {
+        "-5": 127,
+        "0": 134,
+        "5": 136
+      }
+    },
+    "development": {
+      "duration": {
+        "60": 388,
+        "180": 404,
+        "300": 404
+      },
+      "position": {
+        "early": 410,
+        "late": 397,
+        "middle": 389
+      },
+      "snr_db": {
+        "-5": 395,
+        "0": 405,
+        "5": 396
+      }
+    },
+    "validation": {
+      "duration": {
+        "60": 125,
+        "180": 140,
+        "300": 133
+      },
+      "position": {
+        "early": 136,
+        "late": 133,
+        "middle": 129
+      },
+      "snr_db": {
+        "-5": 130,
+        "0": 128,
+        "5": 140
+      }
+    }
+  },
+  "counts": {
+    "confirmatory": 397,
+    "development": 1196,
+    "validation": 398
+  },
+  "esc50_commit": "33c8ce9eb2cf0b1c2f8bcf322eb349b6be34dbb6",
+  "esc50_metadata_sha256": "ca660da60191a97de289983a05821c9382d852a38a2ba8428980816b68cf6246",
+  "librispeech_archives": {
+    "dev_clean_md5": "42e2234ba48799c1f50f24a7926300a1",
+    "test_clean_md5": "32fa31d27d2e1cad72775fee3f4849a9"
+  },
+  "materialized_long_mixtures": 0,
+  "output_sha256": {
+    "confirmatory_recipes.sealed.jsonl": "97b7d484814ba39dc6a43038231008fe3e775a82d29750a007bd10a77b03907d",
+    "development_recipes.jsonl": "6e8496d897d7ae3e705fe5e23d4f2f75d107251ee64a71947f90ee0fc490cc88",
+    "validation_recipes.jsonl": "5be73d3d05811a5cd8aa2936e2accf9d3afe608e17a33c636eea487da537c62f"
+  },
+  "source_isolation": {
+    "development_validation_background_speaker_overlap": 0,
+    "esc_original_source_overlap_across_folds": 0,
+    "excluded_cross_fold_rows": [
+      "2-131943-A-38.wav",
+      "2-134049-A-6.wav",
+      "3-131943-A-37.wav",
+      "3-134049-A-1.wav",
+      "4-209698-A-37.wav",
+      "4-234879-A-6.wav",
+      "5-209698-A-38.wav",
+      "5-234879-A-1.wav",
+      "5-234879-B-1.wav"
+    ],
+    "excluded_cross_fold_source_ids": [
+      "131943",
+      "134049",
+      "209698",
+      "234879"
+    ],
+    "validation_confirmatory_background_speaker_overlap": 0
+  },
+  "status": "recipes_frozen_before_any_confirmatory_model_evaluation"
+}

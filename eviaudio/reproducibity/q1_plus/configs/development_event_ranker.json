@@ -1,0 +1,26 @@
+{
+  "protocol_status": "development_candidate_frozen_before_event_validation_evaluation",
+  "run_tag": "event_v1",
+  "development_index": "q1_plus/results/development/event_needle_development/index.jsonl",
+  "validation_index": "q1_plus/results/development/event_needle_validation/index.jsonl",
+  "embedding_dim": 512,
+  "hidden_dim": 64,
+  "maximum_residual": 0.25,
+  "dropout": 0.10,
+  "batch_size": 16,
+  "epochs": 25,
+  "patience": 6,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.01,
+  "evidence_temperature": 0.10,
+  "hard_negative_weight": 0.25,
+  "margin": 0.0,
+  "residual_penalty": 0.05,
+  "gradient_clip": 1.0,
+  "selection_metric": "evidence_ap_plus_0.25_hit_at_1",
+  "seeds": [0, 1, 2, 3, 4],
+  "promotion_gates": {
+    "minimum_hit_at_1_gain_points": 5.0,
+    "minimum_evidence_ap_gain": 0.05
+  }
+}

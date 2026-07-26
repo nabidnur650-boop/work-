@@ -1,0 +1,291 @@
+{
+  "artifacts": [
+    {
+      "model": "qwen2_audio",
+      "raw_path": "q1_plus/results/development/answer_generation/calibration__qwen2_audio.jsonl",
+      "raw_sha256": "f69a589ef02b5c66fdc50643f8fb0293257fcc3da50592d2bf85c4f89ef13d64",
+      "receipt_path": "q1_plus/results/development/answer_generation/calibration__qwen2_audio.receipt.json",
+      "receipt_sha256": "16566d3ea36c691a0fe4bbae965fec756d73d23ab687bf5079e16af1112b2a00",
+      "rows": 576
+    },
+    {
+      "model": "phi4_multimodal",
+      "raw_path": "q1_plus/results/development/answer_generation/calibration__phi4_multimodal.jsonl",
+      "raw_sha256": "152071af896209fbe771a01ea3ee8e337355ac20298ca9b56b52c6d9cab10709",
+      "receipt_path": "q1_plus/results/development/answer_generation/calibration__phi4_multimodal.receipt.json",
+      "receipt_sha256": "5dfc5d867c0c927b2cf0141a42452c61dcf163ca26c52f7ef851ccd7d9ebefb7",
+      "rows": 576
+    }
+  ],
+  "audita_status": "sealed",
+  "backbone_metrics": {
+    "phi4_multimodal": {
+      "short|k2": {
+        "examples": 96,
+        "source_macro_exact": 0.40625,
+        "source_macro_token_f1": 0.41116898148148145,
+        "sources": 24
+      },
+      "short|k4": {
+        "examples": 96,
+        "source_macro_exact": 0.4791666666666667,
+        "source_macro_token_f1": 0.4856481481481481,
+        "sources": 24
+      },
+      "short|k6": {
+        "examples": 96,
+        "source_macro_exact": 0.4791666666666667,
+        "source_macro_token_f1": 0.48796296296296293,
+        "sources": 24
+      },
+      "strict|k2": {
+        "examples": 96,
+        "source_macro_exact": 0.46875,
+        "source_macro_token_f1": 0.46875,
+        "sources": 24
+      },
+      "strict|k4": {
+        "examples": 96,
+        "source_macro_exact": 0.4895833333333333,
+        "source_macro_token_f1": 0.49722222222222223,
+        "sources": 24
+      },
+      "strict|k6": {
+        "examples": 96,
+        "source_macro_exact": 0.4270833333333333,
+        "source_macro_token_f1": 0.43124999999999997,
+        "sources": 24
+      }
+    },
+    "qwen2_audio": {
+      "short|k2": {
+        "examples": 96,
+        "source_macro_exact": 0.59375,
+        "source_macro_token_f1": 0.59375,
+        "sources": 24
+      },
+      "short|k4": {
+        "examples": 96,
+        "source_macro_exact": 0.6145833333333334,
+        "source_macro_token_f1": 0.6145833333333334,
+        "sources": 24
+      },
+      "short|k6": {
+        "examples": 96,
+        "source_macro_exact": 0.6145833333333334,
+        "source_macro_token_f1": 0.6145833333333334,
+        "sources": 24
+      },
+      "strict|k2": {
+        "examples": 96,
+        "source_macro_exact": 0.6770833333333334,
+        "source_macro_token_f1": 0.6770833333333334,
+        "sources": 24
+      },
+      "strict|k4": {
+        "examples": 96,
+        "source_macro_exact": 0.65625,
+        "source_macro_token_f1": 0.65625,
+        "sources": 24
+      },
+      "strict|k6": {
+        "examples": 96,
+        "source_macro_exact": 0.6145833333333334,
+        "source_macro_token_f1": 0.6145833333333334,
+        "sources": 24
+      }
+    }
+  },
+  "calibration_sources": 24,
+  "candidate_metrics": [
+    {
+      "k": 2,
+      "per_backbone": {
+        "phi4_multimodal": {
+          "examples": 96,
+          "source_macro_exact": 0.40625,
+          "source_macro_token_f1": 0.41116898148148145,
+          "sources": 24
+        },
+        "qwen2_audio": {
+          "examples": 96,
+          "source_macro_exact": 0.59375,
+          "source_macro_token_f1": 0.59375,
+          "sources": 24
+        }
+      },
+      "prompt": "Listen to the supplied audio evidence. Question: {question} Give only the shortest correct answer. For a yes/no question, output exactly yes or no.",
+      "prompt_name": "short",
+      "two_backbone_mean_source_macro_exact": 0.5,
+      "two_backbone_mean_source_macro_token_f1": 0.5024594907407407
+    },
+    {
+      "k": 4,
+      "per_backbone": {
+        "phi4_multimodal": {
+          "examples": 96,
+          "source_macro_exact": 0.4791666666666667,
+          "source_macro_token_f1": 0.4856481481481481,
+          "sources": 24
+        },
+        "qwen2_audio": {
+          "examples": 96,
+          "source_macro_exact": 0.6145833333333334,
+          "source_macro_token_f1": 0.6145833333333334,
+          "sources": 24
+        }
+      },
+      "prompt": "Listen to the supplied audio evidence. Question: {question} Give only the shortest correct answer. For a yes/no question, output exactly yes or no.",
+      "prompt_name": "short",
+      "two_backbone_mean_source_macro_exact": 0.546875,
+      "two_backbone_mean_source_macro_token_f1": 0.5501157407407408
+    },
+    {
+      "k": 6,
+      "per_backbone": {
+        "phi4_multimodal": {
+          "examples": 96,
+          "source_macro_exact": 0.4791666666666667,
+          "source_macro_token_f1": 0.48796296296296293,
+          "sources": 24
+        },
+        "qwen2_audio": {
+          "examples": 96,
+          "source_macro_exact": 0.6145833333333334,
+          "source_macro_token_f1": 0.6145833333333334,
+          "sources": 24
+        }
+      },
+      "prompt": "Listen to the supplied audio evidence. Question: {question} Give only the shortest correct answer. For a yes/no question, output exactly yes or no.",
+      "prompt_name": "short",
+      "two_backbone_mean_source_macro_exact": 0.546875,
+      "two_backbone_mean_source_macro_token_f1": 0.5512731481481481
+    },
+    {
+      "k": 2,
+      "per_backbone": {
+        "phi4_multimodal": {
+          "examples": 96,
+          "source_macro_exact": 0.46875,
+          "source_macro_token_f1": 0.46875,
+          "sources": 24
+        },
+        "qwen2_audio": {
+          "examples": 96,
+          "source_macro_exact": 0.6770833333333334,
+          "source_macro_token_f1": 0.6770833333333334,
+          "sources": 24
+        }
+      },
+      "prompt": "Answer only from the supplied audio. Use one word or a short noun phrase and do not explain. If the question is yes/no, output exactly yes or no. Question: {question}",
+      "prompt_name": "strict",
+      "two_backbone_mean_source_macro_exact": 0.5729166666666667,
+      "two_backbone_mean_source_macro_token_f1": 0.5729166666666667
+    },
+    {
+      "k": 4,
+      "per_backbone": {
+        "phi4_multimodal": {
+          "examples": 96,
+          "source_macro_exact": 0.4895833333333333,
+          "source_macro_token_f1": 0.49722222222222223,
+          "sources": 24
+        },
+        "qwen2_audio": {
+          "examples": 96,
+          "source_macro_exact": 0.65625,
+          "source_macro_token_f1": 0.65625,
+          "sources": 24
+        }
+      },
+      "prompt": "Answer only from the supplied audio. Use one word or a short noun phrase and do not explain. If the question is yes/no, output exactly yes or no. Question: {question}",
+      "prompt_name": "strict",
+      "two_backbone_mean_source_macro_exact": 0.5729166666666666,
+      "two_backbone_mean_source_macro_token_f1": 0.5767361111111111
+    },
+    {
+      "k": 6,
+      "per_backbone": {
+        "phi4_multimodal": {
+          "examples": 96,
+          "source_macro_exact": 0.4270833333333333,
+          "source_macro_token_f1": 0.43124999999999997,
+          "sources": 24
+        },
+        "qwen2_audio": {
+          "examples": 96,
+          "source_macro_exact": 0.6145833333333334,
+          "source_macro_token_f1": 0.6145833333333334,
+          "sources": 24
+        }
+      },
+      "prompt": "Answer only from the supplied audio. Use one word or a short noun phrase and do not explain. If the question is yes/no, output exactly yes or no. Question: {question}",
+      "prompt_name": "strict",
+      "two_backbone_mean_source_macro_exact": 0.5208333333333334,
+      "two_backbone_mean_source_macro_token_f1": 0.5229166666666667
+    }
+  ],
+  "combinations": 6,
+  "examples_per_combination": 96,
+  "heldout_evaluation_status": "sealed_pending_separate_authorization",
+  "input_hashes": {
+    "audio_manifest": "3025cfdb947cd9b629688a5264db761df2f4c9f4c7a9618a4dd443394c601f9e",
+    "config": "7d5165a55e2f67e0305ebe17b0881d63351e6c0b7bf95706be76c56c7688ce31",
+    "lock": "cc38b40fcdab83bf77e424a23a6d9754d4bbbcd6702413e9fa416c0c41ed7a28",
+    "manifest": "f074a4fb8712b9f4301f7ced13e118c5ce3d5c2ae8bd3bb3759005611b47102c",
+    "retrieval_raw": "7790544b95ee8e696ad684075ffea6d5878dc634ef07434249af752ded9d9c7c",
+    "retrieval_report": "282f18d92d34f18ed081f9d89e85231da42b05d3d5e3bbf81d885ae59e845268"
+  },
+  "integrity": {
+    "all_checks_pass": true,
+    "all_responses_nonempty": true,
+    "audita_rows_accessed": 0,
+    "duplicate_jobs": 0,
+    "duration_bound_failures": 0,
+    "expected_jobs_per_model": 576,
+    "metric_recomputation_failures": 0,
+    "observed_jobs_per_model": {
+      "phi4_multimodal": 576,
+      "qwen2_audio": 576
+    },
+    "source_overlap_with_evaluation": 0,
+    "waveform_hash_failures": 0
+  },
+  "lock_status": "answer_calibration_locked_before_generated_clotho_answers",
+  "models": [
+    "qwen2_audio",
+    "phi4_multimodal"
+  ],
+  "ranking_rule": [
+    "two_backbone_mean_source_macro_exact_descending",
+    "two_backbone_mean_source_macro_token_f1_descending",
+    "k_ascending",
+    "prompt_name_ascending"
+  ],
+  "retriever": "qcr_temp_010_ev010_five_seed_mean",
+  "selected_k": 2,
+  "selected_metrics": {
+    "k": 2,
+    "per_backbone": {
+      "phi4_multimodal": {
+        "examples": 96,
+        "source_macro_exact": 0.46875,
+        "source_macro_token_f1": 0.46875,
+        "sources": 24
+      },
+      "qwen2_audio": {
+        "examples": 96,
+        "source_macro_exact": 0.6770833333333334,
+        "source_macro_token_f1": 0.6770833333333334,
+        "sources": 24
+      }
+    },
+    "prompt": "Answer only from the supplied audio. Use one word or a short noun phrase and do not explain. If the question is yes/no, output exactly yes or no. Question: {question}",
+    "prompt_name": "strict",
+    "two_backbone_mean_source_macro_exact": 0.5729166666666667,
+    "two_backbone_mean_source_macro_token_f1": 0.5729166666666667
+  },
+  "selected_prompt": "Answer only from the supplied audio. Use one word or a short noun phrase and do not explain. If the question is yes/no, output exactly yes or no. Question: {question}",
+  "selected_prompt_name": "strict",
+  "status": "answer_calibration_pass_prompt_k_selected"
+}

@@ -1,0 +1,243 @@
+{
+  "all_promotion_gates_pass": true,
+  "best_epoch": 16,
+  "best_score": 1.097899405247392,
+  "checkpoint": "q1_plus/results/development/event_ranker/checkpoints/event_v1__prior_residual__seed_0.pt",
+  "checkpoint_sha256": "03ea7f0b3138f3bd22b8d6ec12d1dd09a2cc500cf3e088510159ccd1a84392e4",
+  "config_sha256": "6812ccca2cbbf11630e9968b680348b3ae3376226272d096ba2dc2329a32826d",
+  "confirmatory_panel_status": "sealed",
+  "development_index_sha256": "ec24ede10866282101a42b225b9e5185f2c62bb21ad353ffc9a6e473cbf642c8",
+  "device": "cuda",
+  "history_sha256": "0653dec0a774ced124217b4d0a3ed5f3267bde5a58b1d64f2cae77ba62aab735",
+  "promotion_gates": {
+    "evidence_ap": true,
+    "hit_at_1": true
+  },
+  "raw_validation_sha256": "e52dd805cdfe1521fbd3c68caa08a3b5ee4fac9ab83c53a8a9efbee9e8d9f2d1",
+  "run_tag": "event_v1",
+  "seed": 0,
+  "selection_lock_sha256": "dd6218c952bec5183906cfc791357e700c0fc488e4230f9c9aaa5dcc73b650cf",
+  "status": "development_complete",
+  "torch": "2.9.0+cu130",
+  "trainable_parameters": 82759,
+  "validation": {
+    "conditions": {
+      "duration_sec": {
+        "180": {
+          "delta": {
+            "evidence_ap": 0.19410438178918976,
+            "hit_at_1": 0.1071428571428571,
+            "recall_at_4": 0.06428571428571439,
+            "top_chunk_iou": 0.02934607754377494
+          },
+          "examples": 140,
+          "model": {
+            "evidence_ap": 0.8368534024443578,
+            "hit_at_1": 0.9357142857142857,
+            "recall_at_4": 0.9857142857142858,
+            "top_chunk_iou": 0.40825293979784516
+          },
+          "prior": {
+            "evidence_ap": 0.642749020655168,
+            "hit_at_1": 0.8285714285714286,
+            "recall_at_4": 0.9214285714285714,
+            "top_chunk_iou": 0.3789068622540702
+          }
+        },
+        "300": {
+          "delta": {
+            "evidence_ap": 0.25234121678846233,
+            "hit_at_1": 0.1578947368421052,
+            "recall_at_4": 0.12030075187969924,
+            "top_chunk_iou": 0.08448518120570203
+          },
+          "examples": 133,
+          "model": {
+            "evidence_ap": 0.8481013248268113,
+            "hit_at_1": 0.9473684210526315,
+            "recall_at_4": 1.0,
+            "top_chunk_iou": 0.4378490104770122
+          },
+          "prior": {
+            "evidence_ap": 0.595760108038349,
+            "hit_at_1": 0.7894736842105263,
+            "recall_at_4": 0.8796992481203008,
+            "top_chunk_iou": 0.35336382927131016
+          }
+        },
+        "60": {
+          "delta": {
+            "evidence_ap": 0.13199759831510216,
+            "hit_at_1": 0.07199999999999995,
+            "recall_at_4": 0.02400000000000002,
+            "top_chunk_iou": 0.01398552308306622
+          },
+          "examples": 125,
+          "model": {
+            "evidence_ap": 0.9000560859542885,
+            "hit_at_1": 0.968,
+            "recall_at_4": 1.0,
+            "top_chunk_iou": 0.4046845222602847
+          },
+          "prior": {
+            "evidence_ap": 0.7680584876391864,
+            "hit_at_1": 0.896,
+            "recall_at_4": 0.976,
+            "top_chunk_iou": 0.39069899917721845
+          }
+        }
+      },
+      "position_bin": {
+        "early": {
+          "delta": {
+            "evidence_ap": 0.18683302508365884,
+            "hit_at_1": 0.08823529411764708,
+            "recall_at_4": 0.07352941176470595,
+            "top_chunk_iou": 0.02737331603025217
+          },
+          "examples": 136,
+          "model": {
+            "evidence_ap": 0.8380856798752232,
+            "hit_at_1": 0.9044117647058824,
+            "recall_at_4": 0.9926470588235294,
+            "top_chunk_iou": 0.39251975603713307
+          },
+          "prior": {
+            "evidence_ap": 0.6512526547915644,
+            "hit_at_1": 0.8161764705882353,
+            "recall_at_4": 0.9191176470588235,
+            "top_chunk_iou": 0.3651464400068809
+          }
+        },
+        "late": {
+          "delta": {
+            "evidence_ap": 0.18338841860918143,
+            "hit_at_1": 0.11278195488721798,
+            "recall_at_4": 0.022556390977443552,
+            "top_chunk_iou": 0.03466686195927676
+          },
+          "examples": 133,
+          "model": {
+            "evidence_ap": 0.8772515012600579,
+            "hit_at_1": 0.9774436090225563,
+            "recall_at_4": 0.9924812030075187,
+            "top_chunk_iou": 0.43194094807854944
+          },
+          "prior": {
+            "evidence_ap": 0.6938630826508765,
+            "hit_at_1": 0.8646616541353384,
+            "recall_at_4": 0.9699248120300752,
+            "top_chunk_iou": 0.3972740861192727
+          }
+        },
+        "middle": {
+          "delta": {
+            "evidence_ap": 0.2126801859406282,
+            "hit_at_1": 0.13953488372093015,
+            "recall_at_4": 0.11627906976744184,
+            "top_chunk_iou": 0.06790470326489961
+          },
+          "examples": 129,
+          "model": {
+            "evidence_ap": 0.8667431097507285,
+            "hit_at_1": 0.9689922480620154,
+            "recall_at_4": 1.0,
+            "top_chunk_iou": 0.4274733514122431
+          },
+          "prior": {
+            "evidence_ap": 0.6540629238101003,
+            "hit_at_1": 0.8294573643410853,
+            "recall_at_4": 0.8837209302325582,
+            "top_chunk_iou": 0.35956864814734346
+          }
+        }
+      },
+      "snr_db": {
+        "-5": {
+          "delta": {
+            "evidence_ap": 0.2012151344103933,
+            "hit_at_1": 0.13076923076923086,
+            "recall_at_4": 0.07692307692307687,
+            "top_chunk_iou": 0.054301459934295915
+          },
+          "examples": 130,
+          "model": {
+            "evidence_ap": 0.8263178166577602,
+            "hit_at_1": 0.9230769230769231,
+            "recall_at_4": 1.0,
+            "top_chunk_iou": 0.41929579325946503
+          },
+          "prior": {
+            "evidence_ap": 0.6251026822473669,
+            "hit_at_1": 0.7923076923076923,
+            "recall_at_4": 0.9230769230769231,
+            "top_chunk_iou": 0.3649943333251691
+          }
+        },
+        "0": {
+          "delta": {
+            "evidence_ap": 0.21836862033237092,
+            "hit_at_1": 0.140625,
+            "recall_at_4": 0.0859375,
+            "top_chunk_iou": 0.04424602655402199
+          },
+          "examples": 128,
+          "model": {
+            "evidence_ap": 0.8780909744740087,
+            "hit_at_1": 0.9609375,
+            "recall_at_4": 0.9921875,
+            "top_chunk_iou": 0.40899867320598104
+          },
+          "prior": {
+            "evidence_ap": 0.6597223541416378,
+            "hit_at_1": 0.8203125,
+            "recall_at_4": 0.90625,
+            "top_chunk_iou": 0.36475264665195906
+          }
+        },
+        "5": {
+          "delta": {
+            "evidence_ap": 0.165189601406037,
+            "hit_at_1": 0.0714285714285714,
+            "recall_at_4": 0.050000000000000044,
+            "top_chunk_iou": 0.031217779653548938
+          },
+          "examples": 140,
+          "model": {
+            "evidence_ap": 0.8760500170734293,
+            "hit_at_1": 0.9642857142857143,
+            "recall_at_4": 0.9928571428571429,
+            "top_chunk_iou": 0.42224722823986083
+          },
+          "prior": {
+            "evidence_ap": 0.7108604156673923,
+            "hit_at_1": 0.8928571428571429,
+            "recall_at_4": 0.9428571428571428,
+            "top_chunk_iou": 0.3910294485863119
+          }
+        }
+      }
+    },
+    "delta": {
+      "evidence_ap": 0.19405953535864273,
+      "hit_at_1": 0.11306532663316582,
+      "recall_at_4": 0.07035175879396982,
+      "top_chunk_iou": 0.04294766417555318
+    },
+    "examples": 398,
+    "mean_absolute_residual": 0.18617643557264277,
+    "model": {
+      "evidence_ap": 0.8604622193177439,
+      "hit_at_1": 0.949748743718593,
+      "recall_at_4": 0.9949748743718593,
+      "top_chunk_iou": 0.41702234986853404
+    },
+    "prior": {
+      "evidence_ap": 0.6664026839591012,
+      "hit_at_1": 0.8366834170854272,
+      "recall_at_4": 0.9246231155778895,
+      "top_chunk_iou": 0.37407468569298086
+    }
+  },
+  "validation_index_sha256": "983cbc4f9982002b5d04d44bab61ac1b30a256ff8e9894ca10adde0b8d484457"
+}

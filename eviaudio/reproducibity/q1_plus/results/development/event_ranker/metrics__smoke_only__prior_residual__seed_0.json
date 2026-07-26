@@ -1,0 +1,153 @@
+{
+  "all_promotion_gates_pass": false,
+  "checkpoint": "q1_plus/results/development/event_ranker/checkpoints/smoke_only__prior_residual__seed_0.pt",
+  "checkpoint_sha256": "d530ce5615002c357563ee6ebf792df16491255f5e35e1940e48c883bd53238b",
+  "config_sha256": "2c626044a9e1fe1fe102d39f71d1692d200b5741ffa5d59e33a60d6dbab6bdb3",
+  "development_index_sha256": "f7657b66dafc5a10a2dc3a33558153077387f356c8aa22c00ccc1d7d48e092ec",
+  "device": "cpu",
+  "promotion_gates": {
+    "evidence_ap": false,
+    "hit_at_1": false
+  },
+  "raw_validation_sha256": "652e82026bed80d3b26ad349ebae78fa0eedbf91c98692ecb3931f85b79fa6fa",
+  "run_tag": "smoke_only",
+  "seed": 0,
+  "status": "development_complete",
+  "torch": "2.9.0+cu130",
+  "validation": {
+    "conditions": {
+      "duration_sec": {
+        "60": {
+          "delta": {
+            "evidence_ap": 0.0,
+            "hit_at_1": 0.0,
+            "recall_at_4": 0.0,
+            "top_chunk_iou": 0.0
+          },
+          "examples": 3,
+          "model": {
+            "evidence_ap": 0.7732804232804232,
+            "hit_at_1": 1.0,
+            "recall_at_4": 1.0,
+            "top_chunk_iou": 0.3901533605163275
+          },
+          "prior": {
+            "evidence_ap": 0.7732804232804232,
+            "hit_at_1": 1.0,
+            "recall_at_4": 1.0,
+            "top_chunk_iou": 0.3901533605163275
+          }
+        }
+      },
+      "position_bin": {
+        "late": {
+          "delta": {
+            "evidence_ap": 0.0,
+            "hit_at_1": 0.0,
+            "recall_at_4": 0.0,
+            "top_chunk_iou": 0.0
+          },
+          "examples": 1,
+          "model": {
+            "evidence_ap": 0.6571428571428571,
+            "hit_at_1": 1.0,
+            "recall_at_4": 1.0,
+            "top_chunk_iou": 0.0934272870854086
+          },
+          "prior": {
+            "evidence_ap": 0.6571428571428571,
+            "hit_at_1": 1.0,
+            "recall_at_4": 1.0,
+            "top_chunk_iou": 0.0934272870854086
+          }
+        },
+        "middle": {
+          "delta": {
+            "evidence_ap": 0.0,
+            "hit_at_1": 0.0,
+            "recall_at_4": 0.0,
+            "top_chunk_iou": 0.0
+          },
+          "examples": 2,
+          "model": {
+            "evidence_ap": 0.8313492063492063,
+            "hit_at_1": 1.0,
+            "recall_at_4": 1.0,
+            "top_chunk_iou": 0.5385163972317869
+          },
+          "prior": {
+            "evidence_ap": 0.8313492063492063,
+            "hit_at_1": 1.0,
+            "recall_at_4": 1.0,
+            "top_chunk_iou": 0.5385163972317869
+          }
+        }
+      },
+      "snr_db": {
+        "-5": {
+          "delta": {
+            "evidence_ap": 0.0,
+            "hit_at_1": 0.0,
+            "recall_at_4": 0.0,
+            "top_chunk_iou": 0.0
+          },
+          "examples": 2,
+          "model": {
+            "evidence_ap": 0.6599206349206349,
+            "hit_at_1": 1.0,
+            "recall_at_4": 1.0,
+            "top_chunk_iou": 0.18792196500180938
+          },
+          "prior": {
+            "evidence_ap": 0.6599206349206349,
+            "hit_at_1": 1.0,
+            "recall_at_4": 1.0,
+            "top_chunk_iou": 0.18792196500180938
+          }
+        },
+        "5": {
+          "delta": {
+            "evidence_ap": 0.0,
+            "hit_at_1": 0.0,
+            "recall_at_4": 0.0,
+            "top_chunk_iou": 0.0
+          },
+          "examples": 1,
+          "model": {
+            "evidence_ap": 1.0,
+            "hit_at_1": 1.0,
+            "recall_at_4": 1.0,
+            "top_chunk_iou": 0.7946161515453637
+          },
+          "prior": {
+            "evidence_ap": 1.0,
+            "hit_at_1": 1.0,
+            "recall_at_4": 1.0,
+            "top_chunk_iou": 0.7946161515453637
+          }
+        }
+      }
+    },
+    "delta": {
+      "evidence_ap": 0.0,
+      "hit_at_1": 0.0,
+      "recall_at_4": 0.0,
+      "top_chunk_iou": 0.0
+    },
+    "examples": 3,
+    "mean_absolute_residual": 8.74589168233797e-05,
+    "model": {
+      "evidence_ap": 0.7732804232804232,
+      "hit_at_1": 1.0,
+      "recall_at_4": 1.0,
+      "top_chunk_iou": 0.3901533605163275
+    },
+    "prior": {
+      "evidence_ap": 0.7732804232804232,
+      "hit_at_1": 1.0,
+      "recall_at_4": 1.0,
+      "top_chunk_iou": 0.3901533605163275
+    }
+  },
+  "validation_index_sha256": "f7657b66dafc5a10a2dc3a33558153077387f356c8aa22c00ccc1d7d48e092ec"
+}

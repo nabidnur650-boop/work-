@@ -1,0 +1,23 @@
+{
+  "chunk_seconds": 4.0,
+  "device": "cuda",
+  "examples": 398,
+  "hit_at_1": 0.8366834170854272,
+  "hop_seconds": 2.0,
+  "index_sha256": "983cbc4f9982002b5d04d44bab61ac1b30a256ff8e9894ca10adde0b8d484457",
+  "inference_batch_size": 64,
+  "mean_evidence_ap": 0.6664146060957981,
+  "mean_top_chunk_iou": 0.37407468569298086,
+  "model_id": "laion/clap-htsat-unfused",
+  "model_revision": "8fa0f1c6d0433df6e97c127f64b2a1d6c0dcda8a",
+  "panels": [
+    "validation"
+  ],
+  "raw_sha256": "e47ee0da0e4b9031f400f96e313be7de604b778dcf58bd9ae9438d89daf35539",
+  "recall_at_4": 0.9246231155778895,
+  "recipes_sha256": "5be73d3d05811a5cd8aa2936e2accf9d3afe608e17a33c636eea487da537c62f",
+  "sample_rate": 48000,
+  "status": "development_embedding_complete",
+  "torch": "2.9.0+cu130",
+  "wall_seconds": 1269.8138831389952
+}

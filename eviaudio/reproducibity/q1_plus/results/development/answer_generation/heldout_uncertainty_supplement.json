@@ -1,0 +1,787 @@
+{
+  "absolute_intervals": {
+    "phi4_multimodal": {
+      "clap_retrieval": {
+        "exact": {
+          "bootstrap_95_interval": [
+            0.3431111111111111,
+            0.47955555555555557
+          ],
+          "estimate": 0.41422222222222227,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        },
+        "token_f1": {
+          "bootstrap_95_interval": [
+            0.3468253968253968,
+            0.48473121693121685
+          ],
+          "estimate": 0.4187883597883598,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        }
+      },
+      "deterministic_random_retrieval": {
+        "exact": {
+          "bootstrap_95_interval": [
+            0.3528888888888889,
+            0.5
+          ],
+          "estimate": 0.42533333333333334,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        },
+        "token_f1": {
+          "bootstrap_95_interval": [
+            0.3584486419753086,
+            0.5050997530864196
+          ],
+          "estimate": 0.43044938271604943,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        }
+      },
+      "oracle_retrieval": {
+        "exact": {
+          "bootstrap_95_interval": [
+            0.33444444444444443,
+            0.494
+          ],
+          "estimate": 0.41377777777777774,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        },
+        "token_f1": {
+          "bootstrap_95_interval": [
+            0.34728628747795415,
+            0.5069420634920635
+          ],
+          "estimate": 0.42711287477954135,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        }
+      },
+      "prefix_matched_retrieval": {
+        "exact": {
+          "bootstrap_95_interval": [
+            0.35444444444444445,
+            0.5159999999999999
+          ],
+          "estimate": 0.43266666666666664,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        },
+        "token_f1": {
+          "bootstrap_95_interval": [
+            0.36208095238095234,
+            0.5226772486772486
+          ],
+          "estimate": 0.4400846560846561,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        }
+      },
+      "selected_learned_retrieval": {
+        "exact": {
+          "bootstrap_95_interval": [
+            0.33577777777777784,
+            0.4833333333333333
+          ],
+          "estimate": 0.4104444444444445,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        },
+        "token_f1": {
+          "bootstrap_95_interval": [
+            0.3478057760141093,
+            0.49441644620811287
+          ],
+          "estimate": 0.4228271604938271,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        }
+      },
+      "selected_retrieval_silenced": {
+        "exact": {
+          "bootstrap_95_interval": [
+            0.264,
+            0.41733333333333333
+          ],
+          "estimate": 0.34,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        },
+        "token_f1": {
+          "bootstrap_95_interval": [
+            0.27140740740740743,
+            0.4220777777777778
+          ],
+          "estimate": 0.346074074074074,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        }
+      },
+      "text_only": {
+        "exact": {
+          "bootstrap_95_interval": [
+            0.324,
+            0.514
+          ],
+          "estimate": 0.41733333333333333,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        },
+        "token_f1": {
+          "bootstrap_95_interval": [
+            0.3253333333333333,
+            0.5165738095238095
+          ],
+          "estimate": 0.41923809523809524,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        }
+      },
+      "uniform_retrieval": {
+        "exact": {
+          "bootstrap_95_interval": [
+            0.3504444444444445,
+            0.49111111111111105
+          ],
+          "estimate": 0.4188888888888889,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        },
+        "token_f1": {
+          "bootstrap_95_interval": [
+            0.36140608465608465,
+            0.49726084656084657
+          ],
+          "estimate": 0.42765079365079367,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        }
+      }
+    },
+    "qwen2_audio": {
+      "clap_retrieval": {
+        "exact": {
+          "bootstrap_95_interval": [
+            0.4671111111111111,
+            0.5522222222222222
+          ],
+          "estimate": 0.5095555555555555,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        },
+        "token_f1": {
+          "bootstrap_95_interval": [
+            0.4771092592592593,
+            0.5611111111111111
+          ],
+          "estimate": 0.5195555555555555,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        }
+      },
+      "deterministic_random_retrieval": {
+        "exact": {
+          "bootstrap_95_interval": [
+            0.45755,
+            0.59
+          ],
+          "estimate": 0.5208888888888888,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        },
+        "token_f1": {
+          "bootstrap_95_interval": [
+            0.46125925925925926,
+            0.5933333333333333
+          ],
+          "estimate": 0.5245925925925926,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        }
+      },
+      "oracle_retrieval": {
+        "exact": {
+          "bootstrap_95_interval": [
+            0.5124444444444444,
+            0.6148944444444444
+          ],
+          "estimate": 0.5633333333333332,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        },
+        "token_f1": {
+          "bootstrap_95_interval": [
+            0.516,
+            0.6173333333333333
+          ],
+          "estimate": 0.5662222222222222,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        }
+      },
+      "prefix_matched_retrieval": {
+        "exact": {
+          "bootstrap_95_interval": [
+            0.45333333333333337,
+            0.5960055555555556
+          ],
+          "estimate": 0.5233333333333333,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        },
+        "token_f1": {
+          "bootstrap_95_interval": [
+            0.4571074074074074,
+            0.601111111111111
+          ],
+          "estimate": 0.5278518518518518,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        }
+      },
+      "selected_learned_retrieval": {
+        "exact": {
+          "bootstrap_95_interval": [
+            0.45444444444444443,
+            0.5591111111111111
+          ],
+          "estimate": 0.5066666666666667,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        },
+        "token_f1": {
+          "bootstrap_95_interval": [
+            0.4584444444444445,
+            0.5619999999999999
+          ],
+          "estimate": 0.5106666666666667,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        }
+      },
+      "selected_retrieval_silenced": {
+        "exact": {
+          "bootstrap_95_interval": [
+            0.3677777777777777,
+            0.499561111111111
+          ],
+          "estimate": 0.4353333333333334,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        },
+        "token_f1": {
+          "bootstrap_95_interval": [
+            0.37297777777777774,
+            0.5064
+          ],
+          "estimate": 0.4412,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        }
+      },
+      "text_only": {
+        "exact": {
+          "bootstrap_95_interval": [
+            0.3319833333333333,
+            0.4493333333333333
+          ],
+          "estimate": 0.3893333333333333,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        },
+        "token_f1": {
+          "bootstrap_95_interval": [
+            0.3406666666666667,
+            0.4553333333333333
+          ],
+          "estimate": 0.39666666666666667,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        }
+      },
+      "uniform_retrieval": {
+        "exact": {
+          "bootstrap_95_interval": [
+            0.45888888888888885,
+            0.5917777777777777
+          ],
+          "estimate": 0.5251111111111111,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        },
+        "token_f1": {
+          "bootstrap_95_interval": [
+            0.465924074074074,
+            0.6002240740740741
+          ],
+          "estimate": 0.5325185185185185,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        }
+      }
+    },
+    "two_backbone_mean": {
+      "clap_retrieval": {
+        "exact": {
+          "bootstrap_95_interval": [
+            0.41488611111111107,
+            0.5071111111111111
+          ],
+          "estimate": 0.4618888888888889,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        },
+        "token_f1": {
+          "bootstrap_95_interval": [
+            0.4217596560846561,
+            0.5142223544973545
+          ],
+          "estimate": 0.46917195767195763,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        }
+      },
+      "deterministic_random_retrieval": {
+        "exact": {
+          "bootstrap_95_interval": [
+            0.413,
+            0.5381138888888888
+          ],
+          "estimate": 0.4731111111111111,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        },
+        "token_f1": {
+          "bootstrap_95_interval": [
+            0.4170861728395062,
+            0.5418218518518518
+          ],
+          "estimate": 0.47752098765432094,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        }
+      },
+      "oracle_retrieval": {
+        "exact": {
+          "bootstrap_95_interval": [
+            0.4391111111111111,
+            0.5422222222222222
+          ],
+          "estimate": 0.48855555555555563,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        },
+        "token_f1": {
+          "bootstrap_95_interval": [
+            0.44719761904761907,
+            0.549699647266314
+          ],
+          "estimate": 0.4966675485008818,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        }
+      },
+      "prefix_matched_retrieval": {
+        "exact": {
+          "bootstrap_95_interval": [
+            0.41533333333333333,
+            0.5458888888888889
+          ],
+          "estimate": 0.478,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        },
+        "token_f1": {
+          "bootstrap_95_interval": [
+            0.4211162698412699,
+            0.5516006613756612
+          ],
+          "estimate": 0.483968253968254,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        }
+      },
+      "selected_learned_retrieval": {
+        "exact": {
+          "bootstrap_95_interval": [
+            0.40422222222222226,
+            0.5126694444444443
+          ],
+          "estimate": 0.45855555555555555,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        },
+        "token_f1": {
+          "bootstrap_95_interval": [
+            0.41270731922398596,
+            0.5197973544973545
+          ],
+          "estimate": 0.4667469135802469,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        }
+      },
+      "selected_retrieval_silenced": {
+        "exact": {
+          "bootstrap_95_interval": [
+            0.32755,
+            0.4461111111111111
+          ],
+          "estimate": 0.3876666666666666,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        },
+        "token_f1": {
+          "bootstrap_95_interval": [
+            0.3339981481481481,
+            0.451037037037037
+          ],
+          "estimate": 0.39363703703703706,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        }
+      },
+      "text_only": {
+        "exact": {
+          "bootstrap_95_interval": [
+            0.3423333333333333,
+            0.4666666666666666
+          ],
+          "estimate": 0.40333333333333327,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        },
+        "token_f1": {
+          "bootstrap_95_interval": [
+            0.3466666666666666,
+            0.47061904761904766
+          ],
+          "estimate": 0.4079523809523809,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        }
+      },
+      "uniform_retrieval": {
+        "exact": {
+          "bootstrap_95_interval": [
+            0.4137777777777778,
+            0.5346666666666667
+          ],
+          "estimate": 0.47200000000000003,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        },
+        "token_f1": {
+          "bootstrap_95_interval": [
+            0.4234541005291005,
+            0.5413560846560846
+          ],
+          "estimate": 0.4800846560846561,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        }
+      }
+    }
+  },
+  "audita_rows_accessed": 0,
+  "learned_minus_comparator_token_f1": {
+    "clap_retrieval": {
+      "per_backbone": {
+        "phi4_multimodal": {
+          "bootstrap_95_interval": [
+            -0.023555643738977068,
+            0.031383597883597875
+          ],
+          "delta": 0.0040388007054673715,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        },
+        "qwen2_audio": {
+          "bootstrap_95_interval": [
+            -0.033037037037037024,
+            0.014814814814814807
+          ],
+          "delta": -0.008888888888888885,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        }
+      },
+      "two_backbone_mean": {
+        "bootstrap_95_interval": [
+          -0.022763668430335088,
+          0.01609175485008819
+        ],
+        "delta": -0.002425044091710753,
+        "replicates": 10000,
+        "seed": 20260722,
+        "sources": 25
+      }
+    },
+    "deterministic_random_retrieval": {
+      "per_backbone": {
+        "phi4_multimodal": {
+          "bootstrap_95_interval": [
+            -0.050893253968253976,
+            0.03967201058201057
+          ],
+          "delta": -0.0076222222222222325,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        },
+        "qwen2_audio": {
+          "bootstrap_95_interval": [
+            -0.057114814814814806,
+            0.030372222222222207
+          ],
+          "delta": -0.013925925925925921,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        }
+      },
+      "two_backbone_mean": {
+        "bootstrap_95_interval": [
+          -0.045899074074074064,
+          0.027318809523809502
+        ],
+        "delta": -0.010774074074074077,
+        "replicates": 10000,
+        "seed": 20260722,
+        "sources": 25
+      }
+    },
+    "oracle_retrieval": {
+      "per_backbone": {
+        "phi4_multimodal": {
+          "bootstrap_95_interval": [
+            -0.04266666666666666,
+            0.03283677248677249
+          ],
+          "delta": -0.004285714285714284,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        },
+        "qwen2_audio": {
+          "bootstrap_95_interval": [
+            -0.09688888888888889,
+            -0.014888888888888896
+          ],
+          "delta": -0.05555555555555555,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        }
+      },
+      "two_backbone_mean": {
+        "bootstrap_95_interval": [
+          -0.06060846560846559,
+          -0.0006009259259259305
+        ],
+        "delta": -0.029920634920634914,
+        "replicates": 10000,
+        "seed": 20260722,
+        "sources": 25
+      }
+    },
+    "prefix_matched_retrieval": {
+      "per_backbone": {
+        "phi4_multimodal": {
+          "bootstrap_95_interval": [
+            -0.049301851851851854,
+            0.01672486772486772
+          ],
+          "delta": -0.01725749559082892,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        },
+        "qwen2_audio": {
+          "bootstrap_95_interval": [
+            -0.0694111111111111,
+            0.0337796296296296
+          ],
+          "delta": -0.01718518518518519,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        }
+      },
+      "two_backbone_mean": {
+        "bootstrap_95_interval": [
+          -0.052208377425044084,
+          0.017649250440917072
+        ],
+        "delta": -0.017221340388007055,
+        "replicates": 10000,
+        "seed": 20260722,
+        "sources": 25
+      }
+    },
+    "selected_retrieval_silenced": {
+      "per_backbone": {
+        "phi4_multimodal": {
+          "bootstrap_95_interval": [
+            0.025170502645502663,
+            0.12923293650793652
+          ],
+          "delta": 0.07675308641975309,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        },
+        "qwen2_audio": {
+          "bootstrap_95_interval": [
+            0.009553333333333325,
+            0.13044777777777772
+          ],
+          "delta": 0.06946666666666668,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        }
+      },
+      "two_backbone_mean": {
+        "bootstrap_95_interval": [
+          0.025797552910052916,
+          0.12073788359788358
+        ],
+        "delta": 0.07310987654320988,
+        "replicates": 10000,
+        "seed": 20260722,
+        "sources": 25
+      }
+    },
+    "text_only": {
+      "per_backbone": {
+        "phi4_multimodal": {
+          "bootstrap_95_interval": [
+            -0.10184907407407408,
+            0.10041917989417987
+          ],
+          "delta": 0.0035890652557319103,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        },
+        "qwen2_audio": {
+          "bootstrap_95_interval": [
+            0.05977777777777778,
+            0.1671111111111111
+          ],
+          "delta": 0.114,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        }
+      },
+      "two_backbone_mean": {
+        "bootstrap_95_interval": [
+          0.0012722442680776042,
+          0.11589627425044087
+        ],
+        "delta": 0.058794532627865964,
+        "replicates": 10000,
+        "seed": 20260722,
+        "sources": 25
+      }
+    },
+    "uniform_retrieval": {
+      "per_backbone": {
+        "phi4_multimodal": {
+          "bootstrap_95_interval": [
+            -0.04257791005291007,
+            0.03654757495590827
+          ],
+          "delta": -0.004823633156966502,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        },
+        "qwen2_audio": {
+          "bootstrap_95_interval": [
+            -0.0651888888888889,
+            0.022001851851851818
+          ],
+          "delta": -0.021851851851851855,
+          "replicates": 10000,
+          "seed": 20260722,
+          "sources": 25
+        }
+      },
+      "two_backbone_mean": {
+        "bootstrap_95_interval": [
+          -0.04415440917107585,
+          0.01953315696649029
+        ],
+        "delta": -0.013337742504409177,
+        "replicates": 10000,
+        "seed": 20260722,
+        "sources": 25
+      }
+    }
+  },
+  "main_report_sha256": "50d0f108c27ea685360eb681dbcd0cd753235fb9710dbb07b64618365b7a83c9",
+  "main_report_status": "heldout_answer_gate_fail_audita_sealed",
+  "promotion_gates_changed": false,
+  "protocol_sha256": "c86180750e143b218ddc818d56f94aa073a24ae8dcc6c36cdafb6f6e050ce6f8",
+  "replicates": 10000,
+  "resampling_unit": "target_source_id",
+  "seed": 20260722,
+  "status": "heldout_source_clustered_uncertainty_complete_non_gating"
+}

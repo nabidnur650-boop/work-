@@ -1,0 +1,84 @@
+{
+  "status": "frozen_before_any_audio_backbone_clotho_answer_generation",
+  "scope": "exploratory_clotho_only_no_audita_access",
+  "source_manifest": "journal_suite/data/manifests/val.jsonl",
+  "source_records": "journal_suite/data/source_records.json",
+  "audio_manifest": "q1_plus/data/development_audio/manifest.json",
+  "split": {
+    "unit": "target_source_id",
+    "hash_salt": "eviaudio-answer-development-v1",
+    "calibration_sources": 24,
+    "evaluation_sources": 25,
+    "maximum_generation_examples_per_calibration_source": 4
+  },
+  "retrieval": {
+    "chunk_seconds": 4.0,
+    "preserve_selected_chunk_chronology": true,
+    "ranker_candidates": [
+      "qcr_temp_010_ev010_five_seed_mean",
+      "event_v1_prior_residual_five_seed_mean"
+    ],
+    "baseline": "clap_prior",
+    "ranker_selector": [
+      "source_macro_source_accuracy_descending",
+      "source_macro_evidence_ap_descending",
+      "source_macro_mrr_descending",
+      "candidate_name_ascending"
+    ],
+    "required_to_select_learned_ranker": {
+      "minimum_source_accuracy_delta_over_clap": 0.0,
+      "minimum_evidence_ap_delta_over_clap": 0.0
+    }
+  },
+  "answer_selector": {
+    "k_candidates": [2, 4, 6],
+    "prompts": {
+      "short": "Listen to the supplied audio evidence. Question: {question} Give only the shortest correct answer. For a yes/no question, output exactly yes or no.",
+      "strict": "Answer only from the supplied audio. Use one word or a short noun phrase and do not explain. If the question is yes/no, output exactly yes or no. Question: {question}"
+    },
+    "ranking": [
+      "two_backbone_mean_source_macro_exact_descending",
+      "two_backbone_mean_source_macro_token_f1_descending",
+      "k_ascending",
+      "prompt_name_ascending"
+    ],
+    "generation": {
+      "do_sample": false,
+      "max_new_tokens": 12,
+      "use_cache": true,
+      "batch_size": 1
+    }
+  },
+  "backbones": {
+    "qwen2_audio": {
+      "repository": "Qwen/Qwen2-Audio-7B-Instruct",
+      "revision": "0a095220c30b7b31434169c3086508ef3ea5bf0a",
+      "dtype": "bfloat16",
+      "attention": "sdpa"
+    },
+    "phi4_multimodal": {
+      "repository": "microsoft/Phi-4-multimodal-instruct",
+      "revision": "93f923e1a7727d1c4f446756212d9d3e8fcc5d81",
+      "dtype": "bfloat16",
+      "attention": "sdpa"
+    }
+  },
+  "heldout_systems": [
+    "selected_learned_retrieval",
+    "clap_retrieval",
+    "deterministic_random_retrieval",
+    "uniform_retrieval",
+    "prefix_matched_retrieval",
+    "oracle_retrieval",
+    "selected_retrieval_silenced",
+    "text_only"
+  ],
+  "heldout_promotion_gates": {
+    "minimum_exact_gain_points_over_strongest_nonoracle": 2.0,
+    "minimum_exact_gain_points_over_random": 5.0,
+    "maximum_single_backbone_loss_points_to_strongest_nonoracle": 2.0,
+    "require_both_backbones_nonempty_and_audio_conditioned": true,
+    "require_all_integrity_checks": true
+  },
+  "audita_rows_allowed": 0
+}

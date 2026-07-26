@@ -1,0 +1,282 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 2.5097227096557617,
+    "selection_score": 1.0232804232804233,
+    "validation": {
+      "examples": 3,
+      "model": {
+        "evidence_ap": 0.7732804232804232,
+        "hit_at_1": 1.0,
+        "recall_at_4": 1.0,
+        "top_chunk_iou": 0.3901533605163275
+      },
+      "prior": {
+        "evidence_ap": 0.7732804232804232,
+        "hit_at_1": 1.0,
+        "recall_at_4": 1.0,
+        "top_chunk_iou": 0.3901533605163275
+      },
+      "delta": {
+        "evidence_ap": 0.0,
+        "hit_at_1": 0.0,
+        "recall_at_4": 0.0,
+        "top_chunk_iou": 0.0
+      },
+      "mean_absolute_residual": 8.74589168233797e-05,
+      "conditions": {
+        "duration_sec": {
+          "60": {
+            "examples": 3,
+            "model": {
+              "evidence_ap": 0.7732804232804232,
+              "hit_at_1": 1.0,
+              "recall_at_4": 1.0,
+              "top_chunk_iou": 0.3901533605163275
+            },
+            "prior": {
+              "evidence_ap": 0.7732804232804232,
+              "hit_at_1": 1.0,
+              "recall_at_4": 1.0,
+              "top_chunk_iou": 0.3901533605163275
+            },
+            "delta": {
+              "evidence_ap": 0.0,
+              "hit_at_1": 0.0,
+              "recall_at_4": 0.0,
+              "top_chunk_iou": 0.0
+            }
+          }
+        },
+        "position_bin": {
+          "late": {
+            "examples": 1,
+            "model": {
+              "evidence_ap": 0.6571428571428571,
+              "hit_at_1": 1.0,
+              "recall_at_4": 1.0,
+              "top_chunk_iou": 0.0934272870854086
+            },
+            "prior": {
+              "evidence_ap": 0.6571428571428571,
+              "hit_at_1": 1.0,
+              "recall_at_4": 1.0,
+              "top_chunk_iou": 0.0934272870854086
+            },
+            "delta": {
+              "evidence_ap": 0.0,
+              "hit_at_1": 0.0,
+              "recall_at_4": 0.0,
+              "top_chunk_iou": 0.0
+            }
+          },
+          "middle": {
+            "examples": 2,
+            "model": {
+              "evidence_ap": 0.8313492063492063,
+              "hit_at_1": 1.0,
+              "recall_at_4": 1.0,
+              "top_chunk_iou": 0.5385163972317869
+            },
+            "prior": {
+              "evidence_ap": 0.8313492063492063,
+              "hit_at_1": 1.0,
+              "recall_at_4": 1.0,
+              "top_chunk_iou": 0.5385163972317869
+            },
+            "delta": {
+              "evidence_ap": 0.0,
+              "hit_at_1": 0.0,
+              "recall_at_4": 0.0,
+              "top_chunk_iou": 0.0
+            }
+          }
+        },
+        "snr_db": {
+          "-5": {
+            "examples": 2,
+            "model": {
+              "evidence_ap": 0.6599206349206349,
+              "hit_at_1": 1.0,
+              "recall_at_4": 1.0,
+              "top_chunk_iou": 0.18792196500180938
+            },
+            "prior": {
+              "evidence_ap": 0.6599206349206349,
+              "hit_at_1": 1.0,
+              "recall_at_4": 1.0,
+              "top_chunk_iou": 0.18792196500180938
+            },
+            "delta": {
+              "evidence_ap": 0.0,
+              "hit_at_1": 0.0,
+              "recall_at_4": 0.0,
+              "top_chunk_iou": 0.0
+            }
+          },
+          "5": {
+            "examples": 1,
+            "model": {
+              "evidence_ap": 1.0,
+              "hit_at_1": 1.0,
+              "recall_at_4": 1.0,
+              "top_chunk_iou": 0.7946161515453637
+            },
+            "prior": {
+              "evidence_ap": 1.0,
+              "hit_at_1": 1.0,
+              "recall_at_4": 1.0,
+              "top_chunk_iou": 0.7946161515453637
+            },
+            "delta": {
+              "evidence_ap": 0.0,
+              "hit_at_1": 0.0,
+              "recall_at_4": 0.0,
+              "top_chunk_iou": 0.0
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "epoch": 2,
+    "train_loss": 2.5093884468078613,
+    "selection_score": 1.0232804232804233,
+    "validation": {
+      "examples": 3,
+      "model": {
+        "evidence_ap": 0.7732804232804232,
+        "hit_at_1": 1.0,
+        "recall_at_4": 1.0,
+        "top_chunk_iou": 0.3901533605163275
+      },
+      "prior": {
+        "evidence_ap": 0.7732804232804232,
+        "hit_at_1": 1.0,
+        "recall_at_4": 1.0,
+        "top_chunk_iou": 0.3901533605163275
+      },
+      "delta": {
+        "evidence_ap": 0.0,
+        "hit_at_1": 0.0,
+        "recall_at_4": 0.0,
+        "top_chunk_iou": 0.0
+      },
+      "mean_absolute_residual": 0.00019308960569712022,
+      "conditions": {
+        "duration_sec": {
+          "60": {
+            "examples": 3,
+            "model": {
+              "evidence_ap": 0.7732804232804232,
+              "hit_at_1": 1.0,
+              "recall_at_4": 1.0,
+              "top_chunk_iou": 0.3901533605163275
+            },
+            "prior": {
+              "evidence_ap": 0.7732804232804232,
+              "hit_at_1": 1.0,
+              "recall_at_4": 1.0,
+              "top_chunk_iou": 0.3901533605163275
+            },
+            "delta": {
+              "evidence_ap": 0.0,
+              "hit_at_1": 0.0,
+              "recall_at_4": 0.0,
+              "top_chunk_iou": 0.0
+            }
+          }
+        },
+        "position_bin": {
+          "late": {
+            "examples": 1,
+            "model": {
+              "evidence_ap": 0.6571428571428571,
+              "hit_at_1": 1.0,
+              "recall_at_4": 1.0,
+              "top_chunk_iou": 0.0934272870854086
+            },
+            "prior": {
+              "evidence_ap": 0.6571428571428571,
+              "hit_at_1": 1.0,
+              "recall_at_4": 1.0,
+              "top_chunk_iou": 0.0934272870854086
+            },
+            "delta": {
+              "evidence_ap": 0.0,
+              "hit_at_1": 0.0,
+              "recall_at_4": 0.0,
+              "top_chunk_iou": 0.0
+            }
+          },
+          "middle": {
+            "examples": 2,
+            "model": {
+              "evidence_ap": 0.8313492063492063,
+              "hit_at_1": 1.0,
+              "recall_at_4": 1.0,
+              "top_chunk_iou": 0.5385163972317869
+            },
+            "prior": {
+              "evidence_ap": 0.8313492063492063,
+              "hit_at_1": 1.0,
+              "recall_at_4": 1.0,
+              "top_chunk_iou": 0.5385163972317869
+            },
+            "delta": {
+              "evidence_ap": 0.0,
+              "hit_at_1": 0.0,
+              "recall_at_4": 0.0,
+              "top_chunk_iou": 0.0
+            }
+          }
+        },
+        "snr_db": {
+          "-5": {
+            "examples": 2,
+            "model": {
+              "evidence_ap": 0.6599206349206349,
+              "hit_at_1": 1.0,
+              "recall_at_4": 1.0,
+              "top_chunk_iou": 0.18792196500180938
+            },
+            "prior": {
+              "evidence_ap": 0.6599206349206349,
+              "hit_at_1": 1.0,
+              "recall_at_4": 1.0,
+              "top_chunk_iou": 0.18792196500180938
+            },
+            "delta": {
+              "evidence_ap": 0.0,
+              "hit_at_1": 0.0,
+              "recall_at_4": 0.0,
+              "top_chunk_iou": 0.0
+            }
+          },
+          "5": {
+            "examples": 1,
+            "model": {
+              "evidence_ap": 1.0,
+              "hit_at_1": 1.0,
+              "recall_at_4": 1.0,
+              "top_chunk_iou": 0.7946161515453637
+            },
+            "prior": {
+              "evidence_ap": 1.0,
+              "hit_at_1": 1.0,
+              "recall_at_4": 1.0,
+              "top_chunk_iou": 0.7946161515453637
+            },
+            "delta": {
+              "evidence_ap": 0.0,
+              "hit_at_1": 0.0,
+              "recall_at_4": 0.0,
+              "top_chunk_iou": 0.0
+            }
+          }
+        }
+      }
+    }
+  }
+]

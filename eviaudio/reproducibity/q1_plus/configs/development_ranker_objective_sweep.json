@@ -1,0 +1,81 @@
+{
+  "protocol_status": "development_validation_only_objective_screen",
+  "train_manifest": "journal_suite/data/manifests/train.jsonl",
+  "validation_manifest": "journal_suite/data/manifests/val.jsonl",
+  "test_manifest": "journal_suite/data/manifests/test.jsonl",
+  "question_archive": "q1_plus/data/development_question_clap.npz",
+  "embedding_dim": 512,
+  "hidden_dim": 64,
+  "maximum_residual": 0.25,
+  "dropout": 0.10,
+  "batch_size": 64,
+  "epochs": 24,
+  "patience": 6,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.01,
+  "residual_penalty": 0.05,
+  "gradient_clip": 1.0,
+  "source_temperature": 1.0,
+  "evidence_weight": 0.0,
+  "evidence_temperature": 0.1,
+  "selection_metric": "source_accuracy_plus_0.1_evidence_ap",
+  "seeds": [0, 1, 2, 3, 4],
+  "candidates": {
+    "temp_020": {"source_temperature": 0.20},
+    "temp_010": {"source_temperature": 0.10},
+    "temp_007": {"source_temperature": 0.07},
+    "temp_010_ev010": {
+      "source_temperature": 0.10,
+      "evidence_weight": 0.10,
+      "evidence_temperature": 0.10
+    },
+    "temp_010_ev025": {
+      "source_temperature": 0.10,
+      "evidence_weight": 0.25,
+      "evidence_temperature": 0.10
+    },
+    "temp_007_ev010": {
+      "source_temperature": 0.07,
+      "evidence_weight": 0.10,
+      "evidence_temperature": 0.07
+    },
+    "bounded_015_temp010": {
+      "maximum_residual": 0.15,
+      "source_temperature": 0.10
+    },
+    "bounded_015_temp010_ev010": {
+      "maximum_residual": 0.15,
+      "source_temperature": 0.10,
+      "evidence_weight": 0.10,
+      "evidence_temperature": 0.10
+    },
+    "no_position": {
+      "source_temperature": 0.10,
+      "evidence_weight": 0.10,
+      "evidence_temperature": 0.10,
+      "include_position": false
+    },
+    "shared_no_position": {
+      "source_temperature": 0.10,
+      "evidence_weight": 0.10,
+      "evidence_temperature": 0.10,
+      "shared_projection": true,
+      "include_position": false
+    },
+    "shared_interaction": {
+      "source_temperature": 0.10,
+      "evidence_weight": 0.10,
+      "evidence_temperature": 0.10,
+      "shared_projection": true,
+      "interaction_only": true,
+      "include_position": false
+    },
+    "independent_interaction": {
+      "source_temperature": 0.10,
+      "evidence_weight": 0.10,
+      "evidence_temperature": 0.10,
+      "interaction_only": true,
+      "include_position": false
+    }
+  }
+}
