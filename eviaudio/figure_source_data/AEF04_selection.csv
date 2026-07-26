@@ -1,0 +1,51 @@
+fold,label_id,label_name,all_candidates,clap_only,training_ap_selected
+0,0,Human:Speech,qcr_4s,clap_multiscale,0.10910297067412225
+0,1,Animal:sound,qcr_4s,clap_4s,0.027496148241784056
+0,10,Object:opening/closing of something,clap_2s,clap_2s,0.016409278149200002
+0,11,Object:sound,clap_2s,clap_2s,0.059923521288100814
+0,4,Human:Sound(clapping),clap_0p5s,clap_0p5s,0.2929135971792744
+0,5,Interaction: fluid,clap_2s,clap_2s,0.22539713656944285
+0,6,Interaction:dropping,qcr_1s,clap_1s,0.032675192824101036
+0,7,Interaction:hitting,clap_1s,clap_1s,0.15038752065881783
+0,8,Interaction:rolling,clap_1s,clap_1s,0.05100734701102122
+0,9,Object:breaking of something,clap_4s,clap_4s,0.007290620461998116
+1,0,Human:Speech,qcr_4s,clap_multiscale,0.10159868675867464
+1,1,Animal:sound,qcr_4s,clap_4s,0.026623661620297796
+1,10,Object:opening/closing of something,clap_2s,clap_2s,0.01673844423955637
+1,11,Object:sound,clap_2s,clap_2s,0.059814555140407843
+1,4,Human:Sound(clapping),clap_0p5s,clap_0p5s,0.2735227974575539
+1,5,Interaction: fluid,clap_2s,clap_2s,0.24346797897264166
+1,6,Interaction:dropping,qcr_1s,clap_1s,0.039860186255517974
+1,7,Interaction:hitting,clap_1s,clap_1s,0.15170130587577782
+1,8,Interaction:rolling,clap_1s,clap_1s,0.047918519991171776
+1,9,Object:breaking of something,clap_4s,clap_4s,0.006293577333444549
+2,0,Human:Speech,qcr_4s,clap_multiscale,0.09574374178417765
+2,1,Animal:sound,qcr_4s,clap_4s,0.030634403791309252
+2,10,Object:opening/closing of something,clap_2s,clap_2s,0.016624314597122575
+2,11,Object:sound,clap_2s,clap_2s,0.062215024258782205
+2,4,Human:Sound(clapping),clap_0p5s,clap_0p5s,0.2755243717583058
+2,5,Interaction: fluid,clap_2s,clap_2s,0.27592564252000995
+2,6,Interaction:dropping,qcr_1s,clap_1s,0.036389230318160076
+2,7,Interaction:hitting,clap_1s,clap_1s,0.15111179127489865
+2,8,Interaction:rolling,clap_1s,clap_1s,0.05366893381938085
+2,9,Object:breaking of something,clap_4s,clap_4s,0.007295249791206009
+3,0,Human:Speech,qcr_4s,clap_multiscale,0.10302464250013296
+3,1,Animal:sound,qcr_4s,clap_4s,0.028279567355737778
+3,10,Object:opening/closing of something,clap_2s,clap_2s,0.01678529411562623
+3,11,Object:sound,clap_2s,clap_2s,0.05830310883660824
+3,4,Human:Sound(clapping),clap_0p5s,clap_0p5s,0.2791553983300078
+3,5,Interaction: fluid,clap_2s,clap_2s,0.23604137891206625
+3,6,Interaction:dropping,qcr_1s,clap_1s,0.037015169303365396
+3,7,Interaction:hitting,clap_1s,clap_1s,0.15425501438860462
+3,8,Interaction:rolling,clap_1s,clap_1s,0.04537371946616685
+3,9,Object:breaking of something,clap_4s,clap_4s,0.00802177518246176
+4,0,Human:Speech,qcr_4s,clap_multiscale,0.10481261413540673
+4,1,Animal:sound,qcr_4s,clap_4s,0.03038516640030136
+4,10,Object:opening/closing of something,clap_2s,clap_2s,0.017590140787727106
+4,11,Object:sound,clap_2s,clap_2s,0.060946877093565874
+4,4,Human:Sound(clapping),clap_0p5s,clap_0p5s,0.2804182207619962
+4,5,Interaction: fluid,clap_2s,clap_2s,0.27265009332737583
+4,6,Interaction:dropping,qcr_1s,clap_1s,0.03922243818954342
+4,7,Interaction:hitting,clap_1s,clap_1s,0.15473263791677483
+4,8,Interaction:rolling,clap_2s,clap_2s,0.04703455942568028
+4,9,Object:breaking of something,clap_4s,clap_4s,0.006095563623110973

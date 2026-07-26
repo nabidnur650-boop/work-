@@ -1,0 +1,6 @@
+stage,name,evidence_type,panel,primary_result,gate_result,status,claim
+1,Controlled exact-onset,frozen confirmatory,397 source-isolated recipes,AP 0.609 to 0.843,7/7,pass,controlled evidence ranking
+2,External exact-onset,frozen external replication,219 UrbanSound8K/LibriSpeech recipes,AP 0.541 to 0.702,7/8,strict floor fail,positive relative gain; absolute floor unmet
+3,Natural zero-shot,frozen natural transfer,"5,359 Perception Test videos",mAP 0.068 to 0.053,2/6,fail,controlled QCR did not transfer
+4,Cap-correct diagnosis,post-outcome cross-fitted exploratory,same exposed validation videos,mAP 0.068 to 0.097,7/7,diagnostic target met,class-dependent scale is dominant mechanism
+5,Answer bridge,held-out downstream boundary,411 examples; two decoders,exact 0.459 vs strongest 0.478,5/8,fail,localization gain did not improve answers

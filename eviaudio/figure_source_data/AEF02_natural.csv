@@ -1,0 +1,6 @@
+method,mean_map,evidence_type
+Frozen CLAP multiscale,0.06757634351816902,frozen zero-shot comparator
+Frozen QCR multiscale,0.05260301777642721,frozen zero-shot primary
+Cross-fit CLAP-only,0.09392094908289692,post-outcome exploratory
+Cross-fit CLAP+QCR,0.0969950149900384,post-outcome exploratory
+ActionFormer,0.11663777290569095,supervised context

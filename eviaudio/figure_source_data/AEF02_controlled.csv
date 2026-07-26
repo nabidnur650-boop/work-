@@ -1,0 +1,5 @@
+panel,method,evidence_ap,hit_at_1,gate_status
+source-isolated confirmatory,CLAP prior,0.6090091780081301,0.7682619647355163,confirmatory_exact_onset_gate_pass
+source-isolated confirmatory,QCR ensemble,0.8425465180601033,0.9445843828715366,confirmatory_exact_onset_gate_pass
+external source-disjoint replication,CLAP prior,0.540804677879245,0.6255707762557078,external_replication_gate_fail
+external source-disjoint replication,QCR ensemble,0.7019664725791814,0.7534246575342466,external_replication_gate_fail
