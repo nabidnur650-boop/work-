@@ -1,0 +1,80 @@
+{
+  "bootstrap": {
+    "confidence": 0.95,
+    "replicates": 10000,
+    "seed": 20260723,
+    "unit": "urbansound_original_fsid"
+  },
+  "config": "q1_90/configs/external_replication.json",
+  "development_report": "q1_plus/results/development/event_ranker/five_seed_validation_report.json",
+  "embedding": {
+    "chunk_seconds": 4.0,
+    "embedding_dim": 512,
+    "hop_seconds": 2.0,
+    "inference_batch_size": 32,
+    "model_id": "laion/clap-htsat-unfused",
+    "model_revision": "8fa0f1c6d0433df6e97c127f64b2a1d6c0dcda8a",
+    "sample_rate": 48000
+  },
+  "evaluation_output_dir": "q1_90/results/external_replication/evaluation",
+  "examples": 219,
+  "external_evaluations_allowed": 1,
+  "files": {
+    "q1_90/DATA_RIGHTS_AND_DISTRIBUTION.md": "184dbb43559c18a65312d7e1ed6eefff094c5a114597ae38e05debdf258c4c41",
+    "q1_90/EXTERNAL_REPLICATION_PROTOCOL.md": "4f22463ac0cbbfd44d5f014b216edf8b0ea03cdefbc553dfb7d1b1fb8058b40c",
+    "q1_90/MODEL_BLIND_SOURCE_COUNT_AMENDMENT.json": "4ef11caca3615f6aaa3fa343f2a00e395e09ea3a9f4ee5c5f5b31b2e44bc9a98",
+    "q1_90/configs/external_replication.json": "1abfb030ea998aa2bda4cf29b6c282d52f8840bdb33e2e9ce38ba5fbc48d66aa",
+    "q1_90/data/external_replication/external_recipes.sealed.jsonl": "9a7007e7ee7af5345ea6520eecf7f9bb5a4519abe1f9e7d031f1d0d9d772db14",
+    "q1_90/data/external_replication/recipe_audit.json": "a4a7224d979b595e0096c913406e33114a258c8442a933fb10d2c72abc4a5378",
+    "q1_90/scripts/evaluate_external_replication.py": "e1bf86d601aea9e3cf56f017735c16ec7aa648ccf8442917a0f7714aa775e7ab",
+    "q1_90/scripts/freeze_external_replication.py": "fed0a9dea4088b2cb2efa389ee88f2727460f7883e5f34d68c20be4b9579186f",
+    "q1_90/scripts/run_external_precompute.py": "603ab757873e352f4f1747b43acbf8a7f37c9cf617e8d70cdbea58d173dbcd44",
+    "q1_90/tests/test_external_replication.py": "426ccbc8631b24b03e9ea86d3b9858acef0729b2b7ffa60f7d105d56b3bdddee",
+    "q1_plus/EVENT_RANKER_LOCK.json": "dd6218c952bec5183906cfc791357e700c0fc488e4230f9c9aaa5dcc73b650cf",
+    "q1_plus/configs/development_event_ranker.json": "6812ccca2cbbf11630e9968b680348b3ae3376226272d096ba2dc2329a32826d",
+    "q1_plus/results/development/event_ranker/checkpoints/event_v1__prior_residual__seed_0.pt": "03ea7f0b3138f3bd22b8d6ec12d1dd09a2cc500cf3e088510159ccd1a84392e4",
+    "q1_plus/results/development/event_ranker/checkpoints/event_v1__prior_residual__seed_1.pt": "a6ae986c878b7b8a9a33ed2b6b8d92f12200379d415601a415117c733f49704a",
+    "q1_plus/results/development/event_ranker/checkpoints/event_v1__prior_residual__seed_2.pt": "8fc1dbe713f02eddb727acd393ae3d624e43389f8a5a80580bb9f42db14db89a",
+    "q1_plus/results/development/event_ranker/checkpoints/event_v1__prior_residual__seed_3.pt": "e441a3c9a6a96b71319f2ede6f9f1545076f446b67e4cff7a5f35141884fa4d9",
+    "q1_plus/results/development/event_ranker/checkpoints/event_v1__prior_residual__seed_4.pt": "a0349b6113899796495dd0df3ee0eb1c263694295c71bbdf8703fb1a1a67689a",
+    "q1_plus/results/development/event_ranker/five_seed_validation_report.json": "28644df55fdef38b894abaf4ba26de2104000185440a4ef6a1f9ba407201da75",
+    "q1_plus/scripts/analyze_event_ranker.py": "f1c271204e6d7596bd06f525173a3291edaed22ed3cfe63a88cab2e18d283d52",
+    "q1_plus/scripts/evaluate_event_ranker_confirmatory.py": "a817a7c25b9a14829108ee15a8897de094485d820cf714ac0d7918c46bfc95e0",
+    "q1_plus/scripts/precompute_event_needle_clap.py": "9e94a5d7b3be02be5502d7ca1ada0d3e3d15dac84157af45740cfaf7c42be464",
+    "src/eviaudio_mt/audio_encoder.py": "676fb8b903ecbe8e960328e9f34c46f795861e80949e472770f7aa03b2d23744",
+    "src/eviaudio_mt/event_data.py": "6fc68141188432afdad7c661074cab74a85424efce4f461617b1617313265256",
+    "src/eviaudio_mt/event_needle.py": "c15a9d03d98ac556ca87a16fbf36ff4c7c4a43bed43de0f529835340b560b950",
+    "src/eviaudio_mt/qcr.py": "58e3708d5e34e189932b276e91ff94f74badb07047738d90bfed210f5ead9509"
+  },
+  "gates": {
+    "bootstrap_lower_bounds_above_zero": true,
+    "integrity_required": true,
+    "minimum_class_hit_delta": -0.05,
+    "minimum_evidence_ap_gain": 0.05,
+    "minimum_external_performance_index": 85.0,
+    "minimum_hit_at_1_gain": 0.05,
+    "minimum_positive_seeds": 4
+  },
+  "model_blind_amendment": "q1_90/MODEL_BLIND_SOURCE_COUNT_AMENDMENT.json",
+  "model_scores_before_authorization": 0,
+  "precompute_output_dir": "q1_90/results/external_replication/precompute",
+  "ranker_config": "q1_plus/configs/development_event_ranker.json",
+  "recipe_audit": "q1_90/data/external_replication/recipe_audit.json",
+  "recipes": "q1_90/data/external_replication/external_recipes.sealed.jsonl",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "source_integrity": {
+    "recipe_ids_sha256": "3cc8cf9696bb7ebab8d00865f1c139b7f48ee25cc4be5353112c352d5c1b125e",
+    "source_manifest_sha256": "27be158c5e625a6f1209b7fa27515bc8ce0865fa531c02d3b6a5d6d6b36f2380",
+    "target_distractor_source_overlap": 0,
+    "target_source_reuse": 0,
+    "unique_source_files": 3155
+  },
+  "status": "one_shot_external_precompute_and_evaluation_authorized",
+  "study": "urbansound8k_librispeech_test_other_zero_shot_exact_onset"
+}

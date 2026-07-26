@@ -1,0 +1,305 @@
+{
+  "cap_corrected_diagnosis": {
+    "cap_audit": {
+      "candidate_cap_reconstruction_exact_matches": 10,
+      "clap_only_router": {
+        "discarded_rows": 593032,
+        "final_rows": 1069264,
+        "maximum_final_rows_per_video": 200,
+        "maximum_pre_cap_rows_per_video": 389,
+        "pre_cap_rows": 1662296,
+        "videos_exceeding_cap": 5119
+      },
+      "full_router": {
+        "discarded_rows": 409789,
+        "final_rows": 1044156,
+        "maximum_final_rows_per_video": 200,
+        "maximum_pre_cap_rows_per_video": 356,
+        "pre_cap_rows": 1453945,
+        "videos_exceeding_cap": 4401
+      }
+    },
+    "claim_type": "post_outcome_cross_fitted_exploratory",
+    "clap_only_minus_fixed_clap": 0.026344605564727896,
+    "clap_only_router_map": 0.09392094908289692,
+    "classes_unanimous_across_folds": 9,
+    "diagnostic_criteria": {
+      "candidate_cap_reconstruction": true,
+      "complete_video_assignment": true,
+      "integrity": true,
+      "minimum_class_delta": true,
+      "minimum_positive_tiou_thresholds": true,
+      "official_mean_map_delta_above_zero": true,
+      "paired_video_bootstrap_lower_above_zero": true
+    },
+    "fixed_clap_map": 0.06757634351816902,
+    "fraction_total_gain_from_incremental_qcr": 0.10449370258208159,
+    "full_minus_clap_only": 0.0030740659071414878,
+    "full_minus_fixed_clap": 0.029418671471869384,
+    "full_router_map": 0.0969950149900384,
+    "incremental_qcr_posthoc": {
+      "clap_only_predictions_sha256": "df6e7a3fd4b8e044073c67ea609576a81bdf9e8572bd882e9f8a7e2adaad5c0e",
+      "full_predictions_sha256": "2822d08cfa5a5818bf2113d826807ec8a5d959a02706e4dcbed2b242ef8b6ac4",
+      "global_mean_map_delta": 0.0030740659071414878,
+      "global_relative_gain": 0.032730353953602354,
+      "interpretation": "Incremental QCR-versus-CLAP-only routing contrast on the already exposed validation panel; not a fresh or zero-shot endpoint.",
+      "paired_video_bootstrap": {
+        "interval_95_percentile": [
+          0.011571464462948431,
+          0.01589516177297027
+        ],
+        "observed_mean_delta": 0.01373651939110639,
+        "probability_delta_above_zero": 1.0
+      },
+      "post_hoc": true,
+      "replicates": 10000,
+      "seed": 20260729,
+      "status": "posthoc_full_vs_clap_only_video_bootstrap_complete",
+      "videos": 5359
+    },
+    "paired_video_bootstrap_vs_fixed_clap": {
+      "interval_95_percentile": [
+        0.05816541586256519,
+        0.06639677888953621
+      ],
+      "observed_mean_delta": 0.062251117291233136,
+      "probability_delta_above_zero": 1.0
+    },
+    "qcr_assignment_fraction": 0.3,
+    "status": "cap_corrected_post_outcome_diagnostic_target_met"
+  },
+  "claim_boundary": "The controlled QCR ranker is confirmed for exact-onset evidence ranking but fails frozen natural zero-shot transfer. The positive cap-corrected cross-fit result is post-outcome in-domain diagnosis; it is neither fresh confirmation nor a zero-shot result.",
+  "controlled_confirmatory": {
+    "bootstrap": {
+      "interval_95_percentile": {
+        "evidence_ap": [
+          0.18500266948278835,
+          0.2840520261335192
+        ],
+        "hit_at_1": [
+          0.10858439041578577,
+          0.2506267250404492
+        ]
+      },
+      "replicates": 10000,
+      "seed": 20260722
+    },
+    "delta": {
+      "evidence_ap": 0.23353734005197313,
+      "hit_at_1": 0.17632241813602023,
+      "recall_at_4": 0.11335012594458438,
+      "top_chunk_iou": 0.07485976035205594
+    },
+    "ensemble": {
+      "evidence_ap": 0.8425465180601033,
+      "hit_at_1": 0.9445843828715366,
+      "recall_at_4": 0.9949622166246851,
+      "top_chunk_iou": 0.4206141083027664
+    },
+    "examples": 397,
+    "gates": {
+      "at_least_four_positive_seeds": true,
+      "bootstrap_ap_lower_above_zero": true,
+      "bootstrap_hit_lower_above_zero": true,
+      "ensemble_ap_gain_at_least_0_05": true,
+      "ensemble_hit_gain_at_least_0_05": true,
+      "integrity": true,
+      "no_condition_hit_loss_over_0_05": true
+    },
+    "prior": {
+      "evidence_ap": 0.6090091780081301,
+      "hit_at_1": 0.7682619647355163,
+      "recall_at_4": 0.8816120906801007,
+      "top_chunk_iou": 0.34575434795071047
+    },
+    "status": "confirmatory_exact_onset_gate_pass"
+  },
+  "downstream_answer_bridge": {
+    "audita_status": "sealed",
+    "clap_exact": 0.4618888888888889,
+    "gates": {
+      "all_responses_nonempty": true,
+      "gain_at_least_0_02_over_strongest_baseline": false,
+      "gain_at_least_0_05_over_random": false,
+      "integrity": true,
+      "learned_exact_no_worse_than_silence": true,
+      "no_backbone_loses_more_than_0_02_to_strongest": false,
+      "responses_differ_from_silence": true,
+      "responses_differ_from_text_only": true
+    },
+    "selected_exact": 0.4585555555555556,
+    "status": "heldout_answer_gate_fail_audita_sealed",
+    "strongest_baseline": "prefix_matched_retrieval",
+    "strongest_exact": 0.478
+  },
+  "external_exact_onset": {
+    "bootstrap": {
+      "interval_95_percentile": {
+        "evidence_ap": [
+          0.09109759287259676,
+          0.23342514611449042
+        ],
+        "hit_at_1": [
+          0.029545889329953615,
+          0.2328767123287671
+        ]
+      },
+      "replicates": 10000,
+      "seed": 20260723,
+      "unit": "urbansound_original_fsid"
+    },
+    "delta": {
+      "evidence_ap": 0.1611617946999364,
+      "hit_at_1": 0.1278538812785388,
+      "recall_at_4": 0.1643835616438356,
+      "top_chunk_iou": 0.08090817443660583
+    },
+    "ensemble": {
+      "evidence_ap": 0.7019664725791814,
+      "hit_at_1": 0.7534246575342466,
+      "recall_at_4": 0.9041095890410958,
+      "top_chunk_iou": 0.3221725312318969
+    },
+    "examples": 219,
+    "external_performance_index": 72.7695565056714,
+    "gates": {
+      "at_least_four_positive_seeds": true,
+      "bootstrap_ap_lower_above_zero": true,
+      "bootstrap_hit_lower_above_zero": true,
+      "ensemble_ap_gain_at_least_0_05": true,
+      "ensemble_hit_gain_at_least_0_05": true,
+      "external_performance_index_at_least_85": false,
+      "integrity": true,
+      "no_class_hit_delta_below_minus_0_05": true
+    },
+    "prior": {
+      "evidence_ap": 0.540804677879245,
+      "hit_at_1": 0.6255707762557078,
+      "recall_at_4": 0.7397260273972602,
+      "top_chunk_iou": 0.24126435679529104
+    },
+    "status": "external_replication_gate_fail"
+  },
+  "figures": [
+    {
+      "id": "AEF01",
+      "pdf": "publication_upgrade/figures/AEF01.pdf",
+      "pdf_sha256": "65f2a2265b31d165731bd1fa5d93d78de375df00b8baa86b0723c136c85917c2",
+      "png": "publication_upgrade/figures/AEF01.png",
+      "png_sha256": "3b9672bceed2ae05844e480c4179d78d143d371d5b08276d54abc5370aa1c6d7",
+      "source_files": [
+        "AEF01_evidence_ledger.csv"
+      ],
+      "source_sha256": {
+        "AEF01_evidence_ledger.csv": "4b75c62e56e37a2b9401ba4597aa224a2bb6a93a18c34712074917ce1eb9db3a"
+      },
+      "title": "Outcome-faithful evidence ladder"
+    },
+    {
+      "id": "AEF02",
+      "pdf": "publication_upgrade/figures/AEF02.pdf",
+      "pdf_sha256": "250ce633d5639014d742b9ab94844d0e5446f6974196e3fc9538c66785203e8c",
+      "png": "publication_upgrade/figures/AEF02.png",
+      "png_sha256": "1258da82c5a66ce101766f17df3b20026ff22bdeb4df51fdbe23923a3fb60add",
+      "source_files": [
+        "AEF02_controlled.csv",
+        "AEF02_natural.csv"
+      ],
+      "source_sha256": {
+        "AEF02_controlled.csv": "f78fa35cb5e77f24bb23213de151df624597a6f5e293e6b87d0e91b9f45945d2",
+        "AEF02_natural.csv": "0f932c551cb10a2020165d7f002efeb7a61972561a536c3790de2cb843ac851c"
+      },
+      "title": "Controlled and natural performance"
+    },
+    {
+      "id": "AEF03",
+      "pdf": "publication_upgrade/figures/AEF03.pdf",
+      "pdf_sha256": "96a71071cd7a8ee19433b71fdc2e32517ae1b49cbb9d83a2f9112582db05fcf7",
+      "png": "publication_upgrade/figures/AEF03.png",
+      "png_sha256": "aa3f94e0bf0c796c817836bf5b4c1f954c245f8e6d088a8679b589a346197c5f",
+      "source_files": [
+        "AEF03_thresholds.csv"
+      ],
+      "source_sha256": {
+        "AEF03_thresholds.csv": "a890bcc83cfb2ac06e280a751db552df2ea07cfdc4cb668b72d96bdff095aff0"
+      },
+      "title": "Temporal-IoU sensitivity"
+    },
+    {
+      "id": "AEF04",
+      "pdf": "publication_upgrade/figures/AEF04.pdf",
+      "pdf_sha256": "a7e7780a1d6005ed47dbdeefda7910f15542691a45b5ee547d72f1adfaf47ede",
+      "png": "publication_upgrade/figures/AEF04.png",
+      "png_sha256": "a0d791466571fd2bad42e503e41291e35abf6401305f54c516b3dd71d2e360c3",
+      "source_files": [
+        "AEF04_selection.csv",
+        "AEF04_class_delta.csv"
+      ],
+      "source_sha256": {
+        "AEF04_class_delta.csv": "c1588971dc426e7a604f5efb4929dacb43b209d052e01849e9afe3bcac238250",
+        "AEF04_selection.csv": "5965b0076109d84a9c0e34f338ec207a7b7de7dd07e241e47a1b152d99bee7da"
+      },
+      "title": "Cross-fitted selections and class effects"
+    },
+    {
+      "id": "AEF05",
+      "pdf": "publication_upgrade/figures/AEF05.pdf",
+      "pdf_sha256": "4efee5a03aaa387e91d82bf1b7bff97f1ade87281af1ecd8894681063b1fa99b",
+      "png": "publication_upgrade/figures/AEF05.png",
+      "png_sha256": "250e7087e64e1e3cf90b2e9b3d09b425ff4f92bb2742afb6987b979757d06823",
+      "source_files": [
+        "AEF05_downstream.csv"
+      ],
+      "source_sha256": {
+        "AEF05_downstream.csv": "a4759b6f2cbd7abfeca304505c4b6c4db6b4ea465eea8c7b66867a25bfbbf975"
+      },
+      "title": "Downstream answer boundary"
+    }
+  ],
+  "frozen_natural_transfer": {
+    "bootstrap": {
+      "interval_95_percentile": [
+        -0.014749260347657068,
+        -0.007803881271325464
+      ],
+      "observed_mean_delta": -0.011334483873772627,
+      "probability_delta_above_zero": 0.0,
+      "replicates": 10000,
+      "seed": 20260724,
+      "unit": "video"
+    },
+    "clap_multiscale_map": 0.06757634351816902,
+    "events": 35625,
+    "gates": {
+      "integrity": true,
+      "minimum_class_mean_ap_delta": false,
+      "minimum_positive_tiou_thresholds": false,
+      "official_mean_map_delta_above_zero": false,
+      "paired_video_bootstrap_lower_above_zero": false,
+      "primary_at_least_clap_4s": true
+    },
+    "qcr_minus_clap_map": -0.01497332574174181,
+    "qcr_multiscale_map": 0.05260301777642721,
+    "status": "natural_panel_promotion_fail",
+    "videos": 5359
+  },
+  "invalidated_predecessor": "q1_upgrade/INVALIDATION_OUTPUT_CAP.md",
+  "source_artifact_sha256": {
+    "q1_90/results/external_replication/evaluation/external_replication_report.json": "233754628f926c65a3f3bb59308070796d453fb0f0a2839b10e81104c30ae129",
+    "q1_crossfit_capcorrect/CAPCORRECT_ANALYSIS_LOCK.json": "92955229761b6dd6878fa000654d7e067b682ecb0e9f5caabda7ee15e3d602a5",
+    "q1_crossfit_capcorrect/CAPCORRECT_ANALYZER_AMENDMENT_LOCK.json": "2d5189246ea95ed708257d3b46915718ff4e9192836f2e0c103bcc8fcfb44771",
+    "q1_crossfit_capcorrect/results/candidate_pools/receipt.json": "7c4b2f3a66ba819041ad494b2d3174de85b9608cc8c914e03f354d78197cc826",
+    "q1_crossfit_capcorrect/results/capcorrect_router/capcorrect_router_report.json": "356098756cf5e3f132b7bbb1296e4d1ff1ebe45480507c08150c5d068659d0c0",
+    "q1_plus/results/confirmatory/event_ranker/five_seed_confirmatory_report.json": "4d486f901ff137617d2b904f42fa62d1f55c56f6dc9587b1550bf7ac0b6d9975",
+    "q1_plus/results/development/answer_generation/heldout_evaluation_report.json": "50d0f108c27ea685360eb681dbcd0cd753235fb9710dbb07b64618365b7a83c9",
+    "q1_top_tier/publication/PERCEPTION_PUBLICATION_ANALYSIS.json": "8eb67b1dd2eaa454f779566d15c093ad4cf014fedc98b0eebbdaa9de3ab83109",
+    "q1_top_tier/results/perception_test/evaluation/perception_test_report.json": "4cd0c432b0ee5d1eb1c5f1e4d10bc717a434cf8bd510e634b8797b2b082f9165"
+  },
+  "status": "eviaudio_multistage_publication_analysis_complete",
+  "supervised_context": {
+    "gap_above_full_router": 0.01964275791565255,
+    "mean_map": 0.11663777290569095,
+    "name": "official supervised ActionFormer audio",
+    "role": "context_only_not_a_promotion_gate"
+  }
+}

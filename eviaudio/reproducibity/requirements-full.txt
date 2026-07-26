@@ -1,0 +1,12 @@
+-r requirements-minimal.txt
+datasets>=3.0
+evaluate>=0.4
+librosa>=0.10
+pandas>=2.1
+scikit-learn>=1.4
+scipy>=1.12
+soundfile>=0.12
+tensorboard>=2.16
+torchaudio>=2.2
+transformers>=4.45
+sentencepiece>=0.2

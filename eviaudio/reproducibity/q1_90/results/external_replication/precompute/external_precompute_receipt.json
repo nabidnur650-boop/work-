@@ -1,0 +1,17 @@
+{
+  "alignment_failures": 0,
+  "archive_checksum_failures": 0,
+  "archives_verified": 219,
+  "authorization_sha256": "6c1abd7d32aa9a850ba5db3a8f3c8fb3599d6ec3ee8d56c4ffa0200646cc0730",
+  "examples": 219,
+  "index_sha256": "0274f4f5e2934ee579933e90f0b125bf96a38e5bd5d13df95878988b49d9d08b",
+  "nonfinite_failures": 0,
+  "raw_sha256": "320d6a18e0198dd0f33342f3e9fb4a2165ed8e5be4ae04cd8ad921c2ec928e7a",
+  "recipes_sha256": "9a7007e7ee7af5345ea6520eecf7f9bb5a4519abe1f9e7d031f1d0d9d772db14",
+  "source_checksum_failures": 0,
+  "source_manifest_sha256": "27be158c5e625a6f1209b7fa27515bc8ce0865fa531c02d3b6a5d6d6b36f2380",
+  "status": "one_shot_external_precompute_complete",
+  "summary_sha256": "cdf76669cad55f3a8f022235f7b07d67ac31bd6fe98b6e30425fbde436a91ef7",
+  "total_chunks_verified": 19791,
+  "unique_source_files_verified": 3155
+}

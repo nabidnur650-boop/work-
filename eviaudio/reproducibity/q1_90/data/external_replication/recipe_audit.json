@@ -1,0 +1,54 @@
+{
+  "classes": {
+    "air conditioner": 18,
+    "car horn": 22,
+    "children playing": 25,
+    "dog bark": 25,
+    "drilling": 25,
+    "engine idling": 21,
+    "gun shot": 25,
+    "jackhammer": 12,
+    "siren": 21,
+    "street music": 25
+  },
+  "conditions": {
+    "duration_sec": {
+      "60": 78,
+      "180": 58,
+      "300": 83
+    },
+    "position_bin": {
+      "early": 86,
+      "late": 76,
+      "middle": 57
+    },
+    "snr_db": {
+      "-5": 68,
+      "0": 78,
+      "5": 73
+    }
+  },
+  "config_sha256": "1abfb030ea998aa2bda4cf29b6c282d52f8840bdb33e2e9ce38ba5fbc48d66aa",
+  "folds": {
+    "8": 77,
+    "9": 73,
+    "10": 69
+  },
+  "librispeech_archive_md5": "fb5a50374b501bb3bac4815ee91d3135",
+  "model_scores_computed": 0,
+  "recipes": 219,
+  "recipes_sha256": "9a7007e7ee7af5345ea6520eecf7f9bb5a4519abe1f9e7d031f1d0d9d772db14",
+  "source_isolation": {
+    "esc50_freesound_id_overlap": 0,
+    "external_librispeech_speakers": 33,
+    "prior_librispeech_speaker_overlap": 0,
+    "target_source_reuse": 0,
+    "urban_rows_excluded_for_esc50_overlap": 105,
+    "urban_target_original_sources": 219
+  },
+  "source_manifest_sha256": "27be158c5e625a6f1209b7fa27515bc8ce0865fa531c02d3b6a5d6d6b36f2380",
+  "status": "external_recipes_frozen_before_any_model_scoring",
+  "unique_source_files_hashed": 3155,
+  "urban_archive_md5": "9aa69802bbf37fb986f71ec1483a196e",
+  "urban_metadata_sha256": "b207f7a53f9e5eb02a5dd71d58fb8b66c88c24c0637b926dc72d9d400a6a2354"
+}

@@ -1,0 +1,48 @@
+{
+  "status": "cap_corrected_post_outcome_analysis_ready_to_freeze",
+  "study_name": "cap_corrected_cross_fitted_class_scale_router",
+  "outcome_exposure": {
+    "frozen_natural_panel_results_known": true,
+    "capped_single_scale_candidates_exist": true,
+    "partial_candidate_metrics_seen": true,
+    "router_result_known_before_lock": false,
+    "uncapped_candidate_pool_results_known_before_lock": false,
+    "claim_type": "post_outcome_cross_fitted_exploratory",
+    "fresh_confirmatory_claim_allowed": false,
+    "zero_shot_claim_allowed": false
+  },
+  "candidate_scales_seconds": [0.5, 1.0, 2.0, 4.0],
+  "include_multiscale": true,
+  "score_sources": ["clap", "qcr"],
+  "caps": {
+    "maximum_segments_per_class_video": 50,
+    "maximum_segments_per_video_after_routing": 200
+  },
+  "folds": {
+    "count": 5,
+    "assignment": "uint64_be(sha256(video_id)[0:8]) modulo 5",
+    "selection_metric": "mean_official_AP_tIoU_0.1_to_0.5",
+    "selection_scope": "class",
+    "tie_break": "lexicographically_smallest_candidate"
+  },
+  "primary_router": "all_score_sources_and_scales",
+  "primary_comparator": "clap_multiscale",
+  "ablation_router": "clap_only_all_scales",
+  "bootstrap": {
+    "unit": "video",
+    "replicates": 10000,
+    "seed": 20260725,
+    "interval": "percentile_95",
+    "estimand": "paired_video_macro_AP_delta"
+  },
+  "diagnostic_criteria": {
+    "official_mean_map_delta_above_zero": true,
+    "paired_video_bootstrap_lower_above_zero": true,
+    "minimum_positive_tiou_thresholds": 4,
+    "minimum_class_delta": -0.02,
+    "candidate_cap_reconstruction_matches": 10,
+    "complete_video_assignment": true,
+    "integrity_required": true
+  },
+  "post_lock_changes_allowed": false
+}

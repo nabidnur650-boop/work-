@@ -1,0 +1,42 @@
+{
+  "schema": "eviaudio_model_blind_source_count_amendment_v1",
+  "status": "complete_before_any_external_model_scoring",
+  "created_on": "2026-07-23",
+  "trigger": {
+    "stage": "source_metadata_feasibility_check",
+    "message": "class jackhammer has only 8 isolated target sources",
+    "recipes_written": 0,
+    "model_scores_computed": 0
+  },
+  "original_config_sha256": "4ac55d835b5fb3ea662ea62d2aa3dce81a7c0e45aa163db97790ef4a840b06b9",
+  "original_eligible_folds": [9, 10],
+  "original_esc_disjoint_unique_sources_by_class": {
+    "air_conditioner": 12,
+    "car_horn": 14,
+    "children_playing": 30,
+    "dog_bark": 59,
+    "drilling": 23,
+    "engine_idling": 15,
+    "gun_shot": 22,
+    "jackhammer": 8,
+    "siren": 14,
+    "street_music": 32
+  },
+  "resolution_rule": "Add adjacent lower-numbered UrbanSound folds one at a time and stop at the first nested fold set for which every class has at least 12 ESC-disjoint original source IDs.",
+  "amended_eligible_folds": [8, 9, 10],
+  "amended_esc_disjoint_unique_sources_by_class": {
+    "air_conditioner": 18,
+    "car_horn": 22,
+    "children_playing": 46,
+    "dog_bark": 89,
+    "drilling": 35,
+    "engine_idling": 21,
+    "gun_shot": 33,
+    "jackhammer": 12,
+    "siren": 21,
+    "street_music": 48
+  },
+  "minimum_unique_sources_per_class": 12,
+  "performance_information_used": false,
+  "external_model_outputs_present_at_amendment": false
+}

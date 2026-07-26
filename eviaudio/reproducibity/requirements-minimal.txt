@@ -1,0 +1,5 @@
+numpy>=1.26
+PyYAML>=6.0
+pytest>=8.0
+torch>=2.2
+tqdm>=4.66

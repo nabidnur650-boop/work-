@@ -1,0 +1,14 @@
+{
+  "files": {
+    "q1_crossfit_capcorrect/ANALYZER_EFFICIENCY_AMENDMENT.md": "7b89fe3e36401046619f327faefb1fccb37c609aef3202a7dedc52689f06311f",
+    "q1_crossfit_capcorrect/CAPCORRECT_ANALYSIS_LOCK.json": "92955229761b6dd6878fa000654d7e067b682ecb0e9f5caabda7ee15e3d602a5",
+    "q1_crossfit_capcorrect/configs/cap_corrected_crossfit.json": "c3f6f9798f6b3994400084a9d763cffc54c88cb55a0c72726dcaca6bcdb2bfba",
+    "q1_crossfit_capcorrect/scripts/analyze_capcorrect_router.py": "f5210e3dc6c07376f72a7071c4ec2aa3fdebee916b26b6f3d0f79b6ae88b7fcd",
+    "q1_crossfit_capcorrect/scripts/freeze_analyzer_amendment.py": "f41d498481e3868cd3a9ec22ab14af47e28e6b20ad589685b1fd92e79527a187",
+    "q1_crossfit_capcorrect/src/capcorrect_utils.py": "fc83817683de6e57691a2bc643e0d8ee8e42404935323dd11ef69621625706dc"
+  },
+  "note": "The amendment replaces a quadratic cap assertion with an equivalent linear Counter assertion before router scoring.",
+  "numerical_design_changed": false,
+  "original_lock_sha256": "92955229761b6dd6878fa000654d7e067b682ecb0e9f5caabda7ee15e3d602a5",
+  "status": "capcorrect_analyzer_efficiency_amendment_frozen"
+}

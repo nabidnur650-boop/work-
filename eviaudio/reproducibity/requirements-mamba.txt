@@ -1,0 +1,3 @@
+# Install only in a compatible CUDA/PyTorch environment and follow the
+# official state-spaces/mamba instructions for causal-conv dependencies.
+mamba-ssm>=2.2

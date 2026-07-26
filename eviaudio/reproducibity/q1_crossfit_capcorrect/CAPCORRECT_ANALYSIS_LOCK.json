@@ -1,0 +1,23 @@
+{
+  "claim_type": "post_outcome_cross_fitted_exploratory",
+  "files": {
+    "q1_crossfit_capcorrect/PROTOCOL.md": "11133c3a5eaab0f9f1b76e937dc086dee4fbc2a94039ed6d05dfd03917ca5e8e",
+    "q1_crossfit_capcorrect/README.md": "2ec40da4cd423bd229da4d46ca8227c1f6f83e9e6ca171c315eb50799f21028f",
+    "q1_crossfit_capcorrect/configs/cap_corrected_crossfit.json": "c3f6f9798f6b3994400084a9d763cffc54c88cb55a0c72726dcaca6bcdb2bfba",
+    "q1_crossfit_capcorrect/scripts/analyze_capcorrect_router.py": "c55158df2a060bea4176a162535a554ad5c24b512f0ca6cfb6ad00ae3c073ab5",
+    "q1_crossfit_capcorrect/scripts/build_candidate_pools.py": "cb1f60a1a1ebd67e650799168e6d2bdc973c06aa7546f69e209e0fac496289c0",
+    "q1_crossfit_capcorrect/src/capcorrect_utils.py": "fc83817683de6e57691a2bc643e0d8ee8e42404935323dd11ef69621625706dc",
+    "q1_crossfit_capcorrect/tests/test_capcorrect_utils.py": "bb5c6824d48f4a290c484ddd9ccc18a0a47e517df370a428f58d72f329e0bcd0",
+    "q1_top_tier/PERCEPTION_TEST_FREEZE.json": "5d5070d14e9c710839b8d6d00e7eb0846943f16165823f0c39ad15337ce30afe",
+    "q1_top_tier/configs/perception_test_natural.json": "194f4554077218267f9c7fa360dd8773e0818823c4f56648bb6f87770f4cbe1d",
+    "q1_top_tier/results/perception_test/evaluation/perception_test_report.json": "4cd0c432b0ee5d1eb1c5f1e4d10bc717a434cf8bd510e634b8797b2b082f9165",
+    "q1_top_tier/results/perception_test/precompute/precompute_summary.json": "dcf8db7d024b66f948c2c19e86b6d883e4b6b65c859a7722b51f2a7b5a31c7b7",
+    "q1_top_tier/scripts/evaluate_perception_test.py": "a301c29c0526108df2a738700aa391576ae46bc907e715f449278b37e2d5c0f3",
+    "q1_top_tier/src/temporal_localization.py": "19aba127b203ec1816fdabe99a3bac1694c0df6082bd4af26ce20ad6e91ea0e5",
+    "q1_upgrade/CROSSFIT_ANALYSIS_LOCK.json": "1712e6191f047c7c9edc05b6feef207d07acf3ced2e9915f5fbb3d67b6a6f501",
+    "q1_upgrade/INVALIDATION_OUTPUT_CAP.md": "e997183a1c38747369c7663bdf0a8f8510cae1a8f3d6a498cc064fdb5000a311",
+    "q1_upgrade/results/scale_candidates/receipt.json": "a5879441c0fcc5357e8425abb5134759aa5d78f781e5743613c3bdffae455cc5"
+  },
+  "note": "This local lock records the correction before uncapped pool generation or router scoring; it is not an external timestamp.",
+  "status": "cap_corrected_crossfit_frozen_after_capped_candidate_exposure_before_uncapped_pool_scoring"
+}

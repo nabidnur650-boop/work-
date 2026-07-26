@@ -1,0 +1,69 @@
+{
+  "status": "frozen_after_model_blind_source_count_amendment",
+  "model_blind_amendment": "q1_90/MODEL_BLIND_SOURCE_COUNT_AMENDMENT.json",
+  "study": "urbansound8k_librispeech_test_other_zero_shot_exact_onset",
+  "foreground": {
+    "dataset": "UrbanSound8K",
+    "version": "1.0.0",
+    "doi": "10.5281/zenodo.1203745",
+    "archive_md5": "9aa69802bbf37fb986f71ec1483a196e",
+    "original_eligible_folds": [9, 10],
+    "eligible_folds": [8, 9, 10],
+    "maximum_targets_per_class": 25,
+    "minimum_targets_per_class": 12,
+    "exclude_all_esc50_freesound_ids": true,
+    "one_target_per_original_source": true
+  },
+  "background": {
+    "dataset": "LibriSpeech",
+    "resource": "SLR12",
+    "split": "test-other",
+    "archive_md5": "fb5a50374b501bb3bac4815ee91d3135",
+    "required_disjoint_from": ["dev-clean", "test-clean"]
+  },
+  "construction": {
+    "durations_sec": [60, 180, 300],
+    "target_snr_db": [-5, 0, 5],
+    "position_bins": ["early", "middle", "late"],
+    "distractors_per_recipe": 3,
+    "query_templates": [
+      "Locate the sound of {label}.",
+      "When can {label} be heard?",
+      "Find the segment containing {label}."
+    ],
+    "hash_salt": "eviaudio-q1-90-urbansound-v1"
+  },
+  "embedding": {
+    "model_id": "laion/clap-htsat-unfused",
+    "model_revision": "8fa0f1c6d0433df6e97c127f64b2a1d6c0dcda8a",
+    "sample_rate": 48000,
+    "chunk_seconds": 4.0,
+    "hop_seconds": 2.0,
+    "inference_batch_size": 32,
+    "embedding_dim": 512
+  },
+  "ranker": {
+    "config": "q1_plus/configs/development_event_ranker.json",
+    "run_tag": "event_v1",
+    "seeds": [0, 1, 2, 3, 4],
+    "ensemble": "arithmetic_mean_chunk_score",
+    "post_external_tuning": false
+  },
+  "bootstrap": {
+    "unit": "urbansound_original_fsid",
+    "replicates": 10000,
+    "seed": 20260723,
+    "confidence": 0.95
+  },
+  "gates": {
+    "minimum_evidence_ap_gain": 0.05,
+    "minimum_hit_at_1_gain": 0.05,
+    "bootstrap_lower_bounds_above_zero": true,
+    "minimum_positive_seeds": 4,
+    "minimum_class_hit_delta": -0.05,
+    "minimum_external_performance_index": 85.0,
+    "integrity_required": true
+  },
+  "audita_status": "sealed",
+  "answer_bridge_status": "prior_failure_retained"
+}
