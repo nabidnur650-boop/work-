@@ -1,0 +1,1639 @@
+{
+  "file_count": 408,
+  "files": {
+    ".editorconfig": {
+      "bytes": 255,
+      "sha256": "be5517ff2fedaf7a2b317d238577cff1735ea85ed10dbc45585de55ea9148f0f"
+    },
+    ".gitattributes": {
+      "bytes": 479,
+      "sha256": "80096cbe9e19fbfa3febd35a04011ef520b20ec5ddc3e9a2de1e4232b4ec2474"
+    },
+    ".github/ISSUE_TEMPLATE/bug-report.yml": {
+      "bytes": 1148,
+      "sha256": "c588fa3d1f18faa6c402cbb12c0261d35b5ba08265ba6551069d0e978182b487"
+    },
+    ".github/ISSUE_TEMPLATE/config.yml": {
+      "bytes": 46,
+      "sha256": "8b09e7df09fc7534371988062769ee427af2954a02c04c763e8a8005be0f2be4"
+    },
+    ".github/ISSUE_TEMPLATE/reproducibility.yml": {
+      "bytes": 1340,
+      "sha256": "c1ac9c9e4479e8873bcb26ae685a388705a5ad465e8e8b3ce1dc69deb12ad702"
+    },
+    ".github/pull_request_template.md": {
+      "bytes": 690,
+      "sha256": "ef6c7e78a7911877e1c5278664f3ed09f3f3ac6b6b3bf26cbd502039f5488645"
+    },
+    ".github/workflows/verify.yml": {
+      "bytes": 1026,
+      "sha256": "c3bea7abb85a01b7f0e61ce5beeb0f40a2412b068b165c6412fb52e83560581a"
+    },
+    ".gitignore": {
+      "bytes": 122,
+      "sha256": "b8e52883e2e59986ff379e0dc73eeb696492dd0490a6761d926f459f2be2e20c"
+    },
+    "CHANGELOG.md": {
+      "bytes": 752,
+      "sha256": "5b24679a0232eff4973b421522a9b5a528e3cf754bf6be73ca12fa9d9f45c5f0"
+    },
+    "CITATION.md": {
+      "bytes": 994,
+      "sha256": "f04d065d078670b9a3c5ab2c8722ee5e38d6b5849fe2f7410982a58e856e4b31"
+    },
+    "CONTRIBUTING.md": {
+      "bytes": 1275,
+      "sha256": "c92e126ef08dd4795c97b6be7a661167192385fdcf1abeef6628ecd0538c0a29"
+    },
+    "FINAL_Q1_READINESS_AUDIT.md": {
+      "bytes": 3231,
+      "sha256": "c8f92832109b2af0df855547a42e325f1f2ea99e0cfe9d212c21e23be15272f8"
+    },
+    "FINAL_RELEASE_STATUS.json": {
+      "bytes": 7254,
+      "sha256": "fa922faab0de65af71630229deaeea24d8582ea38087752bd75e186962006842"
+    },
+    "GITHUB_UPLOAD_STEPS.md": {
+      "bytes": 1139,
+      "sha256": "c9e70ec145c69a844661614399c88e5b8cba51054bc8e365bbbb929285ba169a"
+    },
+    "LICENSE.template": {
+      "bytes": 1256,
+      "sha256": "9b0278c605623e053a0ae891facf7599b4b46b0ef8d62686b164fed33bc23f95"
+    },
+    "LICENSE_STATUS.md": {
+      "bytes": 743,
+      "sha256": "07475a2e820d229971e5482762b38ebd1c57ffc2009edf2cc549b2779905ed6e"
+    },
+    "PUBLICATION_METADATA_REQUIRED.md": {
+      "bytes": 858,
+      "sha256": "35b59f33d423a93fb39067ded09547a75bdd830752dc7d2ad12b57f078a468a8"
+    },
+    "RATINGS.json": {
+      "bytes": 2536,
+      "sha256": "080351b00404d0bfbb01b0daa8f74e0e6c3029b0b6517476240b1c25747dc4ac"
+    },
+    "RATINGS.md": {
+      "bytes": 1857,
+      "sha256": "cafaeafae2524fe32da1e878e1b1fd5c6dcd55789ef685429eb70063679aee0b"
+    },
+    "README.md": {
+      "bytes": 5054,
+      "sha256": "354a34f0173b31a2d9a8870e0bfc18b9c11a1b311fd29994f74aa4047c79bb5e"
+    },
+    "RELEASE_VERSION": {
+      "bytes": 6,
+      "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+    },
+    "REPRODUCIBILITY.md": {
+      "bytes": 2218,
+      "sha256": "2526dfd308c20aea629901ee4af3e3603d9f3b840a4baf3253bf43aa89ed9a2d"
+    },
+    "SCIENTIFIC_RECOMPUTATION.md": {
+      "bytes": 1437,
+      "sha256": "6e282517661064de94a735993ed19f4a3fe62053d159d79cbac5a46d96c3f517"
+    },
+    "SECURITY.md": {
+      "bytes": 1000,
+      "sha256": "9ee5f9a1ba4cf883b3b81a7bbed71c8246f6ee820228b4c13a79979cfe8da118"
+    },
+    "THIRD_PARTY_ASSETS.md": {
+      "bytes": 665,
+      "sha256": "dc81ffa6f73ff6dd8ab0f1c59af0d106031cbcd281c5bc19357b623b3de1be8b"
+    },
+    "refresh_release_manifest.py": {
+      "bytes": 4880,
+      "sha256": "2a444495657d1a9024fe685b0178246b366b7f5bba0419d3f0d1b82d7b7fac56"
+    },
+    "requirements-verify.txt": {
+      "bytes": 55,
+      "sha256": "3e297391941bc75f341a7464efbf4e9bd2e70835ca6d95445b85e257b44c4d8e"
+    },
+    "studies/eviaudio/CLAIM_LEDGER.json": {
+      "bytes": 753,
+      "sha256": "e9c7aee4dd11a2f3b1099dd9047151d086bc36ff8167528a5cfbf38de7988fe8"
+    },
+    "studies/eviaudio/PUBLIC_PATH_SANITIZATION.md": {
+      "bytes": 563,
+      "sha256": "f6db2b24f34aee8fde1659ca9c2f1da1398c82603145a5299fb7be4d1b62eca6"
+    },
+    "studies/eviaudio/README.md": {
+      "bytes": 597,
+      "sha256": "15778401da2820990760cf9385da14aa260402c42d175f81ba3c595a22f32b1a"
+    },
+    "studies/eviaudio/SCIENTIFIC_ARTIFACT_INVENTORY.json": {
+      "bytes": 53280,
+      "sha256": "fdc7d21e9e271b12c8abd9c6c327f4a2379244566ef775ce7348405136eccb5a"
+    },
+    "studies/eviaudio/SUBMISSION_MANIFEST.json": {
+      "bytes": 51370,
+      "sha256": "bfa2c7db0b5fff6012f671ead10e1ebf3aae4eb7df61dcec544f3d32cc88236f"
+    },
+    "studies/eviaudio/author_metadata_required.md": {
+      "bytes": 362,
+      "sha256": "b798ed3c10539813442464a1763c90ff3ee5e517867cbb637a57b576a85e9fe5"
+    },
+    "studies/eviaudio/cover_letter.md": {
+      "bytes": 1063,
+      "sha256": "8ad85c0dc2dbcf7c7d976eed329e41e86b5134ba1ffbf024622856fa292a6560"
+    },
+    "studies/eviaudio/data_availability.md": {
+      "bytes": 647,
+      "sha256": "c47fbca5c5a4473939475939eec16fd846a467a3fe5b4b00601b76bfc66c342e"
+    },
+    "studies/eviaudio/edics_recommendation.md": {
+      "bytes": 903,
+      "sha256": "a1e5d007e726da9bfce9696e8cc41fa8d8ad46adb1985db9394290f912f31df9"
+    },
+    "studies/eviaudio/extended_figures/AEF01.pdf": {
+      "bytes": 23993,
+      "sha256": "65f2a2265b31d165731bd1fa5d93d78de375df00b8baa86b0723c136c85917c2"
+    },
+    "studies/eviaudio/extended_figures/AEF02.pdf": {
+      "bytes": 18083,
+      "sha256": "250ce633d5639014d742b9ab94844d0e5446f6974196e3fc9538c66785203e8c"
+    },
+    "studies/eviaudio/extended_figures/AEF03.pdf": {
+      "bytes": 17353,
+      "sha256": "96a71071cd7a8ee19433b71fdc2e32517ae1b49cbb9d83a2f9112582db05fcf7"
+    },
+    "studies/eviaudio/extended_figures/AEF04.pdf": {
+      "bytes": 23821,
+      "sha256": "a7e7780a1d6005ed47dbdeefda7910f15542691a45b5ee547d72f1adfaf47ede"
+    },
+    "studies/eviaudio/extended_figures/AEF05.pdf": {
+      "bytes": 16058,
+      "sha256": "4efee5a03aaa387e91d82bf1b7bff97f1ade87281af1ecd8894681063b1fa99b"
+    },
+    "studies/eviaudio/figure_captions.md": {
+      "bytes": 304,
+      "sha256": "d371959eae6808c55bf26b7f0b2317b4fc9b9d5d5400bfdb6f4c3e16da240340"
+    },
+    "studies/eviaudio/figure_manifest.csv": {
+      "bytes": 1360,
+      "sha256": "cdae799b05db1afc2cba6174b7488fca09fed4803a3e235fcd18ea2347ce8a63"
+    },
+    "studies/eviaudio/figure_source_data/AEF01_evidence_ledger.csv": {
+      "bytes": 849,
+      "sha256": "4b75c62e56e37a2b9401ba4597aa224a2bb6a93a18c34712074917ce1eb9db3a"
+    },
+    "studies/eviaudio/figure_source_data/AEF02_controlled.csv": {
+      "bytes": 514,
+      "sha256": "f78fa35cb5e77f24bb23213de151df624597a6f5e293e6b87d0e91b9f45945d2"
+    },
+    "studies/eviaudio/figure_source_data/AEF02_natural.csv": {
+      "bytes": 354,
+      "sha256": "0f932c551cb10a2020165d7f002efeb7a61972561a536c3790de2cb843ac851c"
+    },
+    "studies/eviaudio/figure_source_data/AEF03_thresholds.csv": {
+      "bytes": 1284,
+      "sha256": "a890bcc83cfb2ac06e280a751db552df2ea07cfdc4cb668b72d96bdff095aff0"
+    },
+    "studies/eviaudio/figure_source_data/AEF04_class_delta.csv": {
+      "bytes": 1392,
+      "sha256": "c1588971dc426e7a604f5efb4929dacb43b209d052e01849e9afe3bcac238250"
+    },
+    "studies/eviaudio/figure_source_data/AEF04_selection.csv": {
+      "bytes": 3222,
+      "sha256": "5965b0076109d84a9c0e34f338ec207a7b7de7dd07e241e47a1b152d99bee7da"
+    },
+    "studies/eviaudio/figure_source_data/AEF05_downstream.csv": {
+      "bytes": 544,
+      "sha256": "a4759b6f2cbd7abfeca304505c4b6c4db6b4ea465eea8c7b66867a25bfbbf975"
+    },
+    "studies/eviaudio/figures/AEF01.pdf": {
+      "bytes": 23993,
+      "sha256": "65f2a2265b31d165731bd1fa5d93d78de375df00b8baa86b0723c136c85917c2"
+    },
+    "studies/eviaudio/figures/AEF02.pdf": {
+      "bytes": 18083,
+      "sha256": "250ce633d5639014d742b9ab94844d0e5446f6974196e3fc9538c66785203e8c"
+    },
+    "studies/eviaudio/figures/AEF03.pdf": {
+      "bytes": 17353,
+      "sha256": "96a71071cd7a8ee19433b71fdc2e32517ae1b49cbb9d83a2f9112582db05fcf7"
+    },
+    "studies/eviaudio/figures/AEF04.pdf": {
+      "bytes": 23821,
+      "sha256": "a7e7780a1d6005ed47dbdeefda7910f15542691a45b5ee547d72f1adfaf47ede"
+    },
+    "studies/eviaudio/key_contributions.txt": {
+      "bytes": 261,
+      "sha256": "b5c7a8514d0cbb929c44f7869dd6d72f18159ce7085d99d476255bbd37efa949"
+    },
+    "studies/eviaudio/main.tex": {
+      "bytes": 27054,
+      "sha256": "b63390c10c2c7280ecd9e23805c1a0ea1771bac34bc0ff4ad9ab23a7ef45048e"
+    },
+    "studies/eviaudio/model_and_data_pins.json": {
+      "bytes": 3225,
+      "sha256": "c84767f29e1b50bd1ea45600f861271ee4fa6f0afe68948da06fa4a824df4b90"
+    },
+    "studies/eviaudio/rendered/main.build.log": {
+      "bytes": 27228,
+      "sha256": "6f6e9a644d0994251adbb7b9f5563d38bb7ec8af666e7125df2b102a00f86b7c"
+    },
+    "studies/eviaudio/rendered/main.pdf": {
+      "bytes": 143350,
+      "sha256": "67d204b791ea6b5952598cba136d75140375aecc83ba5fa59a28fa02daf79062"
+    },
+    "studies/eviaudio/rendered/supplement.build.log": {
+      "bytes": 26204,
+      "sha256": "70df7e8d9148ff5e1a6faeb9e09f41e7fdbf166d36bbb6b14274ab583f3fb65d"
+    },
+    "studies/eviaudio/rendered/supplement.pdf": {
+      "bytes": 44185,
+      "sha256": "df696c481c41f20046b1b6b4d52cf57a947722d7b2e34e71a2ba02e8ab331456"
+    },
+    "studies/eviaudio/reproducibility/pyproject.toml": {
+      "bytes": 510,
+      "sha256": "27c2058886bfcb1a34de40ffe915423bb17c21a87f91cc40810e552f86805878"
+    },
+    "studies/eviaudio/reproducibility/q1_90/DATA_RIGHTS_AND_DISTRIBUTION.md": {
+      "bytes": 1660,
+      "sha256": "184dbb43559c18a65312d7e1ed6eefff094c5a114597ae38e05debdf258c4c41"
+    },
+    "studies/eviaudio/reproducibility/q1_90/EXTERNAL_REPLICATION_AUTHORIZATION.json": {
+      "bytes": 5103,
+      "sha256": "6c1abd7d32aa9a850ba5db3a8f3c8fb3599d6ec3ee8d56c4ffa0200646cc0730"
+    },
+    "studies/eviaudio/reproducibility/q1_90/EXTERNAL_REPLICATION_PROTOCOL.md": {
+      "bytes": 3352,
+      "sha256": "4f22463ac0cbbfd44d5f014b216edf8b0ea03cdefbc553dfb7d1b1fb8058b40c"
+    },
+    "studies/eviaudio/reproducibility/q1_90/MODEL_BLIND_SOURCE_COUNT_AMENDMENT.json": {
+      "bytes": 1414,
+      "sha256": "4ef11caca3615f6aaa3fa343f2a00e395e09ea3a9f4ee5c5f5b31b2e44bc9a98"
+    },
+    "studies/eviaudio/reproducibility/q1_90/configs/external_replication.json": {
+      "bytes": 2201,
+      "sha256": "1abfb030ea998aa2bda4cf29b6c282d52f8840bdb33e2e9ce38ba5fbc48d66aa"
+    },
+    "studies/eviaudio/reproducibility/q1_90/data/external_replication/external_recipes.sealed.jsonl": {
+      "bytes": 1562139,
+      "sha256": "9a7007e7ee7af5345ea6520eecf7f9bb5a4519abe1f9e7d031f1d0d9d772db14"
+    },
+    "studies/eviaudio/reproducibility/q1_90/data/external_replication/recipe_audit.json": {
+      "bytes": 1467,
+      "sha256": "a4a7224d979b595e0096c913406e33114a258c8442a933fb10d2c72abc4a5378"
+    },
+    "studies/eviaudio/reproducibility/q1_90/results/external_replication/evaluation/external_replication_report.json": {
+      "bytes": 16883,
+      "sha256": "233754628f926c65a3f3bb59308070796d453fb0f0a2839b10e81104c30ae129"
+    },
+    "studies/eviaudio/reproducibility/q1_90/results/external_replication/evaluation/raw_external_replication.jsonl.gz": {
+      "bytes": 1342017,
+      "sha256": "f12dbdf6e3e682fe9d19dc1371e50a4372bd91146794479dd0ca6299948d00b9"
+    },
+    "studies/eviaudio/reproducibility/q1_90/results/external_replication/precompute/clap_prior_summary.json": {
+      "bytes": 811,
+      "sha256": "cdf76669cad55f3a8f022235f7b07d67ac31bd6fe98b6e30425fbde436a91ef7"
+    },
+    "studies/eviaudio/reproducibility/q1_90/results/external_replication/precompute/external_precompute_receipt.json": {
+      "bytes": 834,
+      "sha256": "c46ae5f5ed130ef4c2de51b5e306d9f8dbdf571e56c219786cc8e61c08cbd895"
+    },
+    "studies/eviaudio/reproducibility/q1_90/results/external_replication/precompute/index.jsonl": {
+      "bytes": 140232,
+      "sha256": "50f5a923b8d05cbb1cce75a50774a9db3368ee613b2dc5913af569d639d14b89"
+    },
+    "studies/eviaudio/reproducibility/q1_90/results/external_replication/precompute/raw_clap_prior.jsonl.gz": {
+      "bytes": 16930,
+      "sha256": "320d6a18e0198dd0f33342f3e9fb4a2165ed8e5be4ae04cd8ad921c2ec928e7a"
+    },
+    "studies/eviaudio/reproducibility/q1_90/scripts/build_external_figures.py": {
+      "bytes": 12224,
+      "sha256": "921e5845ea77262eef930b2c050d8369730996612ac798c8db92cab82cf308b9"
+    },
+    "studies/eviaudio/reproducibility/q1_90/scripts/evaluate_external_replication.py": {
+      "bytes": 11915,
+      "sha256": "e1bf86d601aea9e3cf56f017735c16ec7aa648ccf8442917a0f7714aa775e7ab"
+    },
+    "studies/eviaudio/reproducibility/q1_90/scripts/freeze_external_replication.py": {
+      "bytes": 7973,
+      "sha256": "fed0a9dea4088b2cb2efa389ee88f2727460f7883e5f34d68c20be4b9579186f"
+    },
+    "studies/eviaudio/reproducibility/q1_90/scripts/parallel_range_download.py": {
+      "bytes": 8016,
+      "sha256": "59e2319722d2d117e5a04a5a58717d8c9ff48faecc071fcf2d90410514d9b58b"
+    },
+    "studies/eviaudio/reproducibility/q1_90/scripts/prepare_external_recipes.py": {
+      "bytes": 14348,
+      "sha256": "485939c863e4d78fa5a51d47e1dd2a5bbc36b95e58af54c8ca15db334ba3d4d5"
+    },
+    "studies/eviaudio/reproducibility/q1_90/scripts/run_external_precompute.py": {
+      "bytes": 8915,
+      "sha256": "603ab757873e352f4f1747b43acbf8a7f37c9cf617e8d70cdbea58d173dbcd44"
+    },
+    "studies/eviaudio/reproducibility/q1_90/tests/test_external_replication.py": {
+      "bytes": 2876,
+      "sha256": "426ccbc8631b24b03e9ea86d3b9858acef0729b2b7ffa60f7d105d56b3bdddee"
+    },
+    "studies/eviaudio/reproducibility/q1_crossfit_capcorrect/ANALYZER_EFFICIENCY_AMENDMENT.md": {
+      "bytes": 701,
+      "sha256": "7b89fe3e36401046619f327faefb1fccb37c609aef3202a7dedc52689f06311f"
+    },
+    "studies/eviaudio/reproducibility/q1_crossfit_capcorrect/CAPCORRECT_ANALYSIS_LOCK.json": {
+      "bytes": 2313,
+      "sha256": "92955229761b6dd6878fa000654d7e067b682ecb0e9f5caabda7ee15e3d602a5"
+    },
+    "studies/eviaudio/reproducibility/q1_crossfit_capcorrect/CAPCORRECT_ANALYZER_AMENDMENT_LOCK.json": {
+      "bytes": 1128,
+      "sha256": "2d5189246ea95ed708257d3b46915718ff4e9192836f2e0c103bcc8fcfb44771"
+    },
+    "studies/eviaudio/reproducibility/q1_crossfit_capcorrect/PROTOCOL.md": {
+      "bytes": 2427,
+      "sha256": "11133c3a5eaab0f9f1b76e937dc086dee4fbc2a94039ed6d05dfd03917ca5e8e"
+    },
+    "studies/eviaudio/reproducibility/q1_crossfit_capcorrect/README.md": {
+      "bytes": 839,
+      "sha256": "2ec40da4cd423bd229da4d46ca8227c1f6f83e9e6ca171c315eb50799f21028f"
+    },
+    "studies/eviaudio/reproducibility/q1_crossfit_capcorrect/configs/cap_corrected_crossfit.json": {
+      "bytes": 1710,
+      "sha256": "c3f6f9798f6b3994400084a9d763cffc54c88cb55a0c72726dcaca6bcdb2bfba"
+    },
+    "studies/eviaudio/reproducibility/q1_crossfit_capcorrect/publication_upgrade/EVIAUDIO_UPGRADE_ANALYSIS.json": {
+      "bytes": 12047,
+      "sha256": "e761185d75c662142c645cfb64141f331facf9c786b63a3b145a116a86dd4da8"
+    },
+    "studies/eviaudio/reproducibility/q1_crossfit_capcorrect/results/candidate_pools/receipt.json": {
+      "bytes": 7746,
+      "sha256": "7c4b2f3a66ba819041ad494b2d3174de85b9608cc8c914e03f354d78197cc826"
+    },
+    "studies/eviaudio/reproducibility/q1_crossfit_capcorrect/results/capcorrect_router/capcorrect_all_candidates.jsonl.gz": {
+      "bytes": 15465268,
+      "sha256": "2822d08cfa5a5818bf2113d826807ec8a5d959a02706e4dcbed2b242ef8b6ac4"
+    },
+    "studies/eviaudio/reproducibility/q1_crossfit_capcorrect/results/capcorrect_router/capcorrect_clap_only.jsonl.gz": {
+      "bytes": 15801994,
+      "sha256": "df6e7a3fd4b8e044073c67ea609576a81bdf9e8572bd882e9f8a7e2adaad5c0e"
+    },
+    "studies/eviaudio/reproducibility/q1_crossfit_capcorrect/results/capcorrect_router/capcorrect_router_report.json": {
+      "bytes": 41694,
+      "sha256": "356098756cf5e3f132b7bbb1296e4d1ff1ebe45480507c08150c5d068659d0c0"
+    },
+    "studies/eviaudio/reproducibility/q1_crossfit_capcorrect/scripts/analyze_capcorrect_router.py": {
+      "bytes": 20829,
+      "sha256": "f5210e3dc6c07376f72a7071c4ec2aa3fdebee916b26b6f3d0f79b6ae88b7fcd"
+    },
+    "studies/eviaudio/reproducibility/q1_crossfit_capcorrect/scripts/build_candidate_pools.py": {
+      "bytes": 14591,
+      "sha256": "cb1f60a1a1ebd67e650799168e6d2bdc973c06aa7546f69e209e0fac496289c0"
+    },
+    "studies/eviaudio/reproducibility/q1_crossfit_capcorrect/scripts/build_upgrade_publication.py": {
+      "bytes": 31258,
+      "sha256": "788ac13e9d4603485905dbd498a5af1898bd9ef80e0bec291a49e3209ce8a82b"
+    },
+    "studies/eviaudio/reproducibility/q1_crossfit_capcorrect/scripts/build_upgrade_submission.py": {
+      "bytes": 44652,
+      "sha256": "140abe2a480f3d30d2075cf8047b40da957f1455ac948d6081b8a456b7d53cdb"
+    },
+    "studies/eviaudio/reproducibility/q1_crossfit_capcorrect/scripts/freeze_analyzer_amendment.py": {
+      "bytes": 2161,
+      "sha256": "f41d498481e3868cd3a9ec22ab14af47e28e6b20ad589685b1fd92e79527a187"
+    },
+    "studies/eviaudio/reproducibility/q1_crossfit_capcorrect/scripts/freeze_capcorrect.py": {
+      "bytes": 2999,
+      "sha256": "b5066933fa9aae11c9a5ab4a595723209d6df489e1a69ff2550ad7c7c1058389"
+    },
+    "studies/eviaudio/reproducibility/q1_crossfit_capcorrect/src/capcorrect_utils.py": {
+      "bytes": 1930,
+      "sha256": "fc83817683de6e57691a2bc643e0d8ee8e42404935323dd11ef69621625706dc"
+    },
+    "studies/eviaudio/reproducibility/q1_crossfit_capcorrect/tests/test_capcorrect_utils.py": {
+      "bytes": 1843,
+      "sha256": "bb5c6824d48f4a290c484ddd9ccc18a0a47e517df370a428f58d72f329e0bcd0"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/ANSWER_DEVELOPMENT_AMENDMENT_001.json": {
+      "bytes": 1452,
+      "sha256": "ae642519e9c4739e5a7165a2f03281dd7adcc1c0c81150b6fecd3bb433527df1"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/ANSWER_DEVELOPMENT_LOCK.json": {
+      "bytes": 3176,
+      "sha256": "cc38b40fcdab83bf77e424a23a6d9754d4bbbcd6702413e9fa416c0c41ed7a28"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/ANSWER_DEVELOPMENT_PROTOCOL.md": {
+      "bytes": 3841,
+      "sha256": "534428c20c700ff90296f9787e9e548adce9002bb7a467f8ecdab0941fa36a8d"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/ANSWER_HELDOUT_AUTHORIZATION.json": {
+      "bytes": 4789,
+      "sha256": "a5bef5074a3f0605a7c72ade0a59db43d7e03bdf46a5997d5fe50a5ebc4f54a3"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/AUDIO_RUNTIME.json": {
+      "bytes": 3571,
+      "sha256": "8d65f0523b3b63cb9dba5e853e201adbc895d1483900ac4cdd39f841d546ca37"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/AUDITA_ADDITIONAL_EXCLUSIONS_002.json": {
+      "bytes": 824,
+      "sha256": "f5f67bfdef93bd6ce29779313680afecf99f36715cb1a70e8e9027c7414ba728"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/AUDITA_ADDITIONAL_EXCLUSIONS_003.json": {
+      "bytes": 761,
+      "sha256": "e5ec2fd83967c7c62a4a1450adb35c92c083ca2566d3f4cd9bb23f91da5a0c96"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/AUDITA_AMENDMENT_002_LOCK.json": {
+      "bytes": 866,
+      "sha256": "93eade240ad9b0cdea5031087ec023d431ace9a7b5c2c103af357b7f69731e0f"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/AUDITA_AMENDMENT_003_LOCK.json": {
+      "bytes": 851,
+      "sha256": "3794cd4145ecd73482b9fb4e0d9a29f3fdb8df8e513465857a6d877d0dd9291e"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/AUDITA_LICENSE_PROVENANCE_AUDIT.json": {
+      "bytes": 1434,
+      "sha256": "bc7a6a823dc54cf752f664e633a0ee4c347914ebe9368b0c9515322ef7289de5"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/EVENT_CONFIRMATORY_AUTHORIZATION.json": {
+      "bytes": 8007,
+      "sha256": "267aae382c79b939681fdb54eadb259a7a357dbe9439ab3e42ba461b017c9d60"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/EVENT_CONFIRMATORY_PROTOCOL.md": {
+      "bytes": 2959,
+      "sha256": "a990d04b8bcb44062f187c1241cf1a25e0b51b90a62108a28e5f7b0b41cf244c"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/EVENT_RANKER_LOCK.json": {
+      "bytes": 2483,
+      "sha256": "dd6218c952bec5183906cfc791357e700c0fc488e4230f9c9aaa5dcc73b650cf"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/EVENT_RANKER_SELECTION_PROTOCOL.md": {
+      "bytes": 3031,
+      "sha256": "e78671306f9150d4972ed1927e59cebabe2a1ff6895e1036e74fadb6582edd99"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/EVIAUDIO_FINAL_LOCK.json": {
+      "bytes": 2478,
+      "sha256": "4599346d270a7f078547d6a5653235c0f1b529f12bce7b0589bb5b27a5690ce6"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/EXACT_ONSET_FIGURE_LOCK.json": {
+      "bytes": 1089,
+      "sha256": "89374fe5d187554d90d3fafb9130947e4b844b7b5c4474b5c3efaf6825a9a134"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/HELDOUT_ANSWER_EVALUATION_PROTOCOL.md": {
+      "bytes": 2428,
+      "sha256": "f232e110bdb4f57bd7efcbf11b0249b4fde538e5889c7aec0bc4606ba772ed31"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/HELDOUT_ANSWER_FINAL_LOCK.json": {
+      "bytes": 3685,
+      "sha256": "bed5e32e811ad6fef30b647fb3bed311bbcadb6bfc2d33ac96bd756a9230132c"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/HELDOUT_FIGURE_PROTOCOL.md": {
+      "bytes": 2525,
+      "sha256": "b14cc3477ce5bf2b88feff563e9cb12118e7834e6dc673f84939d9ff956eb32b"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/HELDOUT_REPORTING_AMENDMENT_001.json": {
+      "bytes": 1316,
+      "sha256": "f350a4d4a4dc8aeb18ccc81a928d0f862af3858898e9b03d6dacaf066c478a00"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/HELDOUT_REPORTING_AMENDMENT_002.json": {
+      "bytes": 1222,
+      "sha256": "d1e6b3d8446696ddb14602dafe2da18c84bd1685fdcd36320f39d6df8b983abe"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/HELDOUT_REPORTING_PLAN_LOCK.json": {
+      "bytes": 1606,
+      "sha256": "0b4208adaa1a78011eb58a189b7f600dd9926cf228349ed080356f97578d84a4"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/HELDOUT_UNCERTAINTY_SUPPLEMENT_PROTOCOL.md": {
+      "bytes": 996,
+      "sha256": "c86180750e143b218ddc818d56f94aa073a24ae8dcc6c36cdafb6f6e050ce6f8"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/MANUSCRIPT_FINAL_LOCK.json": {
+      "bytes": 1291,
+      "sha256": "d7b5e905f0364a1365e73f9199b91ae8d95686d7ac6b9620dfc2c7d7922198d7"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/PROMOTION_GATES.json": {
+      "bytes": 1377,
+      "sha256": "b9f6bc778c4b0c9b1881037453ba4aeff6a789e2909abe4707d2ec1d2b820c29"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/Q1_READINESS_VERDICT.json": {
+      "bytes": 4171,
+      "sha256": "aaaa1b22fbad3fd9094a3a44a785712bc612c42f4ce3bdd20a900261201afe82"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/configs/answer_development.json": {
+      "bytes": 2929,
+      "sha256": "7d5165a55e2f67e0305ebe17b0881d63351e6c0b7bf95706be76c56c7688ce31"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/configs/answer_heldout.json": {
+      "bytes": 2854,
+      "sha256": "297beaba76d9bcc5bd060a022a4b8e4731751cb2316262ca244f523ae7cadf2b"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/configs/development_event_ranker.json": {
+      "bytes": 814,
+      "sha256": "6812ccca2cbbf11630e9968b680348b3ae3376226272d096ba2dc2329a32826d"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/configs/development_ranker.json": {
+      "bytes": 674,
+      "sha256": "9d86457865abb2d250e33509eb5d741d43b03ead77f2e73efc77ec57f9213da5"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/configs/development_ranker_objective_sweep.json": {
+      "bytes": 2384,
+      "sha256": "479c6283ff426d111424082c6c9376bf01dde637c80ec2e3893b4fd61c70e5c7"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/configs/smoke_event_ranker.json": {
+      "bytes": 770,
+      "sha256": "2c626044a9e1fe1fe102d39f71d1692d200b5741ffa5d59e33a60d6dbab6bdb3"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/data/event_needle/confirmatory_recipes.sealed.jsonl": {
+      "bytes": 2483048,
+      "sha256": "97b7d484814ba39dc6a43038231008fe3e775a82d29750a007bd10a77b03907d"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/data/event_needle/development_recipes.jsonl": {
+      "bytes": 7803793,
+      "sha256": "6e8496d897d7ae3e705fe5e23d4f2f75d107251ee64a71947f90ee0fc490cc88"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/data/event_needle/recipe_audit.json": {
+      "bytes": 5782,
+      "sha256": "c4a1bbe109801a836962a5b19083ab850a55f5395b9657d0d1068a9f15a2eae6"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/data/event_needle/validation_recipes.jsonl": {
+      "bytes": 2972647,
+      "sha256": "5be73d3d05811a5cd8aa2936e2accf9d3afe608e17a33c636eea487da537c62f"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/confirmatory/event_needle_confirmatory/clap_prior_summary.json": {
+      "bytes": 811,
+      "sha256": "92aac19dc2b86465e1f14a7a4aa8d3709752c0c2d1c4a1767200716de76e9998"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/confirmatory/event_needle_confirmatory/confirmatory_precompute_receipt.json": {
+      "bytes": 784,
+      "sha256": "95eb8142ecf0d4ff277ba0eec7e5a353a5bd8bf81659322bbfbdec78c4358265"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/confirmatory/event_needle_confirmatory/index.jsonl": {
+      "bytes": 254646,
+      "sha256": "86b4bc25497e200e2ceaf208d4eee53d3862eb9ba1ef677ca9787afca06212f6"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/confirmatory/event_needle_confirmatory/raw_clap_prior.jsonl.gz": {
+      "bytes": 32069,
+      "sha256": "a25b44744c580f6204eb081480eea4f2da3fd45df522627cc1fc5450ded179d1"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/confirmatory/event_ranker/five_seed_confirmatory_report.json": {
+      "bytes": 11731,
+      "sha256": "4d486f901ff137617d2b904f42fa62d1f55c56f6dc9587b1550bf7ac0b6d9975"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/confirmatory/event_ranker/raw_five_seed_confirmatory.jsonl.gz": {
+      "bytes": 2332468,
+      "sha256": "26c098622fd3c873e725391cddd163fe9be3b20dbf7f785b12b38a7f86baf5f6"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/answer_generation/calibration__phi4_multimodal.jsonl": {
+      "bytes": 777337,
+      "sha256": "152071af896209fbe771a01ea3ee8e337355ac20298ca9b56b52c6d9cab10709"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/answer_generation/calibration__phi4_multimodal.receipt.json": {
+      "bytes": 1233,
+      "sha256": "5dfc5d867c0c927b2cf0141a42452c61dcf163ca26c52f7ef851ccd7d9ebefb7"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/answer_generation/calibration__qwen2_audio.jsonl": {
+      "bytes": 768893,
+      "sha256": "f69a589ef02b5c66fdc50643f8fb0293257fcc3da50592d2bf85c4f89ef13d64"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/answer_generation/calibration__qwen2_audio.receipt.json": {
+      "bytes": 1219,
+      "sha256": "16566d3ea36c691a0fe4bbae965fec756d73d23ab687bf5079e16af1112b2a00"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/answer_generation/calibration_selection_report.json": {
+      "bytes": 10329,
+      "sha256": "67c3d483cfa17c781d4e6871052c3e28e51372793b03dc76116baac66ed47fb4"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/answer_generation/heldout__phi4_multimodal.jsonl": {
+      "bytes": 3861544,
+      "sha256": "4c7dc9490522a5ecf6aaa503bc131ec73d5a4eaa2d689a45a4498abc56d56586"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/answer_generation/heldout__phi4_multimodal.receipt.json": {
+      "bytes": 1416,
+      "sha256": "6e02450e588c08a3962ec837e24e1b4b30d436600086df1a18d73198254ea8dc"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/answer_generation/heldout__qwen2_audio.jsonl": {
+      "bytes": 3812744,
+      "sha256": "58b8d7682ddae7029d3f9a0f6d42f88614b6cc8ea58e168f43bbdb8f57a132ce"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/answer_generation/heldout__qwen2_audio.receipt.json": {
+      "bytes": 1400,
+      "sha256": "039811a3f0b10f754696bd308279fbdaa6ae556eea6c3d037d341e70356a45e1"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/answer_generation/heldout_evaluation_report.json": {
+      "bytes": 49756,
+      "sha256": "50d0f108c27ea685360eb681dbcd0cd753235fb9710dbb07b64618365b7a83c9"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/answer_generation/heldout_uncertainty_supplement.json": {
+      "bytes": 20606,
+      "sha256": "0bf209810494299b49bf7434bfd4340304f8d54a3a1c8523c78a5bbd3c92dd55"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/answer_retrieval/retrieval_scores.jsonl.gz": {
+      "bytes": 633965,
+      "sha256": "7790544b95ee8e696ad684075ffea6d5878dc634ef07434249af752ded9d9c7c"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/answer_retrieval/selection_report.json": {
+      "bytes": 4095,
+      "sha256": "282f18d92d34f18ed081f9d89e85231da42b05d3d5e3bbf81d885ae59e845268"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/event_needle_development/clap_prior_summary.json": {
+      "bytes": 808,
+      "sha256": "ddabf928e5b84b71a0eec3fa55553f9331f5f72d9302964c8353b058e096546e"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/event_needle_development/index.jsonl": {
+      "bytes": 753708,
+      "sha256": "f9a140b7fa40e356ae8f7a974c09854985398b9a94e94e74853f9a0ce4140fc4"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/event_needle_development/raw_clap_prior.jsonl.gz": {
+      "bytes": 95053,
+      "sha256": "40ecd2cdca639875f95cc6356c0aa138e75d07d7edede52198294bcfd0a4d65a"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/event_needle_validation/clap_prior_summary.json": {
+      "bytes": 809,
+      "sha256": "9f6830d9f928bd06aad04c78064b9840b1f0d2f55a95b9eac7d2cb1762ef3c1c"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/event_needle_validation/index.jsonl": {
+      "bytes": 249789,
+      "sha256": "00156819ba1fd4eebe8eff4a954daadf7089ccc8ffc68d12b8dd271b80749c0b"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/event_needle_validation/raw_clap_prior.jsonl.gz": {
+      "bytes": 32211,
+      "sha256": "e47ee0da0e4b9031f400f96e313be7de604b778dcf58bd9ae9438d89daf35539"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/event_ranker/checkpoints/event_v1__prior_residual__seed_0.pt": {
+      "bytes": 335915,
+      "sha256": "03ea7f0b3138f3bd22b8d6ec12d1dd09a2cc500cf3e088510159ccd1a84392e4"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/event_ranker/checkpoints/event_v1__prior_residual__seed_1.pt": {
+      "bytes": 335915,
+      "sha256": "a6ae986c878b7b8a9a33ed2b6b8d92f12200379d415601a415117c733f49704a"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/event_ranker/checkpoints/event_v1__prior_residual__seed_2.pt": {
+      "bytes": 335915,
+      "sha256": "8fc1dbe713f02eddb727acd393ae3d624e43389f8a5a80580bb9f42db14db89a"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/event_ranker/checkpoints/event_v1__prior_residual__seed_3.pt": {
+      "bytes": 335915,
+      "sha256": "e441a3c9a6a96b71319f2ede6f9f1545076f446b67e4cff7a5f35141884fa4d9"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/event_ranker/checkpoints/event_v1__prior_residual__seed_4.pt": {
+      "bytes": 335915,
+      "sha256": "a0349b6113899796495dd0df3ee0eb1c263694295c71bbdf8703fb1a1a67689a"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/event_ranker/checkpoints/smoke_only__prior_residual__seed_0.pt": {
+      "bytes": 38983,
+      "sha256": "d530ce5615002c357563ee6ebf792df16491255f5e35e1940e48c883bd53238b"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/event_ranker/five_seed_validation_report.json": {
+      "bytes": 13909,
+      "sha256": "a2ed542fd93f2f90b85996b0f74a07bac7d192585cd2032a2a7bc75a5d5c94fa"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/event_ranker/history__event_v1__prior_residual__seed_0.json": {
+      "bytes": 166949,
+      "sha256": "0653dec0a774ced124217b4d0a3ed5f3267bde5a58b1d64f2cae77ba62aab735"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/event_ranker/history__event_v1__prior_residual__seed_1.json": {
+      "bytes": 189635,
+      "sha256": "cd211c4955b4fa93330382bd1df4ea2dfb24ac7ea9896c4f9b015682ae586abe"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/event_ranker/history__event_v1__prior_residual__seed_2.json": {
+      "bytes": 189984,
+      "sha256": "e90ab6d206d4056be5db0432489f47ef66f581608a3025e4ad6bcb7599949818"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/event_ranker/history__event_v1__prior_residual__seed_3.json": {
+      "bytes": 189882,
+      "sha256": "68f851434f353cdac0eb389a0dcdc3fb6b7efd448a9497cdbc4f3847b321cc88"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/event_ranker/history__event_v1__prior_residual__seed_4.json": {
+      "bytes": 174264,
+      "sha256": "4a14f0859d9a4de7ebac02c4a6fd4e5ae3d4772dcd9361bf57aedf4b62e313a5"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/event_ranker/history__smoke_only__prior_residual__seed_0.json": {
+      "bytes": 7900,
+      "sha256": "d879e5c1bdf369a3d7e94c32384b4623dd718abe608c924b67f786a54bafe010"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/event_ranker/metrics__event_v1__prior_residual__seed_0.json": {
+      "bytes": 8196,
+      "sha256": "28ea1e03a1fb88b73e1851bb70ff19ff34d008c8e67a7fa119de0f023a64beae"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/event_ranker/metrics__event_v1__prior_residual__seed_1.json": {
+      "bytes": 8110,
+      "sha256": "3b6a07b1b0be1a79bf624a1e344cfc945350b7ac8281ac62d0f82baae8bb369e"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/event_ranker/metrics__event_v1__prior_residual__seed_2.json": {
+      "bytes": 8107,
+      "sha256": "68a8aa551221b6bf3772229c8ab6bc172d9fb241ee55870ba70a93b5da13762a"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/event_ranker/metrics__event_v1__prior_residual__seed_3.json": {
+      "bytes": 8160,
+      "sha256": "207afa25e878125338b3dff5c745390a7be85593d630adf5b75184d457648ec9"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/event_ranker/metrics__event_v1__prior_residual__seed_4.json": {
+      "bytes": 8103,
+      "sha256": "80a4989688ecf4e4010680e92dd82c40c5b36bc5673a86d357c972fa0a1d2684"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/event_ranker/metrics__smoke_only__prior_residual__seed_0.json": {
+      "bytes": 4387,
+      "sha256": "416a696ce5e3066fe3959ad1f0c0e0298adc1c96227e10564f5af167e7cf7f2d"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/event_ranker/raw_validation__event_v1__prior_residual__seed_0.jsonl.gz": {
+      "bytes": 744795,
+      "sha256": "e52dd805cdfe1521fbd3c68caa08a3b5ee4fac9ab83c53a8a9efbee9e8d9f2d1"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/event_ranker/raw_validation__event_v1__prior_residual__seed_1.jsonl.gz": {
+      "bytes": 745771,
+      "sha256": "6cd0e37b0732bd30909d332448148be7968082b37836a04c84ed2075b03324e6"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/event_ranker/raw_validation__event_v1__prior_residual__seed_2.jsonl.gz": {
+      "bytes": 745817,
+      "sha256": "24bcec3119b089ac5818a356dbb1ea1a8eef1e14f04ab8c628ff17b32b775a2d"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/event_ranker/raw_validation__event_v1__prior_residual__seed_3.jsonl.gz": {
+      "bytes": 745578,
+      "sha256": "752eea8c35f0acbefa53473f67f1df720d4395fbb1d19a49fc9785e188157af3"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/event_ranker/raw_validation__event_v1__prior_residual__seed_4.jsonl.gz": {
+      "bytes": 745800,
+      "sha256": "95c171c9206941fe3f0fa066417cef48286c31e2baed31c3ab23982a6a38b608"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/results/development/event_ranker/raw_validation__smoke_only__prior_residual__seed_0.jsonl.gz": {
+      "bytes": 2471,
+      "sha256": "652e82026bed80d3b26ad349ebae78fa0eedbf91c98692ecb3931f85b79fa6fa"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/scripts/analyze_answer_calibration.py": {
+      "bytes": 19314,
+      "sha256": "2403ba2e316f41d173c2c8d556c667948fc6882e3724a83ceb565b6712b98d0c"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/scripts/analyze_answer_calibration_amended.py": {
+      "bytes": 1819,
+      "sha256": "33c4d066c468b3e75d4d27e637e9219525ec1734f0f8a1125a36177f7bef728f"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/scripts/analyze_answer_heldout.py": {
+      "bytes": 19346,
+      "sha256": "dfbf9f32115e254d9cf020d60194e19f4f7b4ecf0098ebacf9d8afe52dff7c4e"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/scripts/analyze_answer_heldout_uncertainty.py": {
+      "bytes": 4587,
+      "sha256": "80314db53b9281946ecb6618a97cc0e2cc1770ac0eeb19cff58b7d75a0938b9a"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/scripts/analyze_event_ranker.py": {
+      "bytes": 17259,
+      "sha256": "f1c271204e6d7596bd06f525173a3291edaed22ed3cfe63a88cab2e18d283d52"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/scripts/build_exact_onset_figures.py": {
+      "bytes": 20358,
+      "sha256": "06be3b458fb403fc92a9a010bb21d147f8ac89946c53c07687b56fdd363a37c0"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/scripts/build_heldout_answer_figures.py": {
+      "bytes": 36500,
+      "sha256": "5ea0479548fc22e074766b8811fa78b6fb8bb7802f9940ba384bb8ed4ef8e278"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/scripts/evaluate_event_ranker_confirmatory.py": {
+      "bytes": 27068,
+      "sha256": "a817a7c25b9a14829108ee15a8897de094485d820cf714ac0d7918c46bfc95e0"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/scripts/materialize_clotho_development_audio.py": {
+      "bytes": 5498,
+      "sha256": "6214b761cd1fa0a862e75b76074d97b84396a8a4695c473c1071d08a6ef632ce"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/scripts/precompute_event_needle_clap.py": {
+      "bytes": 13092,
+      "sha256": "9e94a5d7b3be02be5502d7ca1ada0d3e3d15dac84157af45740cfaf7c42be464"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/scripts/precompute_question_clap.py": {
+      "bytes": 3449,
+      "sha256": "688122f621a059b13425aa3055756820dc3cf3791f947b0e5e03fd1af4c56723"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/scripts/prepare_audita_manifests.py": {
+      "bytes": 7318,
+      "sha256": "78f1dbec69c3d57144ae15d66ba2b05d971414c0c4c44e04dff73898fc42d0f4"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/scripts/prepare_event_needle_recipes.py": {
+      "bytes": 14645,
+      "sha256": "f919a92943b775958d3b4260fa86f91369fae8b0bd57db260cdef0c286a2392a"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/scripts/run_answer_calibration.py": {
+      "bytes": 20149,
+      "sha256": "4bd3964f6089971870a41f367f8d0737808ca701975caafa5897ff7abbf5b2bf"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/scripts/run_answer_heldout.py": {
+      "bytes": 16736,
+      "sha256": "81f4630de0abae15885ec0eaad917e4d5d0628de40d4b99a76407bc66cd66b91"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/scripts/run_confirmatory_event_precompute.py": {
+      "bytes": 7504,
+      "sha256": "c19db22b8137882029d6363da92472415a84854c6c8910ad748527024dd4d061"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/scripts/select_answer_retriever.py": {
+      "bytes": 14190,
+      "sha256": "e8be8cc6171fbe4fbff483f9f46b5d80fc48c54634a495fcf42aac910e55e02e"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/scripts/smoke_audio_backbone.py": {
+      "bytes": 10257,
+      "sha256": "8f6ead5321afba99b862bf385a2e904d6dff5a4dc5894a64f798aa812d220824"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/scripts/smoke_heldout_text_control.py": {
+      "bytes": 2689,
+      "sha256": "090a618558250decdfd47cbed3ce906ed3348acaa58177c304d7799ff66410df"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/scripts/train_event_ranker.py": {
+      "bytes": 14267,
+      "sha256": "90bd9845179cc407388d3ac35113653eb99f27caa5f0f001eb239c2e9b43985e"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/scripts/train_qcr_ranker.py": {
+      "bytes": 13595,
+      "sha256": "d52f0b5d5e1996d399c2fdf1878b8f534d31614b4d6b4d41cd2d1b0ae1a4a238"
+    },
+    "studies/eviaudio/reproducibility/q1_plus/scripts/verify_final_release.py": {
+      "bytes": 6192,
+      "sha256": "651d4122edb0d79379325ec2f160d499bf198fcc9cd02b85121b87c16bb9bf67"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/ACTIONFORMER_CONTEXTUAL_COMPLETION.md": {
+      "bytes": 1380,
+      "sha256": "51f028d8eea2c017a7a9d70f55871690b80334f542837bd516615f58dde21bfa"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/ACTIONFORMER_CONTEXTUAL_FREEZE.json": {
+      "bytes": 2475,
+      "sha256": "7a05d895002df81e7a3f614b0e8c2f50c8d6afaaa18ac527df21bae7db7111aa"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/ACTIONFORMER_CONTEXTUAL_INTERRUPTION.md": {
+      "bytes": 1018,
+      "sha256": "298ed1f78e29ca808fbbb30c1d031178e485aa671bb8411bf9d079f1fd972d65"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/ACTIONFORMER_CONTEXTUAL_RETRY_LOCK.json": {
+      "bytes": 1298,
+      "sha256": "d1a3f204ac934a18af1ec18be7634821ade6363b90b23905178d1c11c5be0be0"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/GPU_PRECOMPUTE_ACCELERATION_AMENDMENT.md": {
+      "bytes": 2398,
+      "sha256": "1bfd0bb59bea623bc994d3fbff45f71b170596f9dd8f3e658443e034b1650f62"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/GPU_PRECOMPUTE_ACCELERATION_LOCK.json": {
+      "bytes": 4148,
+      "sha256": "73cf6a73ee18995404aa05885cab4b7ce2b82812255b8f88edac72b056513dd5"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/GPU_PRECOMPUTE_EQUIVALENCE.json": {
+      "bytes": 1072,
+      "sha256": "c6a63ccffa384bb0d0739c41cbe53d2a5ebef6793e66d5208efca9b08fe7d575"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/GPU_PRECOMPUTE_PREPARATION_RECEIPT.json": {
+      "bytes": 791,
+      "sha256": "530f1cbbe4afa4008cb27c24fef473dccd07b3dc2849105a83c18c016ca8c6fc"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/OFFICIAL_METRIC_IMPLEMENTATION_AUDIT.md": {
+      "bytes": 2840,
+      "sha256": "d6b5fbd37674bcfd48263e9e53a4d9bf84ef63c5b6864beffc5d9d4cd01a5aeb"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/PERCEPTION_TEST_FREEZE.json": {
+      "bytes": 5375,
+      "sha256": "5d5070d14e9c710839b8d6d00e7eb0846943f16165823f0c39ad15337ce30afe"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/PERCEPTION_TEST_FREEZE_AMENDMENT.json": {
+      "bytes": 909,
+      "sha256": "86a40a187471993460cd707b96f03cd9a07d9fdfe263f1f9787add1f79978367"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/PERCEPTION_TEST_PROTOCOL.md": {
+      "bytes": 2479,
+      "sha256": "952a796185aae64269d166e28e88817ce8f22e37aae3bcec2579e0ed0c3f0a0b"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/PRECOMPUTE_EXECUTION_AMENDMENT.md": {
+      "bytes": 1812,
+      "sha256": "a71c997514918dc1cd2711e96206d192074140e31f0202efd6fa425e9e84b282"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/PRECOMPUTE_EXECUTION_LOCK.json": {
+      "bytes": 1913,
+      "sha256": "561a45cf037ba9d7511a8a612319f97d5c4919dceda09cb7e930b9c2af6bc65b"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/configs/perception_test_natural.json": {
+      "bytes": 4486,
+      "sha256": "194f4554077218267f9c7fa360dd8773e0818823c4f56648bb6f87770f4cbe1d"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/provenance/PERCEPTION_TEST_FREEZE_SUPERSEDED_20260723T192301Z.json": {
+      "bytes": 4127,
+      "sha256": "267f708fd5e5843093200b7cf1132e70b11035d37eba3e689ba64aebb1f725a9"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/publication/OFFICIAL_METRIC_AUDIT_ATTEMPT_1.json": {
+      "bytes": 14723,
+      "sha256": "67ca0a3339912a05f10567d88a3e8e585a4a857606d2b5588076f1ee6833f30e"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/publication/OFFICIAL_METRIC_PARITY.json": {
+      "bytes": 15242,
+      "sha256": "7726e293f4cc7f0e568948f1c72bfc5f622e8b639ee00c7c54ebc0275309ff86"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/publication/PERCEPTION_PUBLICATION_ANALYSIS.json": {
+      "bytes": 19203,
+      "sha256": "8eb67b1dd2eaa454f779566d15c093ad4cf014fedc98b0eebbdaa9de3ab83109"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/results/perception_test/actionformer_reference/evaluation_stderr.txt": {
+      "bytes": 273,
+      "sha256": "2d2aed3a2317576d916b38eec8c3fbd407fcfa34357ffed80f29569101ffb018"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/results/perception_test/actionformer_reference/evaluation_stdout.txt": {
+      "bytes": 24440,
+      "sha256": "734886b47ad9abe45cc230600ad5bfddef5b3afb4fb501528a62aeb4c9fad6da"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/results/perception_test/actionformer_reference/receipt.json": {
+      "bytes": 1444,
+      "sha256": "a0a1f801cd92e3a78fac711aead6503c70fbd9e7d9ced0dff9fec9eedf9b97f7"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/results/perception_test/evaluation/per_video_macro_ap.jsonl.gz": {
+      "bytes": 148047,
+      "sha256": "7fdee71ad2f8a862815e1b351b51b13a668d0478a996ed3133d87326d7886194"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/results/perception_test/evaluation/perception_test_report.json": {
+      "bytes": 14014,
+      "sha256": "4cd0c432b0ee5d1eb1c5f1e4d10bc717a434cf8bd510e634b8797b2b082f9165"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/results/perception_test/evaluation/predictions/clap_4s.jsonl.gz": {
+      "bytes": 8558172,
+      "sha256": "0b5b1343b1309dc1d2fde97b47bfe3db5b03558507c059e89cbf827fd102267c"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/results/perception_test/evaluation/predictions/clap_multiscale.jsonl.gz": {
+      "bytes": 15540041,
+      "sha256": "655f63e15c00643848353d421a70ca151421b937e7f964f1c09fb49ab6ecac10"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/results/perception_test/evaluation/predictions/qcr_4s.jsonl.gz": {
+      "bytes": 8808160,
+      "sha256": "70c1104594899508a6b291c31c94934d5b91ae5a0af784ced69f5042423ad219"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/results/perception_test/evaluation/predictions/qcr_multiscale.jsonl.gz": {
+      "bytes": 16196371,
+      "sha256": "148215dde5de7939984f34f706f34839715f19e5a85a286f4139b1144d1f1708"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/results/perception_test/precompute/index.jsonl": {
+      "bytes": 1501142,
+      "sha256": "a6a6b2cd6d6b580993f1f30d95fb9ca1910819a6c029b75873cc1d4daf1aa8e9"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/results/perception_test/precompute/precompute_summary.json": {
+      "bytes": 1814,
+      "sha256": "dcf8db7d024b66f948c2c19e86b6d883e4b6b65c859a7722b51f2a7b5a31c7b7"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/results/perception_test/precompute/query_embeddings.npz": {
+      "bytes": 39574,
+      "sha256": "bd0120ee488c8d4043bfc137d7027534b2715c3708d948f330c74fb650a1babb"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/scripts/build_perception_publication.py": {
+      "bytes": 21006,
+      "sha256": "0f9980df809e81267d0dc330d43652904d52148dd278bae1c335631808fda8e5"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/scripts/build_perception_submission.py": {
+      "bytes": 34115,
+      "sha256": "ea37d02f9bd32d060da098bae45d3176d1b9058e83be8f69584a071f72e6f630"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/scripts/evaluate_perception_test.py": {
+      "bytes": 21934,
+      "sha256": "a301c29c0526108df2a738700aa391576ae46bc907e715f449278b37e2d5c0f3"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/scripts/finalize_perception_precompute.py": {
+      "bytes": 6790,
+      "sha256": "afb3c6fc9585285c7cdd8f843af2e03f104e9faeef6c1ce9dacb6ec913b28e2f"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/scripts/finalize_perception_precompute_gpu.py": {
+      "bytes": 6725,
+      "sha256": "a9f5ebc6dfb3311cefcebbfe853836ca820ee8eb13f8cd7ef522c5554ddb4b42"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/scripts/freeze_actionformer_contextual.py": {
+      "bytes": 5128,
+      "sha256": "a0228d822017052c42860dec797f1c0b0be68d23a0cdfb794f04e8367987f645"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/scripts/freeze_actionformer_retry.py": {
+      "bytes": 3056,
+      "sha256": "e84f60f3fc060ff302536b535883bb0a8723355e24108417a4e4bacc5d4bed0b"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/scripts/freeze_gpu_precompute.py": {
+      "bytes": 5280,
+      "sha256": "2047fcb7946ab76dfad06391a48e57ba50e41af4da37c754382ac5c24cbd7c65"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/scripts/freeze_perception_test.py": {
+      "bytes": 7779,
+      "sha256": "c3d9542ae8c8312d372f7c817991e56d05ac5b6ac4f8365b658c2f387e4e00fe"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/scripts/freeze_precompute_execution.py": {
+      "bytes": 4037,
+      "sha256": "782262f8d2cbe879925f77f0991269f76881ecf0c98dd40eb1695917049a03e6"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/scripts/precompute_perception_clap.py": {
+      "bytes": 16386,
+      "sha256": "bfac1f721b97972a3463aeccef75afc8ff3643280eea569b7562e5b933e9ef51"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/scripts/precompute_perception_clap_gpu_shard.py": {
+      "bytes": 13844,
+      "sha256": "aaf03d5a95f43262ebd8b10133ad34568824610a5d2d313c2c99e1e7785821b6"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/scripts/precompute_perception_clap_shard.py": {
+      "bytes": 10449,
+      "sha256": "96b0c113e08306afdd8f756b0a03a5c3b16ba0d53c5724339b10becc168b8cbf"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/scripts/prepare_gpu_precompute.py": {
+      "bytes": 3404,
+      "sha256": "2a806afda9f7a08928f605bb0c999de34428851e536517f728168d513eb439d5"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/scripts/run_actionformer_reference.py": {
+      "bytes": 6223,
+      "sha256": "4d6788cc685a2cc1f07d18ae0f3fa564e73d51cdd94cbc916c6d096968378653"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/scripts/run_actionformer_reference_compat.py": {
+      "bytes": 5924,
+      "sha256": "0e49655af6db9aeef254536a6c5dd514183e4fc2965baf9127cf2ed7bc07b774"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/scripts/verify_gpu_precompute_equivalence.py": {
+      "bytes": 7168,
+      "sha256": "0718c3d5161b31b0bc7e8251c9ca50fd8fb1cb8e6de9de571ece0883d9ec2556"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/scripts/verify_official_metric_parity.py": {
+      "bytes": 19290,
+      "sha256": "3f46c38aab224b685f43808f92659e713c46e5f351f0552761c95ab543d73081"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/scripts/verify_perception_submission.py": {
+      "bytes": 32706,
+      "sha256": "a9a35d817ec2d584c94396018a0c8b9a5a938af5d45725d1acc0e3b94678717e"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/src/temporal_localization.py": {
+      "bytes": 8791,
+      "sha256": "19aba127b203ec1816fdabe99a3bac1694c0df6082bd4af26ce20ad6e91ea0e5"
+    },
+    "studies/eviaudio/reproducibility/q1_top_tier/tests/test_temporal_localization.py": {
+      "bytes": 2331,
+      "sha256": "45a8585a63c4af23d6e1162888baf65acfd3b1637f387b8a0f1db00f99db4f33"
+    },
+    "studies/eviaudio/reproducibility/q1_upgrade/CROSSFIT_ANALYSIS_LOCK.json": {
+      "bytes": 1827,
+      "sha256": "1712e6191f047c7c9edc05b6feef207d07acf3ced2e9915f5fbb3d67b6a6f501"
+    },
+    "studies/eviaudio/reproducibility/q1_upgrade/INVALIDATION_OUTPUT_CAP.md": {
+      "bytes": 1584,
+      "sha256": "e997183a1c38747369c7663bdf0a8f8510cae1a8f3d6a498cc064fdb5000a311"
+    },
+    "studies/eviaudio/reproducibility/q1_upgrade/PROTOCOL.md": {
+      "bytes": 2509,
+      "sha256": "018479fe73686b14907aef89b09b67e0fa18f894ae1f039bf75b46835551a1ca"
+    },
+    "studies/eviaudio/reproducibility/q1_upgrade/README.md": {
+      "bytes": 893,
+      "sha256": "832cb520811384d733d2e00ef4d58b65fad0133b01a889439abe6ce729df87a6"
+    },
+    "studies/eviaudio/reproducibility/q1_upgrade/configs/crossfit_router.json": {
+      "bytes": 1752,
+      "sha256": "34a6d56c605515a81a4205c5d806a3f08123d0a5da56c57fd503561bc88abad0"
+    },
+    "studies/eviaudio/reproducibility/q1_upgrade/results/scale_candidates/receipt.json": {
+      "bytes": 1990,
+      "sha256": "a5879441c0fcc5357e8425abb5134759aa5d78f781e5743613c3bdffae455cc5"
+    },
+    "studies/eviaudio/reproducibility/q1_upgrade/scripts/analyze_crossfit_router.py": {
+      "bytes": 18402,
+      "sha256": "39b9ca74640e4c3c6ba097d2474df7eb86cb7717a0c66b1a4c4f960debb1d7eb"
+    },
+    "studies/eviaudio/reproducibility/q1_upgrade/scripts/build_scale_candidates.py": {
+      "bytes": 8922,
+      "sha256": "87affe966120259751217c477f70f81225d5b3860a52421a491aaa5f2593a4d7"
+    },
+    "studies/eviaudio/reproducibility/q1_upgrade/scripts/freeze_crossfit.py": {
+      "bytes": 2574,
+      "sha256": "f20feeeddcd4082d7bdc9ea47c93b7248a8d6ed430c9a6db7f843228d9c85cdf"
+    },
+    "studies/eviaudio/reproducibility/q1_upgrade/src/crossfit_utils.py": {
+      "bytes": 892,
+      "sha256": "988d2a10faf864c676f2c59220a4d0e3422b7d3f72c6e21bd89895054dc6498b"
+    },
+    "studies/eviaudio/reproducibility/q1_upgrade/tests/test_crossfit_utils.py": {
+      "bytes": 906,
+      "sha256": "db355d42aec94a878fb401356df4b7a237ea639281c6dcefc3eeb7b5da39d918"
+    },
+    "studies/eviaudio/reproducibility/requirements-full.txt": {
+      "bytes": 200,
+      "sha256": "3361e64f08a8548d5d2d63929683cafb9dcc2d842f4d4793231eee6cfdd16708"
+    },
+    "studies/eviaudio/reproducibility/requirements-mamba.txt": {
+      "bytes": 159,
+      "sha256": "dbabff090601ae949011e7cccb247c93eced376ddaedf8ece49f6b15edf03114"
+    },
+    "studies/eviaudio/reproducibility/requirements-minimal.txt": {
+      "bytes": 58,
+      "sha256": "5e5a38c325aa0497611e956f426446d6a9abf0976df320614a219767b4386eb3"
+    },
+    "studies/eviaudio/reproducibility/src/eviaudio_mt/__init__.py": {
+      "bytes": 703,
+      "sha256": "cd11432e8834c5bbfb86a683a8015ea37f96ffe7977751c00cf20e2fb590f903"
+    },
+    "studies/eviaudio/reproducibility/src/eviaudio_mt/advanced_model.py": {
+      "bytes": 9534,
+      "sha256": "a9a428233792f71ed2a05a7ef82af5b19ff0a96b75e701cf0d8a60e8c5f90481"
+    },
+    "studies/eviaudio/reproducibility/src/eviaudio_mt/audio_encoder.py": {
+      "bytes": 4412,
+      "sha256": "676fb8b903ecbe8e960328e9f34c46f795861e80949e472770f7aa03b2d23744"
+    },
+    "studies/eviaudio/reproducibility/src/eviaudio_mt/blocks.py": {
+      "bytes": 4250,
+      "sha256": "ba88379ee1bf46c982dd9b7cede1eb779dc93e89bd26433e6188925461568c5c"
+    },
+    "studies/eviaudio/reproducibility/src/eviaudio_mt/data.py": {
+      "bytes": 14064,
+      "sha256": "0c743702548caf4b016146f621de6dadc07f770f141f73c6042aa1a1c5162c1f"
+    },
+    "studies/eviaudio/reproducibility/src/eviaudio_mt/decoders.py": {
+      "bytes": 5355,
+      "sha256": "b8ddfbb3706b48d224c94a7fdab20b77f02c827a1f5585ca730e19ae5ad05b7d"
+    },
+    "studies/eviaudio/reproducibility/src/eviaudio_mt/evaluate.py": {
+      "bytes": 5351,
+      "sha256": "726c437b0c1290d00de2d51493374da56eb53af62fc8220bc3a938b3114f004c"
+    },
+    "studies/eviaudio/reproducibility/src/eviaudio_mt/event_data.py": {
+      "bytes": 5624,
+      "sha256": "6fc68141188432afdad7c661074cab74a85424efce4f461617b1617313265256"
+    },
+    "studies/eviaudio/reproducibility/src/eviaudio_mt/event_needle.py": {
+      "bytes": 4398,
+      "sha256": "c15a9d03d98ac556ca87a16fbf36ff4c7c4a43bed43de0f529835340b560b950"
+    },
+    "studies/eviaudio/reproducibility/src/eviaudio_mt/evidence_reservoir.py": {
+      "bytes": 13712,
+      "sha256": "9452e8bc8d53d64b5a9a791840b2df3c7c53912e11768658e3fbf0464004a2a2"
+    },
+    "studies/eviaudio/reproducibility/src/eviaudio_mt/losses.py": {
+      "bytes": 1105,
+      "sha256": "861dc2b793e93792960cd787d0588781fc83b4c0beec26ad2b0d9f758ee16e2c"
+    },
+    "studies/eviaudio/reproducibility/src/eviaudio_mt/memory.py": {
+      "bytes": 7076,
+      "sha256": "cebd3b5c2eafcc4137891ec7e25ffd04582b876bfd1bdc4a6c66a08252ab6f53"
+    },
+    "studies/eviaudio/reproducibility/src/eviaudio_mt/metrics.py": {
+      "bytes": 3351,
+      "sha256": "794fb0a0da276f7ce7cf2657ab82f101f92363a04c46af5847aa9021c87c5a5d"
+    },
+    "studies/eviaudio/reproducibility/src/eviaudio_mt/model.py": {
+      "bytes": 20170,
+      "sha256": "a96eb34524cc7141a58448f4b900c3d9248eefa2825f30d34e2ab8aaaed65efa"
+    },
+    "studies/eviaudio/reproducibility/src/eviaudio_mt/qcr.py": {
+      "bytes": 13574,
+      "sha256": "58e3708d5e34e189932b276e91ff94f74badb07047738d90bfed210f5ead9509"
+    },
+    "studies/eviaudio/reproducibility/src/eviaudio_mt/qcr_data.py": {
+      "bytes": 6087,
+      "sha256": "97a1f201082af3d0f34ac1cb5d485e38d75bd7bbd273ce8e9d8daa3d60cf2a87"
+    },
+    "studies/eviaudio/reproducibility/src/eviaudio_mt/train.py": {
+      "bytes": 8516,
+      "sha256": "fa735c42d05957961a4997582435b3781b57c7fd794fb3b203418d73a2762923"
+    },
+    "studies/eviaudio/reproducibility/src/eviaudio_mt/utils.py": {
+      "bytes": 1545,
+      "sha256": "7ee3cf7251b1c58c2fcc61a4675c487d5138520160f675de5ac1ac40b9b60ba7"
+    },
+    "studies/eviaudio/reproducibility_checklist.md": {
+      "bytes": 817,
+      "sha256": "b82754155f44e7c38af47026c7cfc1df7e8526189a8155abf9c696fbd7957d2e"
+    },
+    "studies/eviaudio/reproduction_commands.md": {
+      "bytes": 835,
+      "sha256": "897bc9bf40321864fae5405d7e75d56b4a39cf6c57c2a627d142da47a873bbe6"
+    },
+    "studies/eviaudio/results_macros.tex": {
+      "bytes": 2714,
+      "sha256": "54e1353ddb814bef4bb997ef11288c167c0d15f91df2d2a45688a501bd1e6d7f"
+    },
+    "studies/eviaudio/submission_checklist.md": {
+      "bytes": 524,
+      "sha256": "c8195ed6aa4cd1121c40846ea375c119dc136b7c30233651e2597decd86edb88"
+    },
+    "studies/eviaudio/supplement.tex": {
+      "bytes": 7575,
+      "sha256": "2c1e0083b391380353eef5594d8d9d942656d777757c7935d1bf931775053819"
+    },
+    "studies/eviaudio/supplement_classes.tex": {
+      "bytes": 1025,
+      "sha256": "520f2064ac92043d1d2628bd88064991ebc17fac04a06e4857c2a4a2bb55c9ee"
+    },
+    "studies/eviaudio/supplement_selection.tex": {
+      "bytes": 1603,
+      "sha256": "74ce927a2a01ce780b53bd3831189c771a154b512a1be2d2f571491812c8406f"
+    },
+    "studies/eviaudio/venue_fit_and_claims.md": {
+      "bytes": 725,
+      "sha256": "dafdd73f7a9222650ab18a17d9d5e2e00bb515a70aeba50a4b8b675512fabc28"
+    },
+    "studies/eviaudio/venue_requirements_checked.md": {
+      "bytes": 891,
+      "sha256": "58c9ea23e12cd34ded40b5b2295a80a5acde5d8324d7edcc0d3929c7eb7b687b"
+    },
+    "studies/shifttitan/CLAIM_LEDGER.json": {
+      "bytes": 737,
+      "sha256": "dc76c6f3e4f51afcd91f8ca802743822edcf4de483902656580ee45182a0c193"
+    },
+    "studies/shifttitan/README.md": {
+      "bytes": 646,
+      "sha256": "aa4a4a79ec66b98b8617287c0480e8d999789fa2d9d8cb403ab03a97ffcf0939"
+    },
+    "studies/shifttitan/SCIENTIFIC_ARTIFACT_INVENTORY.json": {
+      "bytes": 12159,
+      "sha256": "cddc28047d1469d7d051725030c68921d90ecb436d634089d9f75aed0d64b6a3"
+    },
+    "studies/shifttitan/SUBMISSION_MANIFEST.json": {
+      "bytes": 18413,
+      "sha256": "b159b5b36f9d99ab4bec57e547479a6cbb7c473784c6a74fa4adef7998f4acc7"
+    },
+    "studies/shifttitan/_external_sources/fev/benchmarks/fev_bench/tasks.yaml": {
+      "bytes": 48443,
+      "sha256": "c7160f61a5e1ded66a3954ef1c514d55d13be18534b34fca817356312a6520a9"
+    },
+    "studies/shifttitan/_external_sources/fev/benchmarks/fev_bench/tasks_mini.yaml": {
+      "bytes": 10094,
+      "sha256": "992ac3b7fa76f0a400d2783535b989549decab381006da5a866e28b61b963edb"
+    },
+    "studies/shifttitan/author_metadata_required.md": {
+      "bytes": 500,
+      "sha256": "cb1806f925408655f53dc9ae9e03f7498474af2b1eaa41171113eb00ee965101"
+    },
+    "studies/shifttitan/cover_letter.md": {
+      "bytes": 958,
+      "sha256": "3afc0585bb0d57e2d562fbf9002cafd71e6ab85913db49314f8dceb3a1558244"
+    },
+    "studies/shifttitan/data_availability.md": {
+      "bytes": 466,
+      "sha256": "115e2271436d1f5bddd23ffbeb42d94f268fa817eaeeabedbf7b48c75db3443c"
+    },
+    "studies/shifttitan/extended_figures/QSF01.pdf": {
+      "bytes": 22119,
+      "sha256": "8186deb5a283864e013e489f4229b30583ab2fddefe96846b7050e9c50c4b387"
+    },
+    "studies/shifttitan/extended_figures/QSF02.pdf": {
+      "bytes": 24793,
+      "sha256": "81b30475a3eed8798d54df28bd841dc1a2a78f1ef8c500b59b4348831a5fe826"
+    },
+    "studies/shifttitan/extended_figures/QSF03.pdf": {
+      "bytes": 18239,
+      "sha256": "b3fb9ff31b9d735013ed5c8da6034b1b35845606bfc454df99f4e34c174c2b29"
+    },
+    "studies/shifttitan/extended_figures/QSF04.pdf": {
+      "bytes": 15898,
+      "sha256": "8f152f25c051c8c8d186750851adf9bf6fd53e81cd18cd6d062ed2c65f1aa1f9"
+    },
+    "studies/shifttitan/extended_figures/QSF05.pdf": {
+      "bytes": 19205,
+      "sha256": "da9a5c53cb2a099d015760091edcf26115d22b5f932e699b322873a711cb89e7"
+    },
+    "studies/shifttitan/figure_manifest.csv": {
+      "bytes": 1159,
+      "sha256": "d45d53127169fd279807db59cfed512966eaed315dfe7be2bd0f14b165e5b089"
+    },
+    "studies/shifttitan/figure_source_data/QSF01_flow.csv": {
+      "bytes": 542,
+      "sha256": "a286bf38f720d5ea03158baeb1976dd41ff2cc4abf18acbd373a48e43c8a883f"
+    },
+    "studies/shifttitan/figure_source_data/QSF02_cells.csv": {
+      "bytes": 7793,
+      "sha256": "85362fe1197caf7d17d57ac64dc648f933e10948ba7e13a867d91f5887764845"
+    },
+    "studies/shifttitan/figure_source_data/QSF03_panel_summary.csv": {
+      "bytes": 468,
+      "sha256": "f0a5328d454c1fe772287bf6ee106e1d2daf0e9feade79db39d3c70d92c4756f"
+    },
+    "studies/shifttitan/figure_source_data/QSF04_family.csv": {
+      "bytes": 1685,
+      "sha256": "a5603baf690918c062207d8302d541765287cb66dcd67f5d3b65bf6cfeffc04c"
+    },
+    "studies/shifttitan/figure_source_data/QSF05_mechanism_ablations.csv": {
+      "bytes": 1793,
+      "sha256": "40a43b786fd1be3871ba82e32953b02d4a34e4be85868e17d86bbdfc378c40ce"
+    },
+    "studies/shifttitan/figures/QSF01.pdf": {
+      "bytes": 22119,
+      "sha256": "8186deb5a283864e013e489f4229b30583ab2fddefe96846b7050e9c50c4b387"
+    },
+    "studies/shifttitan/figures/QSF02.pdf": {
+      "bytes": 24793,
+      "sha256": "81b30475a3eed8798d54df28bd841dc1a2a78f1ef8c500b59b4348831a5fe826"
+    },
+    "studies/shifttitan/figures/QSF03.pdf": {
+      "bytes": 18239,
+      "sha256": "b3fb9ff31b9d735013ed5c8da6034b1b35845606bfc454df99f4e34c174c2b29"
+    },
+    "studies/shifttitan/figures/QSF05.pdf": {
+      "bytes": 19205,
+      "sha256": "da9a5c53cb2a099d015760091edcf26115d22b5f932e699b322873a711cb89e7"
+    },
+    "studies/shifttitan/highlights.txt": {
+      "bytes": 278,
+      "sha256": "eceda7a43fa259e8c6e248c7be95ee8546c75b17f4d2d4b4c191b295b3152e4c"
+    },
+    "studies/shifttitan/main.tex": {
+      "bytes": 27478,
+      "sha256": "5336b6e46f75bbddd995e726d8066ce137bae6a465465c548d43b201cece2dbf"
+    },
+    "studies/shifttitan/model_and_data_pins.json": {
+      "bytes": 1800,
+      "sha256": "f967dcb818cd012cddce3aef10ad1c2520e11c7134b5d3f2d19d35a0ff5689d7"
+    },
+    "studies/shifttitan/rendered/main.build.log": {
+      "bytes": 244,
+      "sha256": "f5788f248ad80e181f3d3e1dd2f88b9f6522339b0acfd38c3e3be0b7d4ab957c"
+    },
+    "studies/shifttitan/rendered/main.pdf": {
+      "bytes": 164460,
+      "sha256": "3f9884d874a0328ce09f3fbc5af38c372ef93a16f2435b293e4bded084010422"
+    },
+    "studies/shifttitan/rendered/supplement.build.log": {
+      "bytes": 250,
+      "sha256": "f755cb17cb714d2ce351ea0c890156595dfea630f65e6d2ff89f0f7a1e06a0e4"
+    },
+    "studies/shifttitan/rendered/supplement.pdf": {
+      "bytes": 64350,
+      "sha256": "2c2b73296923ca53ab5ed07dae0ce6ffc3cc72a3b460daced8decce16b349eff"
+    },
+    "studies/shifttitan/reproducibility/pyproject.toml": {
+      "bytes": 490,
+      "sha256": "e7cc1917c8b92bd4adfee16d1325928e5d2aac16e8835be8cd8f7fb9f98907f6"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/ANALYZER_TASK_IDENTIFIER_AMENDMENT.md": {
+      "bytes": 932,
+      "sha256": "3f28438936415e09259f63df6400975014883205ee0b99d462f988af59eb7cde"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/FRESH_FEV_ANALYZER_AMENDMENT_LOCK.json": {
+      "bytes": 2676,
+      "sha256": "573e651075c6df36c7000a4478ea6ef9dbb6c67186863c958be3a2c4995b89a5"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/FRESH_FEV_FREEZE.json": {
+      "bytes": 3204,
+      "sha256": "12334a2d3c0ab1508679fa1a21f968cdb9f946cb7e72bd11b2a92c26073cab20"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/POSTHOC_FAMILY_SENSITIVITY.md": {
+      "bytes": 892,
+      "sha256": "7065305bfb770608622c6954a61a8f33b65a68dfd52af9572b5091256801d512"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/PROTOCOL.md": {
+      "bytes": 2313,
+      "sha256": "3f0d83ccedf8992118755787eb50850c97b75d9db76a02f098b5300efcb2f027"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/README.md": {
+      "bytes": 764,
+      "sha256": "9ef78b939b862e6babfe73b417e3af4c9a7c1b95e9556495cdc0bc41dc361387"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/THEORY_AND_INVARIANTS.md": {
+      "bytes": 2171,
+      "sha256": "61d6e57298b3f8934bcb5b8f63d7c1552defc020aeb795a1a89913378cfbf887"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/configs/fresh_fev_expansion.json": {
+      "bytes": 2691,
+      "sha256": "355e8f68f4bdf4584f256575f9664036b36371b74839edd0b896762e3db7ed7f"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/configs/fresh_tasks.yaml": {
+      "bytes": 10521,
+      "sha256": "63626ff3af2b751a6b2cfb28f03d960c2f876027c3b332d2a0a013e9ddd28276"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/publication_upgrade/SHIFT_UPGRADE_ANALYSIS.json": {
+      "bytes": 14177,
+      "sha256": "9c2768feb24e96b1dfd5856fce7defa71935ffd971f176ec2458599b59784938"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/results/chronos_2/origin_losses.jsonl.gz": {
+      "bytes": 388406,
+      "sha256": "7a1719e2c25b930f6827463d73446ef2b3714dd26232c691dc62b6ba44c4ca7a"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/results/chronos_2/receipt.json": {
+      "bytes": 1094,
+      "sha256": "312619a080e4274d051070b04532d2810ff19a2eddce94e562621bc28790e1ca"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/results/chronos_2/task_audits.json": {
+      "bytes": 5026,
+      "sha256": "91d56ca03cb0837b0dcf4c0744bf5779e1fe201c00a16465b99af1b2901ce147"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/results/chronos_bolt_small/origin_losses.jsonl.gz": {
+      "bytes": 401215,
+      "sha256": "b7cee3e8695bc720668f98bb30b37fb9890c99bf61a1cdd5ab417743d8e1695d"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/results/chronos_bolt_small/receipt.json": {
+      "bytes": 1105,
+      "sha256": "fae50768f1111023e91aa26c85525fe37854492585e8a37eee4f317d70b651ed"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/results/chronos_bolt_small/task_audits.json": {
+      "bytes": 5074,
+      "sha256": "34036a6e35c3546bf97090ffa08f75a759a940c914ac8ee8504245c021e0d159"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/results/chronos_bolt_tiny/origin_losses.jsonl.gz": {
+      "bytes": 404106,
+      "sha256": "dd88294c696f2a9fbcb413bf2bc60e18fa419a485f8e58265edd3218b1abed79"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/results/chronos_bolt_tiny/receipt.json": {
+      "bytes": 1102,
+      "sha256": "4ad137d07a33d151d00eb37cec9deb2dd2efd667bfcce0ec922f17701e31915c"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/results/chronos_bolt_tiny/task_audits.json": {
+      "bytes": 5104,
+      "sha256": "558766b96c1ad402df11635599267ab298c6ae72043c85d280bf6e71b5420149"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/results/family_panel_ratios.csv": {
+      "bytes": 1820,
+      "sha256": "fcb12875f58812a4db39195a874d085efc022b0cee58fb71c9a22271cac42d2b"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/results/family_sensitivity_report.json": {
+      "bytes": 4832,
+      "sha256": "afda6f5ca05ee6ad89412385ebeb0dfdb211a548c2f6048bfd593c5cb17e4344"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/results/fresh_fev_report.json": {
+      "bytes": 20137,
+      "sha256": "dccd6270f0fb6da3760ef4fe3c03182765702ec78ba01067533ef6b8eb8529d0"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/scripts/analyze_family_sensitivity.py": {
+      "bytes": 7120,
+      "sha256": "f3fbd9843dddaa7f020a01cf37932b6f7d56bfd35835d6209249a118cf3ce300"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/scripts/analyze_fresh_fev.py": {
+      "bytes": 13160,
+      "sha256": "2d2a2f5c62fa711a0252d0a5bd12034b5a0c06bc6b94a3f14a99947342a8023b"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/scripts/build_upgrade_publication.py": {
+      "bytes": 26784,
+      "sha256": "6174eefd04d07eb2b51c7cb897b222f65ed7af55e5ddea6accc27c90e002298e"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/scripts/build_upgrade_submission.py": {
+      "bytes": 31781,
+      "sha256": "b90a4be88f855792337d258f39936eaa4830bf0c3fcf4514949394ecd7cd4d3c"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/scripts/freeze_analyzer_amendment.py": {
+      "bytes": 3332,
+      "sha256": "cd9f9ceb1eaca2a9f744f49fcdd5c4c23311d138dd4ee8cf461395c8d8b2fba2"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/scripts/freeze_fresh_fev.py": {
+      "bytes": 5190,
+      "sha256": "eb72f9ce1c978ccbc4363b1c2cbfcdb185278542ddd7696a36db46f9d18d3cd8"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/scripts/run_fresh_fev_backbone.py": {
+      "bytes": 14869,
+      "sha256": "edf192268443ef316d6a2383b7cafc9c94ec75609926a0c610a75e3035650799"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/scripts/select_fresh_tasks.py": {
+      "bytes": 2835,
+      "sha256": "ad1c218903c5e100db6a36cbdf68952ebfba72bc76d7e37c05d6536474728da3"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/tests/test_analyzer_task_identifier.py": {
+      "bytes": 815,
+      "sha256": "9889e15b0075c48d56e3f79b36ce550c35214e20dba4fac347ecd796cd15233c"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/tests/test_family_sensitivity.py": {
+      "bytes": 971,
+      "sha256": "9e06bdb589be1e05f7a229cb8f159f119d62474470ecdc09cc7b8ccc85b65493"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/tests/test_reservation_tightness.py": {
+      "bytes": 1538,
+      "sha256": "eda99ce53ab5f424ac538cb3376c934948a19c14ad6cc150b5ac8d3ff41ac4f9"
+    },
+    "studies/shifttitan/reproducibility/q1_fresh_replication/tests/test_task_selection.py": {
+      "bytes": 2186,
+      "sha256": "e8736dce934633b1e8931907326a273e2806120a4642d10ce97ca0952c63c4d4"
+    },
+    "studies/shifttitan/reproducibility/q1_top_tier/FEV_FREEZE.json": {
+      "bytes": 3410,
+      "sha256": "bad8272a02df6c117dab85aec53c5adae046e9c6879310efa861708177bd4416"
+    },
+    "studies/shifttitan/reproducibility/q1_top_tier/FEV_PROTOCOL.md": {
+      "bytes": 2551,
+      "sha256": "edbdc9c8a64a27262da6bd9db6fe7ad91b61d695ea87078780f21426cbf1a43d"
+    },
+    "studies/shifttitan/reproducibility/q1_top_tier/configs/fev_natural_panel.json": {
+      "bytes": 3191,
+      "sha256": "723b7403b6c69feffe9b8b897e8813f4dd9af89098bdf039448e8c74f17a4965"
+    },
+    "studies/shifttitan/reproducibility/q1_top_tier/publication/FEV_PUBLICATION_ANALYSIS.json": {
+      "bytes": 8078,
+      "sha256": "280376964d303f74770b8f41346aba96cb19fc1846d4f0a6c1706f662261522b"
+    },
+    "studies/shifttitan/reproducibility/q1_top_tier/results/development/safe_portfolio_screen.json": {
+      "bytes": 1165908,
+      "sha256": "80a968fb0012f34a8c1623f8e20e7df8e5801197336dc2146ecb392f51fc2b8f"
+    },
+    "studies/shifttitan/reproducibility/q1_top_tier/results/fev/chronos_2/fev_summaries.json": {
+      "bytes": 207814,
+      "sha256": "57cf1f77b12469bf6aebf8e19152b2fdd17698247ce0317d43072a0ba50d57f8"
+    },
+    "studies/shifttitan/reproducibility/q1_top_tier/results/fev/chronos_2/origin_losses.jsonl.gz": {
+      "bytes": 1932332,
+      "sha256": "2021276740208f566a83fed170a8ab7047eb65d0976cd54a9ce8a541b82d1a97"
+    },
+    "studies/shifttitan/reproducibility/q1_top_tier/results/fev/chronos_2/receipt.json": {
+      "bytes": 1196,
+      "sha256": "d4ffc60c41b041966091deed2f857196c4a5ee36dd6c34c215a12a1583172148"
+    },
+    "studies/shifttitan/reproducibility/q1_top_tier/results/fev/chronos_2/task_audits.json": {
+      "bytes": 3714,
+      "sha256": "25c4e069074f6be60307e57384298a8fed26efb47629a0b43c0f54d0f60a7421"
+    },
+    "studies/shifttitan/reproducibility/q1_top_tier/results/fev/chronos_bolt_small/fev_summaries.json": {
+      "bytes": 209969,
+      "sha256": "de437994a32d2142177f8ec6fef1772347945e8babf5d2ab4f47383c83a306b2"
+    },
+    "studies/shifttitan/reproducibility/q1_top_tier/results/fev/chronos_bolt_small/origin_losses.jsonl.gz": {
+      "bytes": 1934967,
+      "sha256": "55a25283540ea881d70d88d60b105fc20367f3c34ae5686f4cffe5e4c6732c7e"
+    },
+    "studies/shifttitan/reproducibility/q1_top_tier/results/fev/chronos_bolt_small/receipt.json": {
+      "bytes": 1206,
+      "sha256": "7dc37d9d22f01041f543d2f38486ad0a6338469107f61b4f7b9ba794332c2177"
+    },
+    "studies/shifttitan/reproducibility/q1_top_tier/results/fev/chronos_bolt_small/task_audits.json": {
+      "bytes": 3714,
+      "sha256": "6f6698510dec2fcc5002adb5e39da3d6e6e2e3a3a39e739ce2bd3a61ea381794"
+    },
+    "studies/shifttitan/reproducibility/q1_top_tier/results/fev/chronos_bolt_tiny/fev_summaries.json": {
+      "bytes": 209784,
+      "sha256": "651bb56213dd567e0762e7f1fa4fd82b4ece2746abe133cee0a4157a1e9f5501"
+    },
+    "studies/shifttitan/reproducibility/q1_top_tier/results/fev/chronos_bolt_tiny/origin_losses.jsonl.gz": {
+      "bytes": 1939068,
+      "sha256": "c0696ef94178d0c9eceabfe2c349ef685a0c05dda57b7b018f382e3371519c45"
+    },
+    "studies/shifttitan/reproducibility/q1_top_tier/results/fev/chronos_bolt_tiny/receipt.json": {
+      "bytes": 1205,
+      "sha256": "67363b3d3e30a13f540c5f30de97c2010488190780ba9719f12e72cbbe85ed0f"
+    },
+    "studies/shifttitan/reproducibility/q1_top_tier/results/fev/chronos_bolt_tiny/task_audits.json": {
+      "bytes": 3750,
+      "sha256": "6b8886129378f3c0cb3f0e5ba2358dab7631600202c54718c0aed02c490fc9da"
+    },
+    "studies/shifttitan/reproducibility/q1_top_tier/results/fev/fev_panel_report.json": {
+      "bytes": 4603,
+      "sha256": "1b10dce2f82aa6f624e342cb00a2079b361d8ac523bef688781efa5fc5fc9367"
+    },
+    "studies/shifttitan/reproducibility/q1_top_tier/results/fev/fev_task_backbone_cells.csv": {
+      "bytes": 6966,
+      "sha256": "7dc2527821362f27d146443a301614fd0cf34e0f5516ec5637204bc8a8200f22"
+    },
+    "studies/shifttitan/reproducibility/q1_top_tier/scripts/analyze_fev_panel.py": {
+      "bytes": 12059,
+      "sha256": "bdbfc47af8a12f6787481e63a0a3fed2c56208cbf11f584a04d1638d74102be9"
+    },
+    "studies/shifttitan/reproducibility/q1_top_tier/scripts/freeze_fev_panel.py": {
+      "bytes": 5819,
+      "sha256": "da0f611de7a75cf77aae9e02ea081e29e3a127f3bdaf6641912f7ba3e1d24d67"
+    },
+    "studies/shifttitan/reproducibility/q1_top_tier/scripts/run_fev_backbone.py": {
+      "bytes": 16108,
+      "sha256": "c5ca5f089b317a497ba1d8809bc55c2f87816956ef882efbaba70c86bbb67b6d"
+    },
+    "studies/shifttitan/reproducibility/q1_top_tier/scripts/screen_safe_portfolios.py": {
+      "bytes": 15884,
+      "sha256": "3cc215b26e4d64bb97f2c0888696588590023127dfa9457b6683902c0ab6fcdc"
+    },
+    "studies/shifttitan/reproducibility/q1_top_tier/src/fev_safe_adapter.py": {
+      "bytes": 7130,
+      "sha256": "89c17112b0b3b06367df8062a503c66fa5167e27e6076e26be9202e56fdb619c"
+    },
+    "studies/shifttitan/reproducibility/q1_top_tier/src/safe_delayed_portfolio.py": {
+      "bytes": 8031,
+      "sha256": "c07be9cbe69f23c9bbaedc4c3452c517614666c3da4900fd478e04fda8ffaf3f"
+    },
+    "studies/shifttitan/reproducibility/q1_top_tier/tests/test_fev_safe_adapter.py": {
+      "bytes": 2260,
+      "sha256": "aa7bd3981d78c37ce150fc75a2d8c109e64418c6ed7e4547b81184ae3858ee78"
+    },
+    "studies/shifttitan/reproducibility/q1_top_tier/tests/test_safe_delayed_portfolio.py": {
+      "bytes": 3322,
+      "sha256": "e8353b680d898060617106c7aa66ef862bcf49e43b5d5c084d0dd673051c6647"
+    },
+    "studies/shifttitan/reproducibility/q1_upgrade/INVALIDATION_OVERLAPPING_PANEL.md": {
+      "bytes": 1458,
+      "sha256": "fd86876d8afcab63524ec42af72292532274bcebd43866f4fe9ca18ca74db13a"
+    },
+    "studies/shifttitan/reproducibility/requirements-full.txt": {
+      "bytes": 205,
+      "sha256": "6110853a72072dc0ae04bb3db75ede553ae245d185e26f98d8b43c27fd16a815"
+    },
+    "studies/shifttitan/reproducibility/requirements-minimal.txt": {
+      "bytes": 58,
+      "sha256": "5e5a38c325aa0497611e956f426446d6a9abf0976df320614a219767b4386eb3"
+    },
+    "studies/shifttitan/reproducibility/src/shift_titan_mamba/online_adapters.py": {
+      "bytes": 9313,
+      "sha256": "b132cd7fb47480f85740eaac47af533e42a87b42a6ac1c99a1429a959a2a01ad"
+    },
+    "studies/shifttitan/reproducibility_checklist.md": {
+      "bytes": 627,
+      "sha256": "27fa19b778508e5d178f3735f26b9dfd4e14b98e2b206b91ffbf4be603721d4c"
+    },
+    "studies/shifttitan/results_macros.tex": {
+      "bytes": 1333,
+      "sha256": "9de5d0e2c71501d7f345bd065c2a884f2421cabd884856b433a8fc2e80a94ffe"
+    },
+    "studies/shifttitan/submission_checklist.md": {
+      "bytes": 530,
+      "sha256": "343e3672856785ffa19a8c43ad425ca262f4a898a91e1492f71289f392579f2a"
+    },
+    "studies/shifttitan/supplement.tex": {
+      "bytes": 5002,
+      "sha256": "30090ff03a8c2b13b171f09e392a91babba7a2d542f5ecc8ee877af4b5c9f6e4"
+    },
+    "studies/shifttitan/supplement_cells.tex": {
+      "bytes": 7919,
+      "sha256": "1274102fd496eb6f4fb3f27cebe7603b8c2330b2c79c7ab27ce624b0b460889c"
+    },
+    "studies/shifttitan/supplement_families.tex": {
+      "bytes": 857,
+      "sha256": "eb55bf9bde3e1ea20db795f667616be848611ebb18933f128ca4e340b40f2f80"
+    },
+    "studies/shifttitan/venue_fit_and_claims.md": {
+      "bytes": 782,
+      "sha256": "de9eec6fa1bf0383b283b2e29df1ac208bb6c272a811302c24863a88c50677d0"
+    },
+    "verify_release.py": {
+      "bytes": 19649,
+      "sha256": "f087566045ca4eb99aeb11a9a57460e168e538df6813ac822519bd1bf5f320bd"
+    },
+    "verify_scientific_results.py": {
+      "bytes": 58290,
+      "sha256": "47e60eb5f0494b13eb19ea9901ca789fb8300edafbd8de822f60f106eb8bccf7"
+    }
+  },
+  "schema": "two_study_q1_upgrade_github_manifest_v3",
+  "total_bytes": 130116820
+}

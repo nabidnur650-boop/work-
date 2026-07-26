@@ -1,0 +1,171 @@
+{
+  "deterministic_archives": {
+    "consecutive_identical_builds": 2,
+    "eviaudio": {
+      "bytes": 95924787,
+      "crc_verified": true,
+      "filename": "EviAudio_TASLP_Q1_Upgrade_submission.zip",
+      "included_in_git_repository": false,
+      "sha256": "52f585e5bd0662e71915bd5addfaa4d9429c119d90032ae19b1cc65006d0a196"
+    },
+    "shifttitan": {
+      "bytes": 7596783,
+      "crc_verified": true,
+      "filename": "ShiftTitan_Information_Sciences_Q1_Upgrade_submission.zip",
+      "included_in_git_repository": false,
+      "sha256": "7830b72db087ac9b71b08730ee24315aa8443827cc26fde328283b51a6c261b8"
+    }
+  },
+  "git_commit_created": false,
+  "git_push_performed": false,
+  "github_folder_status": "technically_ready_for_upload",
+  "human_only_requirements": [
+    "author names, order, affiliations, and ORCIDs",
+    "corresponding-author contact and CRediT roles",
+    "funding, conflicts, acknowledgments, and disclosures",
+    "copyright-holder and third-party-rights approval",
+    "final accountable-author proofreading and approval",
+    "GitHub owner, repository URL, authenticated commit, and push"
+  ],
+  "metadata_complete": false,
+  "q1_acceptance_guaranteed": false,
+  "release_date": "2026-07-26",
+  "release_version": "1.0.0",
+  "research_package_ratings": {
+    "eviaudio": 8.95,
+    "shifttitan": 8.71
+  },
+  "schema": "two_study_q1_upgrade_release_status_v3",
+  "scientific_recomputation_validation": {
+    "coverage": {
+      "artifact_arithmetic_only_endpoints": [
+        "natural and router official global mAP: class/threshold arithmetic, hashes, caps, and all final predictions verified"
+      ],
+      "exactly_recomputed_endpoints": [
+        "both ShiftTitan cell matrices, geometric effects, counts, and task bootstraps",
+        "controlled and external audio metrics, gates, and hierarchical bootstraps",
+        "frozen natural per-video effect and paired bootstrap",
+        "held-out answer exact/F1, source-macro effects, gates, and bootstraps"
+      ],
+      "final_localization_prediction_rows": 5449000,
+      "heldout_answer_rows": 6576,
+      "intentional_boundary": "provider annotations/audio, model weights, large embeddings, and regenerable candidate pools are excluded; no unavailable ground-truth or inference rerun is claimed",
+      "natural_videos": 5359,
+      "raw_controlled_external_examples": 616,
+      "raw_forecast_origin_rows": 99186
+    },
+    "status": "scientific_results_independently_recomputed",
+    "studies": {
+      "eviaudio": {
+        "controlled_exact_onset": {
+          "ensemble_evidence_ap": 0.8425465180601033,
+          "evidence_ap_delta": 0.23353734005197313,
+          "positive_seeds": 5,
+          "prior_evidence_ap": 0.6090091780081301,
+          "raw_examples": 397,
+          "status": "confirmatory_exact_onset_gate_pass"
+        },
+        "external_source_disjoint": {
+          "ensemble_evidence_ap": 0.7019664725791814,
+          "evidence_ap_delta": 0.1611617946999364,
+          "positive_seeds": 5,
+          "prior_evidence_ap": 0.540804677879245,
+          "raw_examples": 219,
+          "status": "external_replication_gate_fail"
+        },
+        "frozen_natural": {
+          "ground_truth_events_declared": 35625,
+          "official_map_delta_arithmetic": -0.01497332574174181,
+          "official_metric_recomputation_boundary": "metric arithmetic and prediction artifacts verified; full ground-truth mAP recomputation requires excluded provider annotations",
+          "per_video_mean_delta": -0.011334483873772627,
+          "prediction_rows": 3335580,
+          "status": "natural_panel_promotion_fail",
+          "videos": 5359
+        },
+        "heldout_answer_bridge": {
+          "models": 2,
+          "raw_rows": 6576,
+          "selected_exact": 0.4585555555555556,
+          "sources": 25,
+          "status": "heldout_answer_gate_fail_audita_sealed",
+          "strongest_baseline": "prefix_matched_retrieval",
+          "strongest_exact": 0.478,
+          "systems": 8
+        },
+        "post_outcome_router": {
+          "candidate_pool_receipt_entries": 10,
+          "claim_type": "post_outcome_cross_fitted_exploratory",
+          "clap_only_map": 0.09392094908289692,
+          "full_router_map": 0.0969950149900384,
+          "incremental_qcr_map": 0.0030740659071414878,
+          "official_metric_recomputation_boundary": "metric arithmetic, cap ledger, hashes, and every final prediction verified; full ground-truth mAP recomputation requires excluded provider annotations and regenerable candidate pools",
+          "prediction_rows": 2113420,
+          "status": "cap_corrected_post_outcome_diagnostic_target_met"
+        }
+      },
+      "shifttitan": {
+        "fresh_task_disjoint_panel": {
+          "cells": 60,
+          "geometric_ratio": 0.9991494340319437,
+          "raw_origin_rows": 15300,
+          "skill": 0.0008505659680563271,
+          "status": "fresh_fev_expansion_promotion_fail",
+          "tasks": 20
+        },
+        "original_frozen_panel": {
+          "cells": 60,
+          "geometric_ratio": 0.9998043263731808,
+          "maximum_raw_to_summary_ratio_error": 5.658332673741384e-06,
+          "raw_origin_rows": 83886,
+          "skill": 0.00019567362681915945,
+          "status": "fev_panel_promotion_fail",
+          "tasks": 20,
+          "zero_valid_origin_rows": 1620
+        }
+      }
+    }
+  },
+  "scientific_status": {
+    "eviaudio": {
+      "cap_corrected_claim_type": "post_outcome_cross_fitted_exploratory",
+      "cap_corrected_decision": "cap_corrected_post_outcome_diagnostic_target_met",
+      "claim": "QCR is confirmed for controlled evidence ranking but fails frozen natural zero-shot transfer. The positive cap-corrected cross-fit is post-outcome diagnosis and the held-out answer bridge fails.",
+      "clap_only_router_map": 0.09392094908289692,
+      "controlled_ap_gain": 0.23353734005197313,
+      "controlled_decision": "confirmatory_exact_onset_gate_pass",
+      "downstream_decision": "heldout_answer_gate_fail_audita_sealed",
+      "external_ap_gain": 0.1611617946999364,
+      "external_decision": "external_replication_gate_fail",
+      "frozen_natural_decision": "natural_panel_promotion_fail",
+      "frozen_natural_map_delta": -0.01497332574174181,
+      "full_router_map": 0.0969950149900384,
+      "incremental_qcr_map": 0.0030740659071414878
+    },
+    "shifttitan": {
+      "claim": "Supports pathwise harm control, selective abstention, and a small average effect; broad accuracy superiority is not established.",
+      "fresh_cells": {
+        "losses": 11,
+        "ties": 35,
+        "wins": 14
+      },
+      "fresh_skill_basis_points": 8.505659680563271,
+      "original_cells": {
+        "losses": 4,
+        "ties": 47,
+        "wins": 9
+      },
+      "original_frozen_decision": "fev_panel_promotion_fail",
+      "original_skill_basis_points": 1.9567362681915945,
+      "posthoc_replaces_frozen_decisions": false,
+      "posthoc_two_panel_skill_basis_points": 5.2317343599594945,
+      "task_disjoint_fresh_decision": "fresh_fev_expansion_promotion_fail"
+    }
+  },
+  "source_tree_test_validation": {
+    "eviaudio_core": 58,
+    "eviaudio_q1": 15,
+    "shifttitan_core": 65,
+    "shifttitan_q1": 31,
+    "total_passed": 169
+  }
+}

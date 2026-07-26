@@ -1,0 +1,64 @@
+{
+  "independent_peer_review_completed": false,
+  "q1_acceptance_guaranteed": false,
+  "rated_on": "2026-07-26",
+  "rating_scope": "research-package readiness, not acceptance probability and not a claim that every empirical endpoint is positive",
+  "scale": "0.0 to 10.0",
+  "schema": "two_study_evidence_based_rating_v1",
+  "studies": {
+    "eviaudio": {
+      "dimensions": {
+        "contribution_originality": 8.7,
+        "experimental_depth": 9.1,
+        "generalization_claim_strength": 7.2,
+        "manuscript_visual_quality": 9.1,
+        "protocol_validity": 9.3,
+        "reproducibility_auditability": 9.5,
+        "statistical_rigor": 8.9,
+        "venue_fit": 8.9
+      },
+      "empirical_strength_diagnostics": {
+        "controlled_evidence_ranking": 9.0,
+        "downstream_answer_utility": 3.5,
+        "external_relative_replication": 7.8,
+        "fixed_natural_zero_shot_positive_transfer": 2.5,
+        "overall_multistage_evidence_strength": 7.8,
+        "post_outcome_mechanism_diagnosis": 8.0
+      },
+      "overall_research_package_readiness": 8.95,
+      "rating_boundary": "The 8.95 package score reflects a rigorous multistage study. Frozen natural transfer and downstream utility remain failed claims; the positive router is explicitly post-outcome diagnosis.",
+      "target_8_5_met": true
+    },
+    "shifttitan": {
+      "dimensions": {
+        "contribution_originality": 8.4,
+        "experimental_depth": 8.6,
+        "generalization_claim_strength": 6.5,
+        "manuscript_visual_quality": 9.0,
+        "protocol_validity": 9.2,
+        "reproducibility_auditability": 9.5,
+        "statistical_rigor": 8.7,
+        "venue_fit": 8.6
+      },
+      "empirical_strength_diagnostics": {
+        "average_accuracy_effect": 6.8,
+        "broad_accuracy_superiority": 3.8,
+        "overall_primary_empirical_claim_strength": 6.4,
+        "pathwise_safety_and_auditability": 9.4
+      },
+      "overall_research_package_readiness": 8.71,
+      "rating_boundary": "The 8.71 package score is earned by protocol quality, theory, safety, auditability, and presentation. It does not convert two failed frozen promotion decisions into an accuracy-superiority claim.",
+      "target_8_5_met": true
+    }
+  },
+  "weights": {
+    "contribution_originality": 0.15,
+    "experimental_depth": 0.15,
+    "generalization_claim_strength": 0.08,
+    "manuscript_visual_quality": 0.1,
+    "protocol_validity": 0.2,
+    "reproducibility_auditability": 0.15,
+    "statistical_rigor": 0.12,
+    "venue_fit": 0.05
+  }
+}
